@@ -1,0 +1,4 @@
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataTransferObject\bin\Release\DataTransferObject.dll
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataTransferObject\bin\Release\DataTransferObject.pdb
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataTransferObject\obj\Release\DataTransferObject.dll
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataTransferObject\obj\Release\DataTransferObject.pdb

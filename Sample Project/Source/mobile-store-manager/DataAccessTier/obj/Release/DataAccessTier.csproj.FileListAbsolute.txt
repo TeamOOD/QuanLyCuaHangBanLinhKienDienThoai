@@ -1,0 +1,7 @@
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\bin\Release\DataAccessTier.dll
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\bin\Release\DataAccessTier.pdb
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\bin\Release\DataTransferObject.dll
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\bin\Release\DataTransferObject.pdb
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\obj\Release\DataAccessTier.csprojResolveAssemblyReference.cache
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\obj\Release\DataAccessTier.dll
+C:\Users\CôngLý\Desktop\mobile-store-manager\DataAccessTier\obj\Release\DataAccessTier.pdb
