@@ -1,9 +1,0 @@
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\bin\Release\BusinessLogicTier.dll
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\bin\Release\BusinessLogicTier.pdb
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\bin\Release\DataAccessTier.dll
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\bin\Release\DataTransferObject.dll
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\bin\Release\DataAccessTier.pdb
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\bin\Release\DataTransferObject.pdb
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\obj\Release\BusinessLogicTier.csprojResolveAssemblyReference.cache
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\obj\Release\BusinessLogicTier.dll
-C:\Users\CôngLý\Desktop\mobile-store-manager\BusinessLogicTier\obj\Release\BusinessLogicTier.pdb
