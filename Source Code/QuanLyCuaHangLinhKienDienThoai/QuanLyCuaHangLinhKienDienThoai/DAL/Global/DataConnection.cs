@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace QuanLyCuaHangBanXeMay.DTO.Global
+namespace QuanLyCuaHangLinhKienDienThoai
 {
     class DataConnection : Singleton<DataConnection>
     {
@@ -30,7 +30,7 @@ namespace QuanLyCuaHangBanXeMay.DTO.Global
             try
             {
 
-                m_connecstring = System.Configuration.ConfigurationManager.ConnectionStrings["MyDBConnectionString"].ConnectionString;
+                m_connecstring = System.Configuration.ConfigurationManager.ConnectionStrings["QuanLyCuaHangLinhKienDienThoai.Properties.Settings.QLBANHANG_LINHKIEN_DIENTHOAI"].ConnectionString;
 
                 return true;
             }

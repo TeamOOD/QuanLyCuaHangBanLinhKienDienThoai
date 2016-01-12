@@ -59,15 +59,235 @@
     <Compile Include="DAL\Global\DataConnection.cs" />
     <Compile Include="DAL\Global\DataExecute.cs" />
     <Compile Include="DAL\Global\Singleton.cs" />
+    <Compile Include="DTO\BaoCaoBangHang.cs" />
+    <Compile Include="DTO\BaoCaoNhapHang.cs" />
+    <Compile Include="DTO\BaoCaoTonKho.cs" />
+    <Compile Include="DTO\CauHinhDienThoai.cs" />
+    <Compile Include="DTO\ChiTietBaoCaoTonKho.cs" />
+    <Compile Include="DTO\ChiTietHoaDonBan.cs" />
+    <Compile Include="DTO\ChiTietHoaDonBaoHanh.cs" />
+    <Compile Include="DTO\ChiTietHoaDonDatHang.cs" />
+    <Compile Include="DTO\ChiTietHoaDonNhapHang.cs" />
+    <Compile Include="DTO\ChiTietNhaCungCap.cs" />
     <Compile Include="DTO\ChucVu.cs" />
+    <Compile Include="DTO\CPU.cs" />
+    <Compile Include="DTO\CTHoaDonBan.cs" />
+    <Compile Include="DTO\CTHoaDonBaoHanh.cs" />
+    <Compile Include="DTO\CTKHuyenMai.cs" />
+    <Compile Include="DTO\DonGia.cs" />
+    <Compile Include="DTO\HinhAnh.cs" />
+    <Compile Include="DTO\HoaDon.cs" />
+    <Compile Include="DTO\HoaDonBan.cs" />
+    <Compile Include="DTO\HoaDonBaoHanh.cs" />
+    <Compile Include="DTO\HoaDonDatHang.cs" />
+    <Compile Include="DTO\HoaDonNhapHang.cs" />
+    <Compile Include="DTO\KhachHang.cs" />
+    <Compile Include="DTO\KhuyenMai.cs" />
+    <Compile Include="DTO\LePhiGiaoHang.cs" />
+    <Compile Include="DTO\LoaiHoaDon.cs" />
+    <Compile Include="DTO\LoaiKhachHang.cs" />
+    <Compile Include="DTO\LoaiMatHang.cs" />
+    <Compile Include="DTO\MatHang.cs" />
+    <Compile Include="DTO\MauSac.cs" />
+    <Compile Include="DTO\NhaCungCap.cs" />
+    <Compile Include="DTO\NhanVien.cs" />
+    <Compile Include="DTO\NhaSanXuat.cs" />
+    <Compile Include="DTO\QuyDinh.cs" />
+    <Compile Include="DTO\ThamSo.cs" />
+    <Compile Include="DTO\TrangThai.cs" />
+    <Compile Include="GUI\BAOCAOBANHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BAOCAOBANHANG.Designer.cs">
+      <DependentUpon>BAOCAOBANHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BAOCAONHAPHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BAOCAONHAPHANG.Designer.cs">
+      <DependentUpon>BAOCAONHAPHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BAOCAOTONKHO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BAOCAOTONKHO.Designer.cs">
+      <DependentUpon>BAOCAOTONKHO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DONGIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DONGIA.Designer.cs">
+      <DependentUpon>DONGIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_CPU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_CPU.Designer.cs">
+      <DependentUpon>DS_CPU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_HOADONBAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_HOADONBAN.Designer.cs">
+      <DependentUpon>DS_HOADONBAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_KHACHHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_KHACHHANG.Designer.cs">
+      <DependentUpon>DS_KHACHHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_KHUYENMAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_KHUYENMAI.Designer.cs">
+      <DependentUpon>DS_KHUYENMAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_NHACUNGCAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_NHACUNGCAP.Designer.cs">
+      <DependentUpon>DS_NHACUNGCAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_NHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_NHANVIEN.Designer.cs">
+      <DependentUpon>DS_NHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_NHASANXUAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_NHASANXUAT.Designer.cs">
+      <DependentUpon>DS_NHASANXUAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_PHIEUGIAOHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_PHIEUGIAOHANG.Designer.cs">
+      <DependentUpon>DS_PHIEUGIAOHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DS_SANPHAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DS_SANPHAM.Designer.cs">
+      <DependentUpon>DS_SANPHAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\HOADONDATHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HOADONDATHANG.Designer.cs">
+      <DependentUpon>HOADONDATHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\HOADONNHAPHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HOADONNHAPHANG.Designer.cs">
+      <DependentUpon>HOADONNHAPHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LEPHIGIAOHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LEPHIGIAOHANG.Designer.cs">
+      <DependentUpon>LEPHIGIAOHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LOAISANPHAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LOAISANPHAM.Designer.cs">
+      <DependentUpon>LOAISANPHAM.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\MAUSAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MAUSAC.Designer.cs">
+      <DependentUpon>MAUSAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NHACUNGCAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NHACUNGCAP.Designer.cs">
+      <DependentUpon>NHACUNGCAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PHIEUBANHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PHIEUBANHANG.Designer.cs">
+      <DependentUpon>PHIEUBANHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PHIEUBANHANG_TIMKIEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PHIEUBANHANG_TIMKIEM.Designer.cs">
+      <DependentUpon>PHIEUBANHANG_TIMKIEM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PHIEUBAOHANH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PHIEUBAOHANH.Designer.cs">
+      <DependentUpon>PHIEUBAOHANH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMKHACHHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMKHACHHANG.Designer.cs">
+      <DependentUpon>THEMKHACHHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMKHUYENMAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMKHUYENMAI.Designer.cs">
+      <DependentUpon>THEMKHUYENMAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMNHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMNHANVIEN.Designer.cs">
+      <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMPHIEUBANHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMPHIEUBANHANG.Designer.cs">
+      <DependentUpon>THEMPHIEUBANHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMPHIEUBAOHANH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMPHIEUBAOHANH.Designer.cs">
+      <DependentUpon>THEMPHIEUBAOHANH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMPHIEUGIAOHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMPHIEUGIAOHANG.Designer.cs">
+      <DependentUpon>THEMPHIEUGIAOHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\THEMSANPHAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\THEMSANPHAM.Designer.cs">
+      <DependentUpon>THEMSANPHAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TRACUUMATHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TRACUUMATHANG.Designer.cs">
+      <DependentUpon>TRACUUMATHANG.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLBANHANG_LINHKIEN_DIENTHOAIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="UTILS\Encryptor.cs" />
     <EmbeddedResource Include="GUI\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -90,11 +310,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsc">
+      <DependentUpon>QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLBANHANG_LINHKIEN_DIENTHOAIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xss">
+      <DependentUpon>QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

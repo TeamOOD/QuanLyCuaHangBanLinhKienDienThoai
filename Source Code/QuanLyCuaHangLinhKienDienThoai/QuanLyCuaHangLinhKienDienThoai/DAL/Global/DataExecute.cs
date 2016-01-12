@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Reflection;
 
-namespace QuanLyCuaHangBanXeMay.DTO.Global
+namespace QuanLyCuaHangLinhKienDienThoai
 {
     class DataExecute : Singleton<DataExecute>
     {
