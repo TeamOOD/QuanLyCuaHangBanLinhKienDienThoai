@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyCuaHangLinhKienDienThoai.GUI;
 
 namespace QuanLyCuaHangLinhKienDienThoai
 {
@@ -16,7 +17,7 @@ namespace QuanLyCuaHangLinhKienDienThoai
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            Application.Run(new PHIEUBAOHANH());
         }
     }
 }

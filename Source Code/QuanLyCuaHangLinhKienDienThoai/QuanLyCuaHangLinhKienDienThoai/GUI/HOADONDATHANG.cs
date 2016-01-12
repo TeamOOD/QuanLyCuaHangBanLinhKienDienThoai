@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLyCuaHangLinhKienDienThoai.GUI
 {
-    public partial class HOADONDATHANG : MetroFramework.Forms.MetroForm
+    public partial class HOADONDALHANG : MetroFramework.Forms.MetroForm
     {
-        public HOADONDATHANG()
+        public HOADONDALHANG()
         {
             InitializeComponent();
         }
 
-        private void HOADONDATHANG_Load(object sender, EventArgs e)
+        private void HOADONDALHANG_Load(object sender, EventArgs e)
         {
 
         }

@@ -1,6 +1,6 @@
 ﻿namespace QuanLyCuaHangLinhKienDienThoai.GUI
 {
-    partial class HOADONDATHANG
+    partial class HOADONDALHANG
     {
         /// <summary>
         /// Required designer variable.
@@ -373,16 +373,16 @@
             this.dtDSPhieuDathang.Size = new System.Drawing.Size(552, 444);
             this.dtDSPhieuDathang.TabIndex = 24;
             // 
-            // HOADONDATHANG
+            // HOADONDALHANG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1341, 656);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox1);
-            this.Name = "HOADONDATHANG";
+            this.Name = "HOADONDALHANG";
             this.Text = "LẬP HÓA ĐƠN ĐẶT HÀNG";
-            this.Load += new System.EventHandler(this.HOADONDATHANG_Load);
+            this.Load += new System.EventHandler(this.HOADONDALHANG_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

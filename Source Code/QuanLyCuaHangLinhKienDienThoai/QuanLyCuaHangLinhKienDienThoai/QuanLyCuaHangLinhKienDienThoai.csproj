@@ -54,11 +54,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\BaoCaoBanHangBUS.cs" />
+    <Compile Include="BUS\BaoCaoNhapHangBUS.cs" />
+    <Compile Include="BUS\BaoCaoTonKhoBUS.cs" />
+    <Compile Include="BUS\CauHinhDienThoaiBUS.cs" />
+    <Compile Include="BUS\ChiTietBaoCaoTonKhoBUS.cs" />
+    <Compile Include="BUS\ChiTietHoaDonBanBUS.cs" />
+    <Compile Include="BUS\ChiTietHoaDonDatHangBUS.cs" />
+    <Compile Include="BUS\ChiTietHoaDonNhapHangBUS.cs" />
     <Compile Include="BUS\ChucVuBUS.cs" />
+    <Compile Include="BUS\CPUBUS.cs" />
+    <Compile Include="BUS\DonGiaBUS.cs" />
+    <Compile Include="BUS\Encrypt.cs" />
+    <Compile Include="BUS\HinhAnhBUS.cs" />
+    <Compile Include="BUS\HoaDonBanBUS.cs" />
+    <Compile Include="BUS\HoaDonBaoHanhBUS.cs" />
+    <Compile Include="BUS\HoaDonBUS.cs" />
+    <Compile Include="BUS\HoaDonDatHangBUS.cs" />
+    <Compile Include="BUS\HoaDonNhapHangBUS.cs" />
+    <Compile Include="BUS\KhachHangBUS.cs" />
+    <Compile Include="BUS\KhuyenMaiBUS.cs" />
+    <Compile Include="BUS\LePhiGiaoHangBUS.cs" />
+    <Compile Include="BUS\LoaiMatHangBUS.cs" />
+    <Compile Include="BUS\MatHangBUS.cs" />
+    <Compile Include="BUS\MauSacBUS.cs" />
+    <Compile Include="BUS\NhaCungCapBUS.cs" />
+    <Compile Include="BUS\NhanVienBUS.cs" />
+    <Compile Include="BUS\NhaSanXuatBUS.cs" />
+    <Compile Include="BUS\ThamSoBUS.cs" />
+    <Compile Include="DAL\BaoCaoBanHangDAL.cs" />
+    <Compile Include="DAL\BaoCaoNhapHangDAL.cs" />
+    <Compile Include="DAL\BaoCaoTonKhoDAL.cs" />
+    <Compile Include="DAL\CauHinhDienThoaiDAL.cs" />
+    <Compile Include="DAL\ChiTietBaoCaoTonKhoDAL.cs" />
+    <Compile Include="DAL\ChiTietHoaDonBanDAL.cs" />
+    <Compile Include="DAL\ChiTietHoaDonDatHangDAL.cs" />
+    <Compile Include="DAL\ChiTietHoaDonNhapHangDAL.cs" />
     <Compile Include="DAL\ChucVuDAL.cs" />
-    <Compile Include="DAL\Global\DataConnection.cs" />
-    <Compile Include="DAL\Global\DataExecute.cs" />
-    <Compile Include="DAL\Global\Singleton.cs" />
+    <Compile Include="DAL\ConnectionDB.cs" />
+    <Compile Include="DAL\CPUDAL.cs" />
+    <Compile Include="DAL\DataBases.cs" />
+    <Compile Include="DAL\DonGiaDAL.cs" />
+    <Compile Include="DAL\HinhAnhDAL.cs" />
+    <Compile Include="DAL\HoaDonBanDAL.cs" />
+    <Compile Include="DAL\HoaDonBaoHanhDAL.cs" />
+    <Compile Include="DAL\HoaDonDAL.cs" />
+    <Compile Include="DAL\HoaDonDatHangDAL.cs" />
+    <Compile Include="DAL\HoaDonNhapHangDAL.cs" />
+    <Compile Include="DAL\KhachHangDAL.cs" />
+    <Compile Include="DAL\KhuyenMaiDAL.cs" />
+    <Compile Include="DAL\LePhiGiaoHangDAL.cs" />
+    <Compile Include="DAL\LoaiMatHangDAL.cs" />
+    <Compile Include="DAL\MatHangDAL.cs" />
+    <Compile Include="DAL\MauSacDAL.cs" />
+    <Compile Include="DAL\NhaCungCapDAL.cs" />
+    <Compile Include="DAL\NhanVienDAL.cs" />
+    <Compile Include="DAL\NhaSanXuatDAL.cs" />
+    <Compile Include="DAL\ThamSoDAL.cs" />
     <Compile Include="DTO\BaoCaoBangHang.cs" />
     <Compile Include="DTO\BaoCaoNhapHang.cs" />
     <Compile Include="DTO\BaoCaoTonKho.cs" />
@@ -291,6 +343,9 @@
     <Compile Include="UTILS\Encryptor.cs" />
     <EmbeddedResource Include="GUI\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\THEMNHANVIEN.resx">
+      <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -10,3 +10,4 @@ G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCu
 G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.csproj.GenerateResource.Cache
 G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.exe
 G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.pdb
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.THEMNHANVIEN.resources
