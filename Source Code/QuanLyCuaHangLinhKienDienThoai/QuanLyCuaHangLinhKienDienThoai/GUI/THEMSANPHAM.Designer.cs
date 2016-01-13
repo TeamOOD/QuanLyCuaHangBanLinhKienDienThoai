@@ -29,28 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.tbnTenSanPham = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.tbnMoTa = new System.Windows.Forms.RichTextBox();
-            this.tbnGhiChu = new System.Windows.Forms.RichTextBox();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
-            this.tbnThoiGianBaoHanh = new MetroFramework.Controls.MetroTextBox();
-            this.tbnGiaXuat = new MetroFramework.Controls.MetroTextBox();
-            this.tbnGiaNhap = new MetroFramework.Controls.MetroTextBox();
-            this.tbnGhiChuNCC = new System.Windows.Forms.RichTextBox();
-            this.cbbNhaCC = new MetroFramework.Controls.MetroComboBox();
-            this.cbbLoaiSanPham = new MetroFramework.Controls.MetroComboBox();
-            this.cbbNhaSanXuat = new MetroFramework.Controls.MetroComboBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnLamMoi = new MetroFramework.Controls.MetroButton();
+            this.btnCapNhat = new MetroFramework.Controls.MetroButton();
+            this.pbHinhAnh = new System.Windows.Forms.PictureBox();
+            this.groupCauHinhDT = new System.Windows.Forms.GroupBox();
+            this.cbbCPU = new MetroFramework.Controls.MetroComboBox();
+            this.tbnDungLuongPin = new MetroFramework.Controls.MetroTextBox();
+            this.tbnRam = new MetroFramework.Controls.MetroTextBox();
+            this.tbnHeDieuHanh = new MetroFramework.Controls.MetroTextBox();
             this.cbbMau = new MetroFramework.Controls.MetroComboBox();
             this.tbnBoNho = new MetroFramework.Controls.MetroTextBox();
             this.tbnSoSim = new MetroFramework.Controls.MetroTextBox();
@@ -63,27 +51,40 @@
             this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
-            this.tbnHeDieuHanh = new MetroFramework.Controls.MetroTextBox();
-            this.tbnRam = new MetroFramework.Controls.MetroTextBox();
-            this.tbnDungLuongPin = new MetroFramework.Controls.MetroTextBox();
-            this.cbbCPU = new MetroFramework.Controls.MetroComboBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pbHinhAnh = new System.Windows.Forms.PictureBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.btnCapNhat = new MetroFramework.Controls.MetroButton();
-            this.btnLamMoi = new MetroFramework.Controls.MetroButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbbNhaSanXuat = new MetroFramework.Controls.MetroComboBox();
+            this.cbbLoaiSanPham = new MetroFramework.Controls.MetroComboBox();
+            this.cbbNhaCC = new MetroFramework.Controls.MetroComboBox();
+            this.tbnGhiChuNCC = new System.Windows.Forms.RichTextBox();
+            this.tbnGiaNhap = new MetroFramework.Controls.MetroTextBox();
+            this.tbnGiaXuat = new MetroFramework.Controls.MetroTextBox();
+            this.tbnThoiGianBaoHanh = new MetroFramework.Controls.MetroTextBox();
+            this.tbnGhiChu = new System.Windows.Forms.RichTextBox();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.tbnMoTa = new System.Windows.Forms.RichTextBox();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.tbnTenSanPham = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHinhAnh)).BeginInit();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHinhAnh)).BeginInit();
+            this.groupCauHinhDT.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.groupBox4);
-            this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Controls.Add(this.groupCauHinhDT);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(16, 63);
             this.groupBox1.Name = "groupBox1";
@@ -92,255 +93,129 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
             // 
-            // groupBox2
+            // groupBox4
             // 
-            this.groupBox2.Controls.Add(this.cbbNhaSanXuat);
-            this.groupBox2.Controls.Add(this.cbbLoaiSanPham);
-            this.groupBox2.Controls.Add(this.cbbNhaCC);
-            this.groupBox2.Controls.Add(this.tbnGhiChuNCC);
-            this.groupBox2.Controls.Add(this.tbnGiaNhap);
-            this.groupBox2.Controls.Add(this.tbnGiaXuat);
-            this.groupBox2.Controls.Add(this.tbnThoiGianBaoHanh);
-            this.groupBox2.Controls.Add(this.tbnGhiChu);
-            this.groupBox2.Controls.Add(this.metroLabel10);
-            this.groupBox2.Controls.Add(this.tbnMoTa);
-            this.groupBox2.Controls.Add(this.metroLabel5);
-            this.groupBox2.Controls.Add(this.metroLabel6);
-            this.groupBox2.Controls.Add(this.metroLabel8);
-            this.groupBox2.Controls.Add(this.metroLabel9);
-            this.groupBox2.Controls.Add(this.metroLabel7);
-            this.groupBox2.Controls.Add(this.tbnTenSanPham);
-            this.groupBox2.Controls.Add(this.metroLabel4);
-            this.groupBox2.Controls.Add(this.metroLabel3);
-            this.groupBox2.Controls.Add(this.metroLabel2);
-            this.groupBox2.Controls.Add(this.metroLabel1);
-            this.groupBox2.Location = new System.Drawing.Point(7, 37);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(320, 442);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Thông tin chung";
+            this.groupBox4.Controls.Add(this.groupBox5);
+            this.groupBox4.Controls.Add(this.pbHinhAnh);
+            this.groupBox4.Location = new System.Drawing.Point(700, 37);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(320, 442);
+            this.groupBox4.TabIndex = 30;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Hình ảnh";
             // 
-            // tbnTenSanPham
+            // groupBox5
             // 
-            this.tbnTenSanPham.Lines = new string[0];
-            this.tbnTenSanPham.Location = new System.Drawing.Point(133, 20);
-            this.tbnTenSanPham.MaxLength = 32767;
-            this.tbnTenSanPham.Name = "tbnTenSanPham";
-            this.tbnTenSanPham.PasswordChar = '\0';
-            this.tbnTenSanPham.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnTenSanPham.SelectedText = "";
-            this.tbnTenSanPham.Size = new System.Drawing.Size(166, 23);
-            this.tbnTenSanPham.TabIndex = 6;
-            this.tbnTenSanPham.UseSelectable = true;
+            this.groupBox5.Controls.Add(this.btnLamMoi);
+            this.groupBox5.Controls.Add(this.btnCapNhat);
+            this.groupBox5.Location = new System.Drawing.Point(6, 364);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(308, 72);
+            this.groupBox5.TabIndex = 1;
+            this.groupBox5.TabStop = false;
             // 
-            // metroLabel1
+            // btnLamMoi
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(23, 20);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(89, 19);
-            this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Text = "Tên sản phẩm";
+            this.btnLamMoi.Location = new System.Drawing.Point(179, 19);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(104, 35);
+            this.btnLamMoi.TabIndex = 1;
+            this.btnLamMoi.Text = "Làm mới";
+            this.btnLamMoi.UseSelectable = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
-            // metroLabel2
+            // btnCapNhat
             // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(23, 60);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(94, 19);
-            this.metroLabel2.TabIndex = 1;
-            this.metroLabel2.Text = "Loại sản phẩm";
+            this.btnCapNhat.Location = new System.Drawing.Point(41, 19);
+            this.btnCapNhat.Name = "btnCapNhat";
+            this.btnCapNhat.Size = new System.Drawing.Size(104, 35);
+            this.btnCapNhat.TabIndex = 0;
+            this.btnCapNhat.Text = "Cập nhật";
+            this.btnCapNhat.UseSelectable = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
-            // metroLabel3
+            // pbHinhAnh
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(23, 96);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(84, 19);
-            this.metroLabel3.TabIndex = 2;
-            this.metroLabel3.Text = "Nhà sản xuất";
+            this.pbHinhAnh.Location = new System.Drawing.Point(6, 19);
+            this.pbHinhAnh.Name = "pbHinhAnh";
+            this.pbHinhAnh.Size = new System.Drawing.Size(308, 322);
+            this.pbHinhAnh.TabIndex = 0;
+            this.pbHinhAnh.TabStop = false;
+            this.pbHinhAnh.Click += new System.EventHandler(this.pbHinhAnh_Click);
             // 
-            // metroLabel4
+            // groupCauHinhDT
             // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(23, 135);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(90, 19);
-            this.metroLabel4.TabIndex = 3;
-            this.metroLabel4.Text = "Nhà cung cấp";
+            this.groupCauHinhDT.Controls.Add(this.cbbCPU);
+            this.groupCauHinhDT.Controls.Add(this.tbnDungLuongPin);
+            this.groupCauHinhDT.Controls.Add(this.tbnRam);
+            this.groupCauHinhDT.Controls.Add(this.tbnHeDieuHanh);
+            this.groupCauHinhDT.Controls.Add(this.cbbMau);
+            this.groupCauHinhDT.Controls.Add(this.tbnBoNho);
+            this.groupCauHinhDT.Controls.Add(this.tbnSoSim);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel13);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel14);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel15);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel16);
+            this.groupCauHinhDT.Controls.Add(this.tbnKichThuocManHinh);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel17);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel18);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel19);
+            this.groupCauHinhDT.Controls.Add(this.metroLabel20);
+            this.groupCauHinhDT.Location = new System.Drawing.Point(352, 37);
+            this.groupCauHinhDT.Name = "groupCauHinhDT";
+            this.groupCauHinhDT.Size = new System.Drawing.Size(320, 442);
+            this.groupCauHinhDT.TabIndex = 28;
+            this.groupCauHinhDT.TabStop = false;
+            this.groupCauHinhDT.Text = "Thông tin cấu hình (Điện Thoại)";
             // 
-            // metroLabel7
+            // cbbCPU
             // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(0, 173);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(134, 19);
-            this.metroLabel7.TabIndex = 12;
-            this.metroLabel7.Text = "Ghi chú nhà cung cấp";
+            this.cbbCPU.FormattingEnabled = true;
+            this.cbbCPU.ItemHeight = 23;
+            this.cbbCPU.Location = new System.Drawing.Point(135, 205);
+            this.cbbCPU.Name = "cbbCPU";
+            this.cbbCPU.Size = new System.Drawing.Size(164, 29);
+            this.cbbCPU.TabIndex = 29;
+            this.cbbCPU.UseSelectable = true;
             // 
-            // metroLabel5
+            // tbnDungLuongPin
             // 
-            this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(21, 322);
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(44, 19);
-            this.metroLabel5.TabIndex = 17;
-            this.metroLabel5.Text = "Mô tả";
+            this.tbnDungLuongPin.Lines = new string[0];
+            this.tbnDungLuongPin.Location = new System.Drawing.Point(135, 169);
+            this.tbnDungLuongPin.MaxLength = 32767;
+            this.tbnDungLuongPin.Name = "tbnDungLuongPin";
+            this.tbnDungLuongPin.PasswordChar = '\0';
+            this.tbnDungLuongPin.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnDungLuongPin.SelectedText = "";
+            this.tbnDungLuongPin.Size = new System.Drawing.Size(166, 23);
+            this.tbnDungLuongPin.TabIndex = 28;
+            this.tbnDungLuongPin.UseSelectable = true;
             // 
-            // metroLabel6
+            // tbnRam
             // 
-            this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(6, 283);
-            this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(122, 19);
-            this.metroLabel6.TabIndex = 16;
-            this.metroLabel6.Text = "Thời gian bảo hành";
+            this.tbnRam.Lines = new string[0];
+            this.tbnRam.Location = new System.Drawing.Point(133, 92);
+            this.tbnRam.MaxLength = 32767;
+            this.tbnRam.Name = "tbnRam";
+            this.tbnRam.PasswordChar = '\0';
+            this.tbnRam.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnRam.SelectedText = "";
+            this.tbnRam.Size = new System.Drawing.Size(166, 23);
+            this.tbnRam.TabIndex = 27;
+            this.tbnRam.UseSelectable = true;
             // 
-            // metroLabel8
+            // tbnHeDieuHanh
             // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(23, 245);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(56, 19);
-            this.metroLabel8.TabIndex = 15;
-            this.metroLabel8.Text = "Giá xuất";
-            // 
-            // metroLabel9
-            // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(23, 209);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(61, 19);
-            this.metroLabel9.TabIndex = 14;
-            this.metroLabel9.Text = "Giá nhập";
-            // 
-            // tbnMoTa
-            // 
-            this.tbnMoTa.Location = new System.Drawing.Point(135, 307);
-            this.tbnMoTa.Name = "tbnMoTa";
-            this.tbnMoTa.Size = new System.Drawing.Size(164, 53);
-            this.tbnMoTa.TabIndex = 18;
-            this.tbnMoTa.Text = "";
-            // 
-            // tbnGhiChu
-            // 
-            this.tbnGhiChu.Location = new System.Drawing.Point(135, 366);
-            this.tbnGhiChu.Name = "tbnGhiChu";
-            this.tbnGhiChu.Size = new System.Drawing.Size(164, 53);
-            this.tbnGhiChu.TabIndex = 20;
-            this.tbnGhiChu.Text = "";
-            // 
-            // metroLabel10
-            // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(21, 381);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(52, 19);
-            this.metroLabel10.TabIndex = 19;
-            this.metroLabel10.Text = "Ghi chú";
-            // 
-            // tbnThoiGianBaoHanh
-            // 
-            this.tbnThoiGianBaoHanh.Lines = new string[0];
-            this.tbnThoiGianBaoHanh.Location = new System.Drawing.Point(135, 278);
-            this.tbnThoiGianBaoHanh.MaxLength = 32767;
-            this.tbnThoiGianBaoHanh.Name = "tbnThoiGianBaoHanh";
-            this.tbnThoiGianBaoHanh.PasswordChar = '\0';
-            this.tbnThoiGianBaoHanh.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnThoiGianBaoHanh.SelectedText = "";
-            this.tbnThoiGianBaoHanh.Size = new System.Drawing.Size(164, 23);
-            this.tbnThoiGianBaoHanh.TabIndex = 21;
-            this.tbnThoiGianBaoHanh.UseSelectable = true;
-            // 
-            // tbnGiaXuat
-            // 
-            this.tbnGiaXuat.Lines = new string[0];
-            this.tbnGiaXuat.Location = new System.Drawing.Point(135, 241);
-            this.tbnGiaXuat.MaxLength = 32767;
-            this.tbnGiaXuat.Name = "tbnGiaXuat";
-            this.tbnGiaXuat.PasswordChar = '\0';
-            this.tbnGiaXuat.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnGiaXuat.SelectedText = "";
-            this.tbnGiaXuat.Size = new System.Drawing.Size(164, 23);
-            this.tbnGiaXuat.TabIndex = 22;
-            this.tbnGiaXuat.UseSelectable = true;
-            // 
-            // tbnGiaNhap
-            // 
-            this.tbnGiaNhap.Lines = new string[0];
-            this.tbnGiaNhap.Location = new System.Drawing.Point(135, 205);
-            this.tbnGiaNhap.MaxLength = 32767;
-            this.tbnGiaNhap.Name = "tbnGiaNhap";
-            this.tbnGiaNhap.PasswordChar = '\0';
-            this.tbnGiaNhap.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnGiaNhap.SelectedText = "";
-            this.tbnGiaNhap.Size = new System.Drawing.Size(164, 23);
-            this.tbnGiaNhap.TabIndex = 23;
-            this.tbnGiaNhap.UseSelectable = true;
-            // 
-            // tbnGhiChuNCC
-            // 
-            this.tbnGhiChuNCC.Location = new System.Drawing.Point(133, 164);
-            this.tbnGhiChuNCC.Name = "tbnGhiChuNCC";
-            this.tbnGhiChuNCC.Size = new System.Drawing.Size(166, 35);
-            this.tbnGhiChuNCC.TabIndex = 24;
-            this.tbnGhiChuNCC.Text = "";
-            // 
-            // cbbNhaCC
-            // 
-            this.cbbNhaCC.FormattingEnabled = true;
-            this.cbbNhaCC.ItemHeight = 23;
-            this.cbbNhaCC.Location = new System.Drawing.Point(135, 125);
-            this.cbbNhaCC.Name = "cbbNhaCC";
-            this.cbbNhaCC.Size = new System.Drawing.Size(164, 29);
-            this.cbbNhaCC.TabIndex = 25;
-            this.cbbNhaCC.UseSelectable = true;
-            // 
-            // cbbLoaiSanPham
-            // 
-            this.cbbLoaiSanPham.FormattingEnabled = true;
-            this.cbbLoaiSanPham.ItemHeight = 23;
-            this.cbbLoaiSanPham.Location = new System.Drawing.Point(133, 50);
-            this.cbbLoaiSanPham.Name = "cbbLoaiSanPham";
-            this.cbbLoaiSanPham.Size = new System.Drawing.Size(164, 29);
-            this.cbbLoaiSanPham.TabIndex = 26;
-            this.cbbLoaiSanPham.UseSelectable = true;
-            // 
-            // cbbNhaSanXuat
-            // 
-            this.cbbNhaSanXuat.FormattingEnabled = true;
-            this.cbbNhaSanXuat.ItemHeight = 23;
-            this.cbbNhaSanXuat.Location = new System.Drawing.Point(135, 90);
-            this.cbbNhaSanXuat.Name = "cbbNhaSanXuat";
-            this.cbbNhaSanXuat.Size = new System.Drawing.Size(164, 29);
-            this.cbbNhaSanXuat.TabIndex = 27;
-            this.cbbNhaSanXuat.UseSelectable = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.cbbCPU);
-            this.groupBox3.Controls.Add(this.tbnDungLuongPin);
-            this.groupBox3.Controls.Add(this.tbnRam);
-            this.groupBox3.Controls.Add(this.tbnHeDieuHanh);
-            this.groupBox3.Controls.Add(this.cbbMau);
-            this.groupBox3.Controls.Add(this.tbnBoNho);
-            this.groupBox3.Controls.Add(this.tbnSoSim);
-            this.groupBox3.Controls.Add(this.metroLabel13);
-            this.groupBox3.Controls.Add(this.metroLabel14);
-            this.groupBox3.Controls.Add(this.metroLabel15);
-            this.groupBox3.Controls.Add(this.metroLabel16);
-            this.groupBox3.Controls.Add(this.tbnKichThuocManHinh);
-            this.groupBox3.Controls.Add(this.metroLabel17);
-            this.groupBox3.Controls.Add(this.metroLabel18);
-            this.groupBox3.Controls.Add(this.metroLabel19);
-            this.groupBox3.Controls.Add(this.metroLabel20);
-            this.groupBox3.Location = new System.Drawing.Point(352, 37);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(320, 442);
-            this.groupBox3.TabIndex = 28;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Thông tin cấu hình (Điện Thoại)";
+            this.tbnHeDieuHanh.Lines = new string[0];
+            this.tbnHeDieuHanh.Location = new System.Drawing.Point(133, 56);
+            this.tbnHeDieuHanh.MaxLength = 32767;
+            this.tbnHeDieuHanh.Name = "tbnHeDieuHanh";
+            this.tbnHeDieuHanh.PasswordChar = '\0';
+            this.tbnHeDieuHanh.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnHeDieuHanh.SelectedText = "";
+            this.tbnHeDieuHanh.Size = new System.Drawing.Size(166, 23);
+            this.tbnHeDieuHanh.TabIndex = 26;
+            this.tbnHeDieuHanh.UseSelectable = true;
             // 
             // cbbMau
             // 
@@ -462,103 +337,236 @@
             this.metroLabel20.Size = new System.Drawing.Size(129, 19);
             this.metroLabel20.TabIndex = 0;
             this.metroLabel20.Text = "Kích Thước màn hình";
-            this.metroLabel20.Click += new System.EventHandler(this.metroLabel20_Click);
             // 
-            // tbnHeDieuHanh
+            // groupBox2
             // 
-            this.tbnHeDieuHanh.Lines = new string[0];
-            this.tbnHeDieuHanh.Location = new System.Drawing.Point(133, 56);
-            this.tbnHeDieuHanh.MaxLength = 32767;
-            this.tbnHeDieuHanh.Name = "tbnHeDieuHanh";
-            this.tbnHeDieuHanh.PasswordChar = '\0';
-            this.tbnHeDieuHanh.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnHeDieuHanh.SelectedText = "";
-            this.tbnHeDieuHanh.Size = new System.Drawing.Size(166, 23);
-            this.tbnHeDieuHanh.TabIndex = 26;
-            this.tbnHeDieuHanh.UseSelectable = true;
+            this.groupBox2.Controls.Add(this.cbbNhaSanXuat);
+            this.groupBox2.Controls.Add(this.cbbLoaiSanPham);
+            this.groupBox2.Controls.Add(this.cbbNhaCC);
+            this.groupBox2.Controls.Add(this.tbnGhiChuNCC);
+            this.groupBox2.Controls.Add(this.tbnGiaNhap);
+            this.groupBox2.Controls.Add(this.tbnGiaXuat);
+            this.groupBox2.Controls.Add(this.tbnThoiGianBaoHanh);
+            this.groupBox2.Controls.Add(this.tbnGhiChu);
+            this.groupBox2.Controls.Add(this.metroLabel10);
+            this.groupBox2.Controls.Add(this.tbnMoTa);
+            this.groupBox2.Controls.Add(this.metroLabel5);
+            this.groupBox2.Controls.Add(this.metroLabel6);
+            this.groupBox2.Controls.Add(this.metroLabel8);
+            this.groupBox2.Controls.Add(this.metroLabel9);
+            this.groupBox2.Controls.Add(this.metroLabel7);
+            this.groupBox2.Controls.Add(this.tbnTenSanPham);
+            this.groupBox2.Controls.Add(this.metroLabel4);
+            this.groupBox2.Controls.Add(this.metroLabel3);
+            this.groupBox2.Controls.Add(this.metroLabel2);
+            this.groupBox2.Controls.Add(this.metroLabel1);
+            this.groupBox2.Location = new System.Drawing.Point(7, 37);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(320, 442);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Thông tin chung";
             // 
-            // tbnRam
+            // cbbNhaSanXuat
             // 
-            this.tbnRam.Lines = new string[0];
-            this.tbnRam.Location = new System.Drawing.Point(133, 92);
-            this.tbnRam.MaxLength = 32767;
-            this.tbnRam.Name = "tbnRam";
-            this.tbnRam.PasswordChar = '\0';
-            this.tbnRam.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnRam.SelectedText = "";
-            this.tbnRam.Size = new System.Drawing.Size(166, 23);
-            this.tbnRam.TabIndex = 27;
-            this.tbnRam.UseSelectable = true;
+            this.cbbNhaSanXuat.FormattingEnabled = true;
+            this.cbbNhaSanXuat.ItemHeight = 23;
+            this.cbbNhaSanXuat.Location = new System.Drawing.Point(135, 90);
+            this.cbbNhaSanXuat.Name = "cbbNhaSanXuat";
+            this.cbbNhaSanXuat.Size = new System.Drawing.Size(164, 29);
+            this.cbbNhaSanXuat.TabIndex = 27;
+            this.cbbNhaSanXuat.UseSelectable = true;
             // 
-            // tbnDungLuongPin
+            // cbbLoaiSanPham
             // 
-            this.tbnDungLuongPin.Lines = new string[0];
-            this.tbnDungLuongPin.Location = new System.Drawing.Point(135, 169);
-            this.tbnDungLuongPin.MaxLength = 32767;
-            this.tbnDungLuongPin.Name = "tbnDungLuongPin";
-            this.tbnDungLuongPin.PasswordChar = '\0';
-            this.tbnDungLuongPin.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbnDungLuongPin.SelectedText = "";
-            this.tbnDungLuongPin.Size = new System.Drawing.Size(166, 23);
-            this.tbnDungLuongPin.TabIndex = 28;
-            this.tbnDungLuongPin.UseSelectable = true;
+            this.cbbLoaiSanPham.FormattingEnabled = true;
+            this.cbbLoaiSanPham.ItemHeight = 23;
+            this.cbbLoaiSanPham.Location = new System.Drawing.Point(133, 50);
+            this.cbbLoaiSanPham.Name = "cbbLoaiSanPham";
+            this.cbbLoaiSanPham.Size = new System.Drawing.Size(164, 29);
+            this.cbbLoaiSanPham.TabIndex = 26;
+            this.cbbLoaiSanPham.UseSelectable = true;
+            this.cbbLoaiSanPham.SelectedIndexChanged += new System.EventHandler(this.cbbLoaiSanPham_SelectedIndexChanged);
             // 
-            // cbbCPU
+            // cbbNhaCC
             // 
-            this.cbbCPU.FormattingEnabled = true;
-            this.cbbCPU.ItemHeight = 23;
-            this.cbbCPU.Location = new System.Drawing.Point(135, 205);
-            this.cbbCPU.Name = "cbbCPU";
-            this.cbbCPU.Size = new System.Drawing.Size(164, 29);
-            this.cbbCPU.TabIndex = 29;
-            this.cbbCPU.UseSelectable = true;
+            this.cbbNhaCC.FormattingEnabled = true;
+            this.cbbNhaCC.ItemHeight = 23;
+            this.cbbNhaCC.Location = new System.Drawing.Point(135, 125);
+            this.cbbNhaCC.Name = "cbbNhaCC";
+            this.cbbNhaCC.Size = new System.Drawing.Size(164, 29);
+            this.cbbNhaCC.TabIndex = 25;
+            this.cbbNhaCC.UseSelectable = true;
             // 
-            // groupBox4
+            // tbnGhiChuNCC
             // 
-            this.groupBox4.Controls.Add(this.groupBox5);
-            this.groupBox4.Controls.Add(this.pbHinhAnh);
-            this.groupBox4.Location = new System.Drawing.Point(700, 37);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(320, 442);
-            this.groupBox4.TabIndex = 30;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Hình ảnh";
+            this.tbnGhiChuNCC.Location = new System.Drawing.Point(133, 164);
+            this.tbnGhiChuNCC.Name = "tbnGhiChuNCC";
+            this.tbnGhiChuNCC.Size = new System.Drawing.Size(166, 35);
+            this.tbnGhiChuNCC.TabIndex = 24;
+            this.tbnGhiChuNCC.Text = "";
             // 
-            // pbHinhAnh
+            // tbnGiaNhap
             // 
-            this.pbHinhAnh.Location = new System.Drawing.Point(6, 19);
-            this.pbHinhAnh.Name = "pbHinhAnh";
-            this.pbHinhAnh.Size = new System.Drawing.Size(308, 322);
-            this.pbHinhAnh.TabIndex = 0;
-            this.pbHinhAnh.TabStop = false;
+            this.tbnGiaNhap.Lines = new string[0];
+            this.tbnGiaNhap.Location = new System.Drawing.Point(135, 205);
+            this.tbnGiaNhap.MaxLength = 32767;
+            this.tbnGiaNhap.Name = "tbnGiaNhap";
+            this.tbnGiaNhap.PasswordChar = '\0';
+            this.tbnGiaNhap.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnGiaNhap.SelectedText = "";
+            this.tbnGiaNhap.Size = new System.Drawing.Size(164, 23);
+            this.tbnGiaNhap.TabIndex = 23;
+            this.tbnGiaNhap.UseSelectable = true;
             // 
-            // groupBox5
+            // tbnGiaXuat
             // 
-            this.groupBox5.Controls.Add(this.btnLamMoi);
-            this.groupBox5.Controls.Add(this.btnCapNhat);
-            this.groupBox5.Location = new System.Drawing.Point(6, 364);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(308, 72);
-            this.groupBox5.TabIndex = 1;
-            this.groupBox5.TabStop = false;
+            this.tbnGiaXuat.Lines = new string[0];
+            this.tbnGiaXuat.Location = new System.Drawing.Point(135, 241);
+            this.tbnGiaXuat.MaxLength = 32767;
+            this.tbnGiaXuat.Name = "tbnGiaXuat";
+            this.tbnGiaXuat.PasswordChar = '\0';
+            this.tbnGiaXuat.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnGiaXuat.SelectedText = "";
+            this.tbnGiaXuat.Size = new System.Drawing.Size(164, 23);
+            this.tbnGiaXuat.TabIndex = 22;
+            this.tbnGiaXuat.UseSelectable = true;
             // 
-            // btnCapNhat
+            // tbnThoiGianBaoHanh
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(41, 19);
-            this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(104, 35);
-            this.btnCapNhat.TabIndex = 0;
-            this.btnCapNhat.Text = "Cập nhật";
-            this.btnCapNhat.UseSelectable = true;
+            this.tbnThoiGianBaoHanh.Lines = new string[0];
+            this.tbnThoiGianBaoHanh.Location = new System.Drawing.Point(135, 278);
+            this.tbnThoiGianBaoHanh.MaxLength = 32767;
+            this.tbnThoiGianBaoHanh.Name = "tbnThoiGianBaoHanh";
+            this.tbnThoiGianBaoHanh.PasswordChar = '\0';
+            this.tbnThoiGianBaoHanh.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnThoiGianBaoHanh.SelectedText = "";
+            this.tbnThoiGianBaoHanh.Size = new System.Drawing.Size(164, 23);
+            this.tbnThoiGianBaoHanh.TabIndex = 21;
+            this.tbnThoiGianBaoHanh.UseSelectable = true;
             // 
-            // btnLamMoi
+            // tbnGhiChu
             // 
-            this.btnLamMoi.Location = new System.Drawing.Point(179, 19);
-            this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(104, 35);
-            this.btnLamMoi.TabIndex = 1;
-            this.btnLamMoi.Text = "Làm mới";
-            this.btnLamMoi.UseSelectable = true;
+            this.tbnGhiChu.Location = new System.Drawing.Point(135, 366);
+            this.tbnGhiChu.Name = "tbnGhiChu";
+            this.tbnGhiChu.Size = new System.Drawing.Size(164, 53);
+            this.tbnGhiChu.TabIndex = 20;
+            this.tbnGhiChu.Text = "";
+            // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.Location = new System.Drawing.Point(21, 381);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(52, 19);
+            this.metroLabel10.TabIndex = 19;
+            this.metroLabel10.Text = "Ghi chú";
+            // 
+            // tbnMoTa
+            // 
+            this.tbnMoTa.Location = new System.Drawing.Point(135, 307);
+            this.tbnMoTa.Name = "tbnMoTa";
+            this.tbnMoTa.Size = new System.Drawing.Size(164, 53);
+            this.tbnMoTa.TabIndex = 18;
+            this.tbnMoTa.Text = "";
+            // 
+            // metroLabel5
+            // 
+            this.metroLabel5.AutoSize = true;
+            this.metroLabel5.Location = new System.Drawing.Point(21, 322);
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.Size = new System.Drawing.Size(44, 19);
+            this.metroLabel5.TabIndex = 17;
+            this.metroLabel5.Text = "Mô tả";
+            // 
+            // metroLabel6
+            // 
+            this.metroLabel6.AutoSize = true;
+            this.metroLabel6.Location = new System.Drawing.Point(6, 283);
+            this.metroLabel6.Name = "metroLabel6";
+            this.metroLabel6.Size = new System.Drawing.Size(122, 19);
+            this.metroLabel6.TabIndex = 16;
+            this.metroLabel6.Text = "Thời gian bảo hành";
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.Location = new System.Drawing.Point(23, 245);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(56, 19);
+            this.metroLabel8.TabIndex = 15;
+            this.metroLabel8.Text = "Giá xuất";
+            // 
+            // metroLabel9
+            // 
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.Location = new System.Drawing.Point(23, 209);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(61, 19);
+            this.metroLabel9.TabIndex = 14;
+            this.metroLabel9.Text = "Giá nhập";
+            // 
+            // metroLabel7
+            // 
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(0, 173);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(134, 19);
+            this.metroLabel7.TabIndex = 12;
+            this.metroLabel7.Text = "Ghi chú nhà cung cấp";
+            // 
+            // tbnTenSanPham
+            // 
+            this.tbnTenSanPham.Lines = new string[0];
+            this.tbnTenSanPham.Location = new System.Drawing.Point(133, 20);
+            this.tbnTenSanPham.MaxLength = 32767;
+            this.tbnTenSanPham.Name = "tbnTenSanPham";
+            this.tbnTenSanPham.PasswordChar = '\0';
+            this.tbnTenSanPham.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbnTenSanPham.SelectedText = "";
+            this.tbnTenSanPham.Size = new System.Drawing.Size(166, 23);
+            this.tbnTenSanPham.TabIndex = 6;
+            this.tbnTenSanPham.UseSelectable = true;
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(23, 135);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(90, 19);
+            this.metroLabel4.TabIndex = 3;
+            this.metroLabel4.Text = "Nhà cung cấp";
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(23, 96);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(84, 19);
+            this.metroLabel3.TabIndex = 2;
+            this.metroLabel3.Text = "Nhà sản xuất";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(23, 60);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(94, 19);
+            this.metroLabel2.TabIndex = 1;
+            this.metroLabel2.Text = "Loại sản phẩm";
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(23, 20);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(89, 19);
+            this.metroLabel1.TabIndex = 0;
+            this.metroLabel1.Text = "Tên sản phẩm";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // THEMSANPHAM
             // 
@@ -570,13 +578,13 @@
             this.Text = "THÊM SẢN PHẨM";
             this.Load += new System.EventHandler(this.THEMSANPHAM_Load);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbHinhAnh)).EndInit();
+            this.groupCauHinhDT.ResumeLayout(false);
+            this.groupCauHinhDT.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbHinhAnh)).EndInit();
-            this.groupBox5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -584,7 +592,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupCauHinhDT;
         private MetroFramework.Controls.MetroComboBox cbbMau;
         private MetroFramework.Controls.MetroTextBox tbnBoNho;
         private MetroFramework.Controls.MetroTextBox tbnSoSim;
@@ -627,5 +635,6 @@
         private MetroFramework.Controls.MetroTextBox tbnDungLuongPin;
         private MetroFramework.Controls.MetroTextBox tbnRam;
         private MetroFramework.Controls.MetroTextBox tbnHeDieuHanh;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

@@ -340,12 +340,32 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="UTILS\ConvertImage.cs" />
     <Compile Include="UTILS\Encryptor.cs" />
+    <Compile Include="UTILS\StaticVariables.cs" />
+    <EmbeddedResource Include="GUI\DS_CPU.resx">
+      <DependentUpon>DS_CPU.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\THEMKHACHHANG.resx">
+      <DependentUpon>THEMKHACHHANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\THEMKHUYENMAI.resx">
+      <DependentUpon>THEMKHUYENMAI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\THEMNHANVIEN.resx">
       <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\THEMPHIEUBAOHANH.resx">
+      <DependentUpon>THEMPHIEUBAOHANH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\THEMSANPHAM.resx">
+      <DependentUpon>THEMSANPHAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TRACUUMATHANG.resx">
+      <DependentUpon>TRACUUMATHANG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

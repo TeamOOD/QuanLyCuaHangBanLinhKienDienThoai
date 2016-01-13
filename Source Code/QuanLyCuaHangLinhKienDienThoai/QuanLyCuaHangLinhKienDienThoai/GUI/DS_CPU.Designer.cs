@@ -67,6 +67,7 @@
             this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseSelectable = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnCapNhat
             // 
@@ -76,6 +77,7 @@
             this.btnCapNhat.TabIndex = 2;
             this.btnCapNhat.Text = "Cập nhật";
             this.btnCapNhat.UseSelectable = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
             // btnThem
             // 
@@ -85,6 +87,7 @@
             this.btnThem.TabIndex = 1;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseSelectable = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnTimKiem
             // 
@@ -94,6 +97,7 @@
             this.btnTimKiem.TabIndex = 0;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseSelectable = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // groupBox1
             // 
@@ -183,6 +187,7 @@
             this.dtDanhSachCPU.Name = "dtDanhSachCPU";
             this.dtDanhSachCPU.Size = new System.Drawing.Size(681, 162);
             this.dtDanhSachCPU.TabIndex = 4;
+            this.dtDanhSachCPU.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtDanhSachCPU_CellContentClick);
             // 
             // DS_CPU
             // 

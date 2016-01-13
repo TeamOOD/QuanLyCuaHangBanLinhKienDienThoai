@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupThongTinKH = new System.Windows.Forms.GroupBox();
             this.tbnGhiChu = new MetroFramework.Controls.MetroTextBox();
             this.tbnDiaChi = new MetroFramework.Controls.MetroTextBox();
             this.tbnTenKhachHang = new MetroFramework.Controls.MetroTextBox();
@@ -43,29 +43,30 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.btnThem = new MetroFramework.Controls.MetroButton();
             this.btnLamMoi = new MetroFramework.Controls.MetroButton();
-            this.groupBox1.SuspendLayout();
+            this.groupThongTinKH.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupThongTinKH
             // 
-            this.groupBox1.Controls.Add(this.tbnGhiChu);
-            this.groupBox1.Controls.Add(this.tbnDiaChi);
-            this.groupBox1.Controls.Add(this.tbnTenKhachHang);
-            this.groupBox1.Controls.Add(this.tbnSoDienThoai);
-            this.groupBox1.Controls.Add(this.tbnEmail);
-            this.groupBox1.Controls.Add(this.tbnMaKhachHang);
-            this.groupBox1.Controls.Add(this.metroLabel6);
-            this.groupBox1.Controls.Add(this.metroLabel5);
-            this.groupBox1.Controls.Add(this.metroLabel4);
-            this.groupBox1.Controls.Add(this.metroLabel3);
-            this.groupBox1.Controls.Add(this.metroLabel2);
-            this.groupBox1.Controls.Add(this.metroLabel1);
-            this.groupBox1.Location = new System.Drawing.Point(51, 92);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(667, 136);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin khách hàng";
+            this.groupThongTinKH.Controls.Add(this.tbnGhiChu);
+            this.groupThongTinKH.Controls.Add(this.tbnDiaChi);
+            this.groupThongTinKH.Controls.Add(this.tbnTenKhachHang);
+            this.groupThongTinKH.Controls.Add(this.tbnSoDienThoai);
+            this.groupThongTinKH.Controls.Add(this.tbnEmail);
+            this.groupThongTinKH.Controls.Add(this.tbnMaKhachHang);
+            this.groupThongTinKH.Controls.Add(this.metroLabel6);
+            this.groupThongTinKH.Controls.Add(this.metroLabel5);
+            this.groupThongTinKH.Controls.Add(this.metroLabel4);
+            this.groupThongTinKH.Controls.Add(this.metroLabel3);
+            this.groupThongTinKH.Controls.Add(this.metroLabel2);
+            this.groupThongTinKH.Controls.Add(this.metroLabel1);
+            this.groupThongTinKH.Location = new System.Drawing.Point(51, 92);
+            this.groupThongTinKH.Name = "groupThongTinKH";
+            this.groupThongTinKH.Size = new System.Drawing.Size(667, 136);
+            this.groupThongTinKH.TabIndex = 1;
+            this.groupThongTinKH.TabStop = false;
+            this.groupThongTinKH.Text = "Thông tin khách hàng";
+            this.groupThongTinKH.Enter += new System.EventHandler(this.groupThongTinKH_Enter);
             // 
             // tbnGhiChu
             // 
@@ -102,7 +103,7 @@
             this.tbnTenKhachHang.PasswordChar = '\0';
             this.tbnTenKhachHang.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.tbnTenKhachHang.SelectedText = "";
-            this.tbnTenKhachHang.Size = new System.Drawing.Size(130, 23);
+            this.tbnTenKhachHang.Size = new System.Drawing.Size(249, 23);
             this.tbnTenKhachHang.TabIndex = 9;
             this.tbnTenKhachHang.UseSelectable = true;
             // 
@@ -207,6 +208,7 @@
             this.btnThem.TabIndex = 2;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseSelectable = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnLamMoi
             // 
@@ -216,6 +218,7 @@
             this.btnLamMoi.TabIndex = 3;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.UseSelectable = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // THEMKHACHHANG
             // 
@@ -224,19 +227,19 @@
             this.ClientSize = new System.Drawing.Size(769, 320);
             this.Controls.Add(this.btnLamMoi);
             this.Controls.Add(this.btnThem);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupThongTinKH);
             this.Name = "THEMKHACHHANG";
             this.Text = "THÊM KHÁCH HÀNG";
             this.Load += new System.EventHandler(this.THEMKHACHHANG_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupThongTinKH.ResumeLayout(false);
+            this.groupThongTinKH.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupThongTinKH;
         private MetroFramework.Controls.MetroTextBox tbnGhiChu;
         private MetroFramework.Controls.MetroTextBox tbnDiaChi;
         private MetroFramework.Controls.MetroTextBox tbnTenKhachHang;

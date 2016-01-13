@@ -78,6 +78,7 @@
             this.tbnTenSanPham.Size = new System.Drawing.Size(232, 23);
             this.tbnTenSanPham.TabIndex = 3;
             this.tbnTenSanPham.UseSelectable = true;
+            this.tbnTenSanPham.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbnTenSanPham_KeyPress);
             // 
             // metroButton1
             // 
@@ -87,6 +88,7 @@
             this.metroButton1.TabIndex = 6;
             this.metroButton1.Text = "Tìm kiếm";
             this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // cbbNhaSanXuat
             // 
@@ -97,6 +99,7 @@
             this.cbbNhaSanXuat.Size = new System.Drawing.Size(234, 29);
             this.cbbNhaSanXuat.TabIndex = 7;
             this.cbbNhaSanXuat.UseSelectable = true;
+            this.cbbNhaSanXuat.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbbNhaSanXuat_KeyPress);
             // 
             // cbbLoaiSanPham
             // 
@@ -107,6 +110,7 @@
             this.cbbLoaiSanPham.Size = new System.Drawing.Size(193, 29);
             this.cbbLoaiSanPham.TabIndex = 8;
             this.cbbLoaiSanPham.UseSelectable = true;
+            this.cbbLoaiSanPham.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbbLoaiSanPham_KeyPress);
             // 
             // dtTraCuuMatHang
             // 

@@ -11,3 +11,9 @@ G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCu
 G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.exe
 G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.pdb
 G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.THEMNHANVIEN.resources
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.THEMSANPHAM.resources
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.THEMKHACHHANG.resources
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.THEMKHUYENMAI.resources
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.TRACUUMATHANG.resources
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.THEMPHIEUBAOHANH.resources
+G:\Hoc ki 9\OOD\Repositoy\QuanLyCuaHangBanLinhKienDienThoai\Source Code\QuanLyCuaHangLinhKienDienThoai\QuanLyCuaHangLinhKienDienThoai\obj\Debug\QuanLyCuaHangLinhKienDienThoai.GUI.DS_CPU.resources

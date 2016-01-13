@@ -17,7 +17,7 @@ namespace QuanLyCuaHangLinhKienDienThoai
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PHIEUBAOHANH());
+            Application.Run(new DS_CPU());
         }
     }
 }

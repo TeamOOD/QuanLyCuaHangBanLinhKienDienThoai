@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.tbnGhiChu = new System.Windows.Forms.RichTextBox();
-            this.cbbThoiGianLap = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.tbnTenNhanVien = new MetroFramework.Controls.MetroTextBox();
@@ -37,6 +36,7 @@
             this.cbbTrangThai = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnTimKiem = new MetroFramework.Controls.MetroButton();
             this.btnLamMoiPhieuBH = new MetroFramework.Controls.MetroButton();
             this.btnLuu = new MetroFramework.Controls.MetroButton();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
@@ -50,7 +50,6 @@
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
-            this.btnTimKiem = new MetroFramework.Controls.MetroButton();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tbnSoLuong = new MetroFramework.Controls.MetroTextBox();
             this.btnLamMoi = new MetroFramework.Controls.MetroButton();
@@ -60,6 +59,7 @@
             this.dtSanPhamBaoHanh = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dtDanhSachSanPham = new System.Windows.Forms.DataGridView();
+            this.dtnThoiGianLap = new MetroFramework.Controls.MetroDateTime();
             this.groupBox5.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -75,16 +75,6 @@
             this.tbnGhiChu.Size = new System.Drawing.Size(439, 45);
             this.tbnGhiChu.TabIndex = 44;
             this.tbnGhiChu.Text = "";
-            // 
-            // cbbThoiGianLap
-            // 
-            this.cbbThoiGianLap.FormattingEnabled = true;
-            this.cbbThoiGianLap.ItemHeight = 23;
-            this.cbbThoiGianLap.Location = new System.Drawing.Point(445, 131);
-            this.cbbThoiGianLap.Name = "cbbThoiGianLap";
-            this.cbbThoiGianLap.Size = new System.Drawing.Size(149, 29);
-            this.cbbThoiGianLap.TabIndex = 43;
-            this.cbbThoiGianLap.UseSelectable = true;
             // 
             // metroLabel15
             // 
@@ -162,6 +152,15 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Chức năng";
             // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.Location = new System.Drawing.Point(287, 168);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(109, 50);
+            this.btnTimKiem.TabIndex = 5;
+            this.btnTimKiem.Text = "Tìm kiếm";
+            this.btnTimKiem.UseSelectable = true;
+            // 
             // btnLamMoiPhieuBH
             // 
             this.btnLamMoiPhieuBH.Location = new System.Drawing.Point(147, 99);
@@ -191,11 +190,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.dtnThoiGianLap);
             this.groupBox1.Controls.Add(this.tbnTenKhachHang);
             this.groupBox1.Controls.Add(this.tbnMaNV);
             this.groupBox1.Controls.Add(this.tbnMaBH);
             this.groupBox1.Controls.Add(this.tbnGhiChu);
-            this.groupBox1.Controls.Add(this.cbbThoiGianLap);
             this.groupBox1.Controls.Add(this.metroLabel15);
             this.groupBox1.Controls.Add(this.metroLabel9);
             this.groupBox1.Controls.Add(this.tbnTenNhanVien);
@@ -313,15 +312,6 @@
             this.metroLabel13.TabIndex = 0;
             this.metroLabel13.Text = "Mã HD bảo hành";
             // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Location = new System.Drawing.Point(287, 168);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(109, 50);
-            this.btnTimKiem.TabIndex = 5;
-            this.btnTimKiem.Text = "Tìm kiếm";
-            this.btnTimKiem.UseSelectable = true;
-            // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
@@ -407,6 +397,14 @@
             this.dtDanhSachSanPham.Size = new System.Drawing.Size(437, 347);
             this.dtDanhSachSanPham.TabIndex = 9;
             // 
+            // dtnThoiGianLap
+            // 
+            this.dtnThoiGianLap.Location = new System.Drawing.Point(445, 138);
+            this.dtnThoiGianLap.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dtnThoiGianLap.Name = "dtnThoiGianLap";
+            this.dtnThoiGianLap.Size = new System.Drawing.Size(144, 29);
+            this.dtnThoiGianLap.TabIndex = 49;
+            // 
             // THEMPHIEUBAOHANH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -439,7 +437,6 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox tbnGhiChu;
-        private MetroFramework.Controls.MetroComboBox cbbThoiGianLap;
         private MetroFramework.Controls.MetroLabel metroLabel15;
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroTextBox tbnTenNhanVien;
@@ -470,5 +467,6 @@
         private System.Windows.Forms.DataGridView dtSanPhamBaoHanh;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dtDanhSachSanPham;
+        private MetroFramework.Controls.MetroDateTime dtnThoiGianLap;
     }
 }
