@@ -58,7 +58,7 @@ namespace DataAccessTier
             para[0] = new SqlParameter("@MaHoaDon", mahoadon);
             try
             {
-                return this.LoadDataTable("CT_HOADONDALHANG_Lst_LayChiTietTheoMaHoaDon", para);
+                return this.LoadDataTable("CT_HOADONDATHANG_Lst_LayChiTietTheoMaHoaDon", para);
             }
             catch (System.Exception ex)
             {

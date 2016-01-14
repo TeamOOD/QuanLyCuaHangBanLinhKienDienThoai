@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyCuaHangLinhKienDienThoai.GUI;
+using System.Drawing;
 
 namespace QuanLyCuaHangLinhKienDienThoai
 {
@@ -17,7 +17,11 @@ namespace QuanLyCuaHangLinhKienDienThoai
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DS_CPU());
+            DevExpress.UserSkins.BonusSkins.Register();
+            
+            DevExpress.LookAndFeel.UserLookAndFeel.Default.SkinName = "The Asphalt World";
+            DevExpress.Utils.AppearanceObject.DefaultFont = new Font("Segoe UI", 8);
+            Application.Run(new FormDangNhap());
         }
     }
 }

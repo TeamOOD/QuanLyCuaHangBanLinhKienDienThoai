@@ -32,6 +32,40 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Spreadsheet.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1.UI, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.LightGray.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1.Extensions, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1.UI, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1.Web, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1.Wizard, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="MetroFramework">
       <HintPath>..\..\Library For Form Design\MetroFramework.dll</HintPath>
     </Reference>
@@ -147,191 +181,240 @@
     <Compile Include="DTO\QuyDinh.cs" />
     <Compile Include="DTO\ThamSo.cs" />
     <Compile Include="DTO\TrangThai.cs" />
-    <Compile Include="GUI\BAOCAOBANHANG.cs">
+    <Compile Include="GUI\StaticVariables.cs" />
+    <Compile Include="GUI\FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\BAOCAOBANHANG.Designer.cs">
-      <DependentUpon>BAOCAOBANHANG.cs</DependentUpon>
+    <Compile Include="GUI\FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\BAOCAONHAPHANG.cs">
+    <Compile Include="GUI\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\BAOCAONHAPHANG.Designer.cs">
-      <DependentUpon>BAOCAONHAPHANG.cs</DependentUpon>
+    <Compile Include="GUI\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\BAOCAOTONKHO.cs">
+    <Compile Include="GUI\FormThayDoiQuyDinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\BAOCAOTONKHO.Designer.cs">
-      <DependentUpon>BAOCAOTONKHO.cs</DependentUpon>
+    <Compile Include="GUI\FormThayDoiQuyDinh.Designer.cs">
+      <DependentUpon>FormThayDoiQuyDinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DONGIA.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucBaoCaoBanHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DONGIA.Designer.cs">
-      <DependentUpon>DONGIA.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucBaoCaoBanHang.Designer.cs">
+      <DependentUpon>ucBaoCaoBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_CPU.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucBaoCaoNhapHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_CPU.Designer.cs">
-      <DependentUpon>DS_CPU.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucBaoCaoNhapHang.Designer.cs">
+      <DependentUpon>ucBaoCaoNhapHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_HOADONBAN.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucBaoCaoTonKho.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_HOADONBAN.Designer.cs">
-      <DependentUpon>DS_HOADONBAN.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucBaoCaoTonKho.Designer.cs">
+      <DependentUpon>ucBaoCaoTonKho.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_KHACHHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucCPU.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_KHACHHANG.Designer.cs">
-      <DependentUpon>DS_KHACHHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucCPU.Designer.cs">
+      <DependentUpon>ucCPU.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_KHUYENMAI.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachHoaDonBan.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_KHUYENMAI.Designer.cs">
-      <DependentUpon>DS_KHUYENMAI.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachHoaDonBan.Designer.cs">
+      <DependentUpon>ucDanhSachHoaDonBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_NHACUNGCAP.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachKhachHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_NHACUNGCAP.Designer.cs">
-      <DependentUpon>DS_NHACUNGCAP.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachKhachHang.Designer.cs">
+      <DependentUpon>ucDanhSachKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_NHANVIEN.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachKhuyenMai.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_NHANVIEN.Designer.cs">
-      <DependentUpon>DS_NHANVIEN.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachKhuyenMai.Designer.cs">
+      <DependentUpon>ucDanhSachKhuyenMai.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_NHASANXUAT.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachNhaCungCap.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_NHASANXUAT.Designer.cs">
-      <DependentUpon>DS_NHASANXUAT.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachNhaCungCap.Designer.cs">
+      <DependentUpon>ucDanhSachNhaCungCap.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_PHIEUGIAOHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachNhanVien.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_PHIEUGIAOHANG.Designer.cs">
-      <DependentUpon>DS_PHIEUGIAOHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachNhanVien.Designer.cs">
+      <DependentUpon>ucDanhSachNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\DS_SANPHAM.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachNhaSanXuat.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\DS_SANPHAM.Designer.cs">
-      <DependentUpon>DS_SANPHAM.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachNhaSanXuat.Designer.cs">
+      <DependentUpon>ucDanhSachNhaSanXuat.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\HOADONDATHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachPhieuGiaoHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\HOADONDATHANG.Designer.cs">
-      <DependentUpon>HOADONDATHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachPhieuGiaoHang.Designer.cs">
+      <DependentUpon>ucDanhSachPhieuGiaoHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\HOADONNHAPHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDanhSachSanPham.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\HOADONNHAPHANG.Designer.cs">
-      <DependentUpon>HOADONNHAPHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDanhSachSanPham.Designer.cs">
+      <DependentUpon>ucDanhSachSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\LEPHIGIAOHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucDonGia.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\LEPHIGIAOHANG.Designer.cs">
-      <DependentUpon>LEPHIGIAOHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucDonGia.Designer.cs">
+      <DependentUpon>ucDonGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\LOAISANPHAM.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucHoaDonDatHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\LOAISANPHAM.Designer.cs">
-      <DependentUpon>LOAISANPHAM.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucHoaDonDatHang.Designer.cs">
+      <DependentUpon>ucHoaDonDatHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Main.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucHoaDonNhapHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucHoaDonNhapHang.Designer.cs">
+      <DependentUpon>ucHoaDonNhapHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\MAUSAC.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucLapPhieuBanHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\MAUSAC.Designer.cs">
-      <DependentUpon>MAUSAC.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucLapPhieuBanHang.Designer.cs">
+      <DependentUpon>ucLapPhieuBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\NHACUNGCAP.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucLePhiGiaoHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\NHACUNGCAP.Designer.cs">
-      <DependentUpon>NHACUNGCAP.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucLePhiGiaoHang.Designer.cs">
+      <DependentUpon>ucLePhiGiaoHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\PHIEUBANHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucLoaiSanPham.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\PHIEUBANHANG.Designer.cs">
-      <DependentUpon>PHIEUBANHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucLoaiSanPham.Designer.cs">
+      <DependentUpon>ucLoaiSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\PHIEUBANHANG_TIMKIEM.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucMauSac.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\PHIEUBANHANG_TIMKIEM.Designer.cs">
-      <DependentUpon>PHIEUBANHANG_TIMKIEM.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucMauSac.Designer.cs">
+      <DependentUpon>ucMauSac.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\PHIEUBAOHANH.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucNhaCungCap.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\PHIEUBAOHANH.Designer.cs">
-      <DependentUpon>PHIEUBAOHANH.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucNhaCungCap.Designer.cs">
+      <DependentUpon>ucNhaCungCap.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMKHACHHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucNhaSanXuat.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMKHACHHANG.Designer.cs">
-      <DependentUpon>THEMKHACHHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucNhaSanXuat.Designer.cs">
+      <DependentUpon>ucNhaSanXuat.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMKHUYENMAI.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucPhieuBanHangTimKiem.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMKHUYENMAI.Designer.cs">
-      <DependentUpon>THEMKHUYENMAI.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucPhieuBanHangTimKiem.Designer.cs">
+      <DependentUpon>ucPhieuBanHangTimKiem.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMNHANVIEN.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucPhieuBaoHanh.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMNHANVIEN.Designer.cs">
-      <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucPhieuBaoHanh.Designer.cs">
+      <DependentUpon>ucPhieuBaoHanh.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMPHIEUBANHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucThemKhachHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMPHIEUBANHANG.Designer.cs">
-      <DependentUpon>THEMPHIEUBANHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucThemKhachHang.Designer.cs">
+      <DependentUpon>ucThemKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMPHIEUBAOHANH.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucThemKhuyenMai.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMPHIEUBAOHANH.Designer.cs">
-      <DependentUpon>THEMPHIEUBAOHANH.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucThemKhuyenMai.Designer.cs">
+      <DependentUpon>ucThemKhuyenMai.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMPHIEUGIAOHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucThemNhanVien.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMPHIEUGIAOHANG.Designer.cs">
-      <DependentUpon>THEMPHIEUGIAOHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucThemNhanVien.Designer.cs">
+      <DependentUpon>ucThemNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\THEMSANPHAM.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucThemPhieuBanHang.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\THEMSANPHAM.Designer.cs">
-      <DependentUpon>THEMSANPHAM.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucThemPhieuBanHang.Designer.cs">
+      <DependentUpon>ucThemPhieuBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\TRACUUMATHANG.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\UserControl\ucThemPhieuBaoHanh.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\TRACUUMATHANG.Designer.cs">
-      <DependentUpon>TRACUUMATHANG.cs</DependentUpon>
+    <Compile Include="GUI\UserControl\ucThemPhieuBaoHanh.Designer.cs">
+      <DependentUpon>ucThemPhieuBaoHanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UserControl\ucThemPhieuGiaoHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UserControl\ucThemPhieuGiaoHang.Designer.cs">
+      <DependentUpon>ucThemPhieuGiaoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UserControl\ucThemSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UserControl\ucThemSanPham.Designer.cs">
+      <DependentUpon>ucThemSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UserControl\ucTraCuuMatHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UserControl\ucTraCuuMatHang.Designer.cs">
+      <DependentUpon>ucTraCuuMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRBaoCaoNhapHang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRBaoCaoNhapHang.Designer.cs">
+      <DependentUpon>XRBaoCaoNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRBaoCaoTonKho.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRBaoCaoTonKho.Designer.cs">
+      <DependentUpon>XRBaoCaoTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRLapBaoCaoBanHang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRLapBaoCaoBanHang.Designer.cs">
+      <DependentUpon>XRLapBaoCaoBanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRLapHoaDonDatHang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRLapHoaDonDatHang.Designer.cs">
+      <DependentUpon>XRLapHoaDonDatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRLapHoaDonThanhToanNhapHang.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\XtraReport\XRLapHoaDonThanhToanNhapHang.Designer.cs">
+      <DependentUpon>XRLapHoaDonThanhToanNhapHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -340,33 +423,124 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLBANHANG_LINHKIEN_DIENTHOAIDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="UTILS\ConvertImage.cs" />
-    <Compile Include="UTILS\Encryptor.cs" />
-    <Compile Include="UTILS\StaticVariables.cs" />
-    <EmbeddedResource Include="GUI\DS_CPU.resx">
-      <DependentUpon>DS_CPU.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\THEMKHACHHANG.resx">
-      <DependentUpon>THEMKHACHHANG.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\FormThayDoiQuyDinh.resx">
+      <DependentUpon>FormThayDoiQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\THEMKHUYENMAI.resx">
-      <DependentUpon>THEMKHUYENMAI.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\UserControl\ucBaoCaoBanHang.resx">
+      <DependentUpon>ucBaoCaoBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\THEMNHANVIEN.resx">
-      <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\UserControl\ucBaoCaoNhapHang.resx">
+      <DependentUpon>ucBaoCaoNhapHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\THEMPHIEUBAOHANH.resx">
-      <DependentUpon>THEMPHIEUBAOHANH.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\UserControl\ucBaoCaoTonKho.resx">
+      <DependentUpon>ucBaoCaoTonKho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\THEMSANPHAM.resx">
-      <DependentUpon>THEMSANPHAM.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\UserControl\ucCPU.resx">
+      <DependentUpon>ucCPU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\TRACUUMATHANG.resx">
-      <DependentUpon>TRACUUMATHANG.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachHoaDonBan.resx">
+      <DependentUpon>ucDanhSachHoaDonBan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachKhachHang.resx">
+      <DependentUpon>ucDanhSachKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachKhuyenMai.resx">
+      <DependentUpon>ucDanhSachKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachNhaCungCap.resx">
+      <DependentUpon>ucDanhSachNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachNhanVien.resx">
+      <DependentUpon>ucDanhSachNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachNhaSanXuat.resx">
+      <DependentUpon>ucDanhSachNhaSanXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachPhieuGiaoHang.resx">
+      <DependentUpon>ucDanhSachPhieuGiaoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDanhSachSanPham.resx">
+      <DependentUpon>ucDanhSachSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucDonGia.resx">
+      <DependentUpon>ucDonGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucHoaDonDatHang.resx">
+      <DependentUpon>ucHoaDonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucHoaDonNhapHang.resx">
+      <DependentUpon>ucHoaDonNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucLapPhieuBanHang.resx">
+      <DependentUpon>ucLapPhieuBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucLePhiGiaoHang.resx">
+      <DependentUpon>ucLePhiGiaoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucLoaiSanPham.resx">
+      <DependentUpon>ucLoaiSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucMauSac.resx">
+      <DependentUpon>ucMauSac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucNhaCungCap.resx">
+      <DependentUpon>ucNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucNhaSanXuat.resx">
+      <DependentUpon>ucNhaSanXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucPhieuBanHangTimKiem.resx">
+      <DependentUpon>ucPhieuBanHangTimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucPhieuBaoHanh.resx">
+      <DependentUpon>ucPhieuBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemKhachHang.resx">
+      <DependentUpon>ucThemKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemKhuyenMai.resx">
+      <DependentUpon>ucThemKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemNhanVien.resx">
+      <DependentUpon>ucThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemPhieuBanHang.resx">
+      <DependentUpon>ucThemPhieuBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemPhieuBaoHanh.resx">
+      <DependentUpon>ucThemPhieuBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemPhieuGiaoHang.resx">
+      <DependentUpon>ucThemPhieuGiaoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucThemSanPham.resx">
+      <DependentUpon>ucThemSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserControl\ucTraCuuMatHang.resx">
+      <DependentUpon>ucTraCuuMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\XtraReport\XRBaoCaoNhapHang.resx">
+      <DependentUpon>XRBaoCaoNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\XtraReport\XRBaoCaoTonKho.resx">
+      <DependentUpon>XRBaoCaoTonKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\XtraReport\XRLapBaoCaoBanHang.resx">
+      <DependentUpon>XRLapBaoCaoBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\XtraReport\XRLapHoaDonDatHang.resx">
+      <DependentUpon>XRLapHoaDonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\XtraReport\XRLapHoaDonThanhToanNhapHang.resx">
+      <DependentUpon>XRLapHoaDonThanhToanNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -399,6 +573,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\12-c3-8bits-pixels.png" />
+    <Content Include="Resources\addressbook-edit-icon.png" />
+    <Content Include="Resources\blackboard1.png" />
+    <Content Include="Resources\books-icon.png" />
+    <Content Include="Resources\Box.png" />
+    <Content Include="Resources\Budget-icon.png" />
+    <Content Include="Resources\chart-icon.png" />
+    <Content Include="Resources\checklist-icon 2.png" />
+    <Content Include="Resources\Checklist-icon.png" />
+    <Content Include="Resources\checklist-icon2.png" />
+    <Content Include="Resources\color.png" />
+    <Content Include="Resources\defaultimg.png" />
+    <Content Include="Resources\full-ecommerce-icons.png" />
+    <Content Include="Resources\ico-terms.png" />
+    <Content Include="Resources\Increase-icon.png" />
+    <Content Include="Resources\industry.png" />
+    <Content Include="Resources\Inventory-maintenance-icon.png" />
+    <Content Include="Resources\ksim_cpu.png" />
+    <Content Include="Resources\man-2-icon.png" />
+    <Content Include="Resources\man-icon.png" />
+    <Content Include="Resources\Number.png" />
+    <Content Include="Resources\Panel-truck-icon.png" />
+    <Content Include="Resources\Phonebook-icon.png" />
+    <Content Include="Resources\Pie-chart-icon.png" />
+    <Content Include="Resources\preferences_system_login.png" />
+    <Content Include="Resources\Sale-icon.png" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\settings.png" />
+    <Content Include="Resources\Shipping-7-icon.png" />
+    <Content Include="Resources\Shopping-cart-accept-icon.png" />
+    <Content Include="Resources\shopping-icon.png" />
+    <Content Include="Resources\store-icon.ico" />
+    <Content Include="Resources\store_box_icon.png" />
+    <Content Include="Resources\supplier_03.png" />
+    <Content Include="Resources\Users-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

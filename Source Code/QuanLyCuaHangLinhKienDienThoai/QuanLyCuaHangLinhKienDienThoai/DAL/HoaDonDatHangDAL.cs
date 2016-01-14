@@ -24,7 +24,7 @@ namespace DataAccessTier
                 para[5] = new SqlParameter("@p_MaNhaCungCaphd", hd.MaNhaCungCap);
                 para[6] = new SqlParameter("@p_NgayGiaoHanghd", hd.NgayGiaoHang);
                 para[7] = new SqlParameter("@p_GhiChu", hd.GhiChu);
-                return this.LoadDataTable("HOADONDALHANG_Ins_l", para).Rows[0].ItemArray[1];
+                return this.LoadDataTable("HOADONDATHANG_Ins_l", para).Rows[0].ItemArray[1];
             }
             catch (System.Exception ex)
             {
@@ -38,7 +38,7 @@ namespace DataAccessTier
         {
             try
             {
-                return this.LoadDataTable("HOADONDALHANG_Lst");
+                return this.LoadDataTable("HOADONDATHANG_Lst");
             }
             catch (System.Exception ex)
             {
