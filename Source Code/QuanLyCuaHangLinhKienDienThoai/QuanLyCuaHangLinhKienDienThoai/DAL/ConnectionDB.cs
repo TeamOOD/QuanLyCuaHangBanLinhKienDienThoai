@@ -23,7 +23,7 @@ namespace DataAccessTier
         public SqlConnection CreateConnect()
             {
                String _DataSource = SystemInformation.ComputerName;
-               return new SqlConnection(ConfigurationManager.ConnectionStrings["QuanLyCuaHangLinhKienDienThoai.Properties.Settings.QLBANHANG_LINHKIEN_DIENTHOAI"].ConnectionString);
+               return new SqlConnection(ConfigurationManager.ConnectionStrings["connectionString"].ConnectionString);
         }
 #endregion
     }
