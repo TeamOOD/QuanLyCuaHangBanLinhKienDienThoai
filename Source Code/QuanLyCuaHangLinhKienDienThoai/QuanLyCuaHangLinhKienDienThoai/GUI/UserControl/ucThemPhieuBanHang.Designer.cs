@@ -461,6 +461,7 @@
             // 
             // txtSoLuong
             // 
+            this.txtSoLuong.EditValue = "1";
             this.txtSoLuong.Location = new System.Drawing.Point(545, 62);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

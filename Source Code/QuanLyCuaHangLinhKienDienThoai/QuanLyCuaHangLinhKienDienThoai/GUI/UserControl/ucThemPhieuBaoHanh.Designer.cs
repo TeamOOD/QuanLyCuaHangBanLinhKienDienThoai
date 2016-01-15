@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.meGhiChu = new DevExpress.XtraEditors.MemoEdit();
             this.deThoiGianLap = new DevExpress.XtraEditors.DateEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
@@ -105,7 +105,6 @@
             this.meGhiChu.Properties.MaxLength = 200;
             this.meGhiChu.Size = new System.Drawing.Size(444, 51);
             this.meGhiChu.TabIndex = 9;
-            this.meGhiChu.UseOptimizedRendering = true;
             // 
             // deThoiGianLap
             // 
@@ -142,8 +141,6 @@
             this.groupControl1.Size = new System.Drawing.Size(996, 553);
             this.groupControl1.TabIndex = 6;
             this.groupControl1.Text = "Thêm Phiếu Bảo Hành";
-            this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
-            this.groupControl1.Enter += new System.EventHandler(this.groupControl1_Enter);
             // 
             // labelControl7
             // 
@@ -166,9 +163,9 @@
             // 
             // gridSanPhamBH
             // 
-            gridLevelNode3.RelationName = "Level1";
+            gridLevelNode1.RelationName = "Level1";
             this.gridSanPhamBH.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode3});
+            gridLevelNode1});
             this.gridSanPhamBH.Location = new System.Drawing.Point(6, 18);
             this.gridSanPhamBH.MainView = this.gridSpBH;
             this.gridSanPhamBH.Name = "gridSanPhamBH";
@@ -227,9 +224,9 @@
             this.gridSanPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.gridSanPham.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.gridSanPham.Location = new System.Drawing.Point(6, 20);
             this.gridSanPham.MainView = this.gridViewSp;
             this.gridSanPham.Name = "gridSanPham";
@@ -495,7 +492,7 @@
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl4.Location = new System.Drawing.Point(7, 97);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(59, 17);
+            this.labelControl4.Size = new System.Drawing.Size(58, 17);
             this.labelControl4.TabIndex = 5;
             this.labelControl4.Text = "Trạng thái";
             // 
@@ -546,7 +543,7 @@
             this.sbTimKiem.Name = "sbTimKiem";
             this.sbTimKiem.Size = new System.Drawing.Size(75, 23);
             this.sbTimKiem.TabIndex = 4;
-            this.sbTimKiem.Text = "Tim kiếm";
+            this.sbTimKiem.Text = "Tìm kiếm";
             this.sbTimKiem.Click += new System.EventHandler(this.sbTimKiem_Click);
             // 
             // sbLm

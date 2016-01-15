@@ -46,21 +46,6 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             this.LoadData();
         }
 
-        private void groupControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gridControl2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void sbLuu_Click(object sender, EventArgs e)
         {
             HoaDonBaoHanh hd = new HoaDonBaoHanh();
@@ -207,7 +192,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLm_Click(object sender, EventArgs e)
         {
             teMaHoaDon.Text = "";
-            deThoiGianLap.Text = "";
+            deThoiGianLap.EditValue = DateTime.Now;
             teMaNhanVien.Text = "";
             teTenNhanVien.Text = "";
             teMaKhachHang.Text = "";
@@ -233,7 +218,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLamMoi_Click(object sender, EventArgs e)
         {
             this.deThoiGianLap.DateTime = DateTime.Now;
-            this.teTenNhanVien.Text = "Phạm Thị Tâm ";
+            this.teTenNhanVien.Text = "Phạm Thị Tâm";
             this.teMaNhanVien.Text = "NV0000000000005";
             //Xóa dữ liệu bảng hàng hóa đã chọn mua
             //DataTable dt = this.gridSanPhamBH.DataSource as DataTable;

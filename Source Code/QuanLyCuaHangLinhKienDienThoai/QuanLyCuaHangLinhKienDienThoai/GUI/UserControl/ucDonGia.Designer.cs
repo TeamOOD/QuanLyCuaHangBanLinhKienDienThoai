@@ -109,11 +109,11 @@
             this.sbXoa.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(284, 205);
+            this.sbXoa.Location = new System.Drawing.Point(284, 224);
             this.sbXoa.Name = "sbXoa";
             this.sbXoa.Size = new System.Drawing.Size(115, 23);
             this.sbXoa.TabIndex = 8;
-            this.sbXoa.Text = "Xóa >>";
+            this.sbXoa.Text = "<< Xóa";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
             // 
             // groupBox4
@@ -154,7 +154,7 @@
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Location = new System.Drawing.Point(4, 19);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(112, 17);
+            this.labelControl5.Size = new System.Drawing.Size(111, 17);
             this.labelControl5.TabIndex = 25;
             this.labelControl5.Text = "Tìm Kiếm Theo Tên";
             // 
@@ -292,7 +292,7 @@
             this.groupBox6.Controls.Add(this.labelControl1);
             this.groupBox6.Controls.Add(this.teGiaXuat);
             this.groupBox6.Controls.Add(this.labelControl4);
-            this.groupBox6.Location = new System.Drawing.Point(272, 83);
+            this.groupBox6.Location = new System.Drawing.Point(272, 35);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(144, 81);
             this.groupBox6.TabIndex = 22;
@@ -355,7 +355,7 @@
             this.sbThem.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbThem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThem.Appearance.Options.UseFont = true;
-            this.sbThem.Location = new System.Drawing.Point(284, 178);
+            this.sbThem.Location = new System.Drawing.Point(284, 197);
             this.sbThem.Name = "sbThem";
             this.sbThem.Size = new System.Drawing.Size(115, 23);
             this.sbThem.TabIndex = 7;

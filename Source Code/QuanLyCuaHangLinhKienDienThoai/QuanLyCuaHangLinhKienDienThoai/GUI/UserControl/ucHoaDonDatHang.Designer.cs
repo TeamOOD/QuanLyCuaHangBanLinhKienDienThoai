@@ -356,7 +356,7 @@
             this.sbXoa.Name = "sbXoa";
             this.sbXoa.Size = new System.Drawing.Size(114, 23);
             this.sbXoa.TabIndex = 8;
-            this.sbXoa.Text = "Xóa >>";
+            this.sbXoa.Text = "<< Xóa";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
             // 
             // groupBox4
