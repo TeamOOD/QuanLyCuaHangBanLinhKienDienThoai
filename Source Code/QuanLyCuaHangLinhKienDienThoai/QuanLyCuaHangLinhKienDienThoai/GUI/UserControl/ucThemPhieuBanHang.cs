@@ -266,7 +266,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
             if (sluong < this.soLuong)
             {
-                MessageBox.Show("Số lượng sản phẩm qúa lớn!", "Thông báo lỗi", MessageBoxButtons.OK);
+                MessageBox.Show("Số lượng sản phẩm vượt quá số sản phẩm trong kho!", "Thông báo lỗi", MessageBoxButtons.OK);
                 return;
             }
 

@@ -104,7 +104,7 @@
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Location = new System.Drawing.Point(17, 18);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(168, 17);
+            this.labelControl3.Size = new System.Drawing.Size(167, 17);
             this.labelControl3.TabIndex = 4;
             this.labelControl3.Text = "Tên chương trình khuyến mãi";
             // 
@@ -147,7 +147,6 @@
             this.txtGhiChu.Properties.MaxLength = 200;
             this.txtGhiChu.Size = new System.Drawing.Size(417, 29);
             this.txtGhiChu.TabIndex = 4;
-            this.txtGhiChu.UseOptimizedRendering = true;
             // 
             // labelControl2
             // 
@@ -279,7 +278,6 @@
             this.menoETenChuongTrinhKhuyenMai.Properties.MaxLength = 200;
             this.menoETenChuongTrinhKhuyenMai.Size = new System.Drawing.Size(417, 29);
             this.menoETenChuongTrinhKhuyenMai.TabIndex = 1;
-            this.menoETenChuongTrinhKhuyenMai.UseOptimizedRendering = true;
             // 
             // sbThem
             // 
@@ -461,7 +459,7 @@
             this.sbXoa.Name = "sbXoa";
             this.sbXoa.Size = new System.Drawing.Size(114, 23);
             this.sbXoa.TabIndex = 20;
-            this.sbXoa.Text = "Xóa >>";
+            this.sbXoa.Text = "<< Xóa";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
             // 
             // txtSoLuong

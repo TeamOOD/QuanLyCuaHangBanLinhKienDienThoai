@@ -227,12 +227,14 @@
             // xrLabel2
             // 
             this.xrLabel2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(5.624978F, 10.00001F);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(159.5833F, 12.74997F);
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel2.SizeF = new System.Drawing.SizeF(437.2917F, 34.45834F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(356.2501F, 34.45834F);
             this.xrLabel2.StylePriority.UseFont = false;
+            this.xrLabel2.StylePriority.UseTextAlignment = false;
             this.xrLabel2.Text = "Cửa hàng linh kiện và điện thoại XYZ";
+            this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // xrLabel1
             // 

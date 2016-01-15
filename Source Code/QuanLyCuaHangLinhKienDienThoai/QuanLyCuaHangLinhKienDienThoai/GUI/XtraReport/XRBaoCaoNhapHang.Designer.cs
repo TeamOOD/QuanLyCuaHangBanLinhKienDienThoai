@@ -114,7 +114,7 @@
             this.xrTableCell5.StylePriority.UseBorders = false;
             this.xrTableCell5.StylePriority.UseFont = false;
             this.xrTableCell5.StylePriority.UseTextAlignment = false;
-            this.xrTableCell5.Text = "Danh Sách Các Mặt Hàng Tồn Kho";
+            this.xrTableCell5.Text = "Danh Sách Các Mặt Hàng Đã Nhập";
             this.xrTableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell5.Weight = 3.6113645590484D;
             // 
@@ -234,23 +234,25 @@
             // xrLabel2
             // 
             this.xrLabel2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(213.1667F, 0F);
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel2.SizeF = new System.Drawing.SizeF(437.2917F, 34.45834F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(348.75F, 34.45834F);
             this.xrLabel2.StylePriority.UseFont = false;
+            this.xrLabel2.StylePriority.UseTextAlignment = false;
             this.xrLabel2.Text = "Cửa hàng linh kiện và điện thoại XYZ";
+            this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // xrLabel1
             // 
             this.xrLabel1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(185.8333F, 37.20831F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(257F, 34.45834F);
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel1.SizeF = new System.Drawing.SizeF(260.4167F, 42.79167F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(304.9168F, 42.79166F);
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.StylePriority.UseTextAlignment = false;
-            this.xrLabel1.Text = "Báo Cáo Tồn Kho";
+            this.xrLabel1.Text = "Báo Cáo Nhập Hàng";
             this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // BottomMargin
