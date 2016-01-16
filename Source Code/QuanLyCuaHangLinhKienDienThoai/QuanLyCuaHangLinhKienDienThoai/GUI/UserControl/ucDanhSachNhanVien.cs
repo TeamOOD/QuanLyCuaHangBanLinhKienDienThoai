@@ -111,5 +111,15 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 StaticVariables.gNhanVien.ChucVuNhanVien.TenChucVu = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Tên chức vụ").ToString();
             }
         }
+
+        private void labelControl6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lueChucVu_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

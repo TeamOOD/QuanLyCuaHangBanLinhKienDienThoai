@@ -255,7 +255,7 @@
             this.sbCapNhatHoaDon.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbCapNhatHoaDon.Appearance.Options.UseFont = true;
             this.sbCapNhatHoaDon.Enabled = false;
-            this.sbCapNhatHoaDon.Location = new System.Drawing.Point(555, 47);
+            this.sbCapNhatHoaDon.Location = new System.Drawing.Point(545, 42);
             this.sbCapNhatHoaDon.Name = "sbCapNhatHoaDon";
             this.sbCapNhatHoaDon.Size = new System.Drawing.Size(150, 23);
             this.sbCapNhatHoaDon.TabIndex = 12;
@@ -279,7 +279,7 @@
             // 
             this.sbInHoaDon.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbInHoaDon.Appearance.Options.UseFont = true;
-            this.sbInHoaDon.Location = new System.Drawing.Point(555, 74);
+            this.sbInHoaDon.Location = new System.Drawing.Point(545, 69);
             this.sbInHoaDon.Name = "sbInHoaDon";
             this.sbInHoaDon.Size = new System.Drawing.Size(148, 23);
             this.sbInHoaDon.TabIndex = 13;
@@ -341,9 +341,9 @@
             // 
             this.sbLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLamMoi.Appearance.Options.UseFont = true;
-            this.sbLamMoi.Location = new System.Drawing.Point(264, 263);
+            this.sbLamMoi.Location = new System.Drawing.Point(264, 264);
             this.sbLamMoi.Name = "sbLamMoi";
-            this.sbLamMoi.Size = new System.Drawing.Size(114, 23);
+            this.sbLamMoi.Size = new System.Drawing.Size(114, 43);
             this.sbLamMoi.TabIndex = 9;
             this.sbLamMoi.Text = "Làm Mới";
             this.sbLamMoi.Click += new System.EventHandler(this.sbLamMoi_Click);
@@ -352,9 +352,9 @@
             // 
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(262, 162);
+            this.sbXoa.Location = new System.Drawing.Point(262, 182);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(114, 23);
+            this.sbXoa.Size = new System.Drawing.Size(114, 43);
             this.sbXoa.TabIndex = 8;
             this.sbXoa.Text = "<< Xóa";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
@@ -469,7 +469,7 @@
             this.sbThem.Appearance.Options.UseFont = true;
             this.sbThem.Location = new System.Drawing.Point(262, 133);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(114, 23);
+            this.sbThem.Size = new System.Drawing.Size(114, 43);
             this.sbThem.TabIndex = 7;
             this.sbThem.Text = "Thêm >>";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);
@@ -494,7 +494,7 @@
             // 
             this.sbThemHoaDon.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThemHoaDon.Appearance.Options.UseFont = true;
-            this.sbThemHoaDon.Location = new System.Drawing.Point(555, 19);
+            this.sbThemHoaDon.Location = new System.Drawing.Point(545, 14);
             this.sbThemHoaDon.Name = "sbThemHoaDon";
             this.sbThemHoaDon.Size = new System.Drawing.Size(151, 23);
             this.sbThemHoaDon.TabIndex = 11;

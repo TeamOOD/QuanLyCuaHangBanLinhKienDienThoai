@@ -79,10 +79,10 @@
             this.gcKetQua.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcKetQua.Location = new System.Drawing.Point(5, 226);
+            this.gcKetQua.Location = new System.Drawing.Point(5, 217);
             this.gcKetQua.MainView = this.gridView1;
             this.gcKetQua.Name = "gcKetQua";
-            this.gcKetQua.Size = new System.Drawing.Size(1121, 351);
+            this.gcKetQua.Size = new System.Drawing.Size(1121, 360);
             this.gcKetQua.TabIndex = 11;
             this.gcKetQua.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -124,7 +124,6 @@
             this.teTenChuongTrinhKhuyenMai.Properties.MaxLength = 200;
             this.teTenChuongTrinhKhuyenMai.Size = new System.Drawing.Size(417, 29);
             this.teTenChuongTrinhKhuyenMai.TabIndex = 2;
-            this.teTenChuongTrinhKhuyenMai.UseOptimizedRendering = true;
             // 
             // dateKetThuc
             // 
@@ -173,7 +172,7 @@
             this.teMaKhuyenMai.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teMaKhuyenMai.Properties.Appearance.Options.UseFont = true;
             this.teMaKhuyenMai.Properties.MaxLength = 15;
-            this.teMaKhuyenMai.Size = new System.Drawing.Size(197, 24);
+            this.teMaKhuyenMai.Size = new System.Drawing.Size(280, 24);
             this.teMaKhuyenMai.TabIndex = 1;
             // 
             // labelControl3
@@ -190,7 +189,7 @@
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl2.Location = new System.Drawing.Point(12, 56);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(168, 17);
+            this.labelControl2.Size = new System.Drawing.Size(167, 17);
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "Tên chương trình khuyến mãi";
             // 
@@ -210,11 +209,12 @@
             this.groupBox2.Controls.Add(this.sbCapNhatCTKHuyenMai);
             this.groupBox2.Controls.Add(this.sbThemCTKhuyenMai);
             this.groupBox2.Controls.Add(this.sbTimKiemHoaDon);
-            this.groupBox2.Location = new System.Drawing.Point(661, 81);
+            this.groupBox2.Location = new System.Drawing.Point(661, 56);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(454, 73);
+            this.groupBox2.Size = new System.Drawing.Size(454, 98);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // sbXoaCTKhuyenMai
             // 
@@ -222,7 +222,7 @@
             this.sbXoaCTKhuyenMai.Appearance.Options.UseFont = true;
             this.sbXoaCTKhuyenMai.Location = new System.Drawing.Point(337, 27);
             this.sbXoaCTKhuyenMai.Name = "sbXoaCTKhuyenMai";
-            this.sbXoaCTKhuyenMai.Size = new System.Drawing.Size(105, 23);
+            this.sbXoaCTKhuyenMai.Size = new System.Drawing.Size(105, 45);
             this.sbXoaCTKhuyenMai.TabIndex = 8;
             this.sbXoaCTKhuyenMai.Text = "Xóa";
             this.sbXoaCTKhuyenMai.Click += new System.EventHandler(this.sbXoaCTKhuyenMai_Click);
@@ -233,7 +233,7 @@
             this.sbCapNhatCTKHuyenMai.Appearance.Options.UseFont = true;
             this.sbCapNhatCTKHuyenMai.Location = new System.Drawing.Point(227, 27);
             this.sbCapNhatCTKHuyenMai.Name = "sbCapNhatCTKHuyenMai";
-            this.sbCapNhatCTKHuyenMai.Size = new System.Drawing.Size(104, 23);
+            this.sbCapNhatCTKHuyenMai.Size = new System.Drawing.Size(104, 45);
             this.sbCapNhatCTKHuyenMai.TabIndex = 7;
             this.sbCapNhatCTKHuyenMai.Text = "Cập nhật";
             this.sbCapNhatCTKHuyenMai.Click += new System.EventHandler(this.sbCapNhatCTKHuyenMai_Click);
@@ -244,7 +244,7 @@
             this.sbThemCTKhuyenMai.Appearance.Options.UseFont = true;
             this.sbThemCTKhuyenMai.Location = new System.Drawing.Point(116, 26);
             this.sbThemCTKhuyenMai.Name = "sbThemCTKhuyenMai";
-            this.sbThemCTKhuyenMai.Size = new System.Drawing.Size(105, 23);
+            this.sbThemCTKhuyenMai.Size = new System.Drawing.Size(105, 45);
             this.sbThemCTKhuyenMai.TabIndex = 6;
             this.sbThemCTKhuyenMai.Text = "Thêm";
             this.sbThemCTKhuyenMai.Click += new System.EventHandler(this.sbThemCTKhuyenMai_Click);
@@ -255,7 +255,7 @@
             this.sbTimKiemHoaDon.Appearance.Options.UseFont = true;
             this.sbTimKiemHoaDon.Location = new System.Drawing.Point(6, 26);
             this.sbTimKiemHoaDon.Name = "sbTimKiemHoaDon";
-            this.sbTimKiemHoaDon.Size = new System.Drawing.Size(104, 23);
+            this.sbTimKiemHoaDon.Size = new System.Drawing.Size(104, 45);
             this.sbTimKiemHoaDon.TabIndex = 5;
             this.sbTimKiemHoaDon.Text = "Tìm kiếm";
             this.sbTimKiemHoaDon.Click += new System.EventHandler(this.sbTimKiemHoaDon_Click);

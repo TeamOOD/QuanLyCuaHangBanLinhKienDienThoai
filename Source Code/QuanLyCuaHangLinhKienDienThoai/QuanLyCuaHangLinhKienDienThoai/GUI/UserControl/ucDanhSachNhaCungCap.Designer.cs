@@ -194,7 +194,7 @@
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl2.Location = new System.Drawing.Point(6, 48);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(106, 17);
+            this.labelControl2.Size = new System.Drawing.Size(105, 17);
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "Tên nhà cung cấp:";
             // 
@@ -219,14 +219,15 @@
             this.groupBox2.Size = new System.Drawing.Size(338, 96);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // sbXoa
             // 
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(249, 42);
+            this.sbXoa.Location = new System.Drawing.Point(249, 30);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(75, 23);
+            this.sbXoa.Size = new System.Drawing.Size(75, 48);
             this.sbXoa.TabIndex = 3;
             this.sbXoa.Text = "Xóa";
             // 
@@ -234,9 +235,9 @@
             // 
             this.sbCapNhat.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbCapNhat.Appearance.Options.UseFont = true;
-            this.sbCapNhat.Location = new System.Drawing.Point(168, 42);
+            this.sbCapNhat.Location = new System.Drawing.Point(168, 30);
             this.sbCapNhat.Name = "sbCapNhat";
-            this.sbCapNhat.Size = new System.Drawing.Size(75, 23);
+            this.sbCapNhat.Size = new System.Drawing.Size(75, 48);
             this.sbCapNhat.TabIndex = 2;
             this.sbCapNhat.Text = "Cập Nhật";
             // 
@@ -244,9 +245,9 @@
             // 
             this.sbThem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThem.Appearance.Options.UseFont = true;
-            this.sbThem.Location = new System.Drawing.Point(87, 42);
+            this.sbThem.Location = new System.Drawing.Point(87, 30);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(75, 23);
+            this.sbThem.Size = new System.Drawing.Size(75, 48);
             this.sbThem.TabIndex = 1;
             this.sbThem.Text = "Thêm";
             // 
@@ -254,9 +255,9 @@
             // 
             this.sbTimKiem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbTimKiem.Appearance.Options.UseFont = true;
-            this.sbTimKiem.Location = new System.Drawing.Point(6, 42);
+            this.sbTimKiem.Location = new System.Drawing.Point(6, 30);
             this.sbTimKiem.Name = "sbTimKiem";
-            this.sbTimKiem.Size = new System.Drawing.Size(75, 23);
+            this.sbTimKiem.Size = new System.Drawing.Size(75, 48);
             this.sbTimKiem.TabIndex = 0;
             this.sbTimKiem.Text = "Tìm Kiếm";
             // 

@@ -111,7 +111,7 @@
             this.teTenSanPham.Name = "teTenSanPham";
             this.teTenSanPham.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teTenSanPham.Properties.Appearance.Options.UseFont = true;
-            this.teTenSanPham.Size = new System.Drawing.Size(376, 24);
+            this.teTenSanPham.Size = new System.Drawing.Size(336, 24);
             this.teTenSanPham.TabIndex = 1;
             this.teTenSanPham.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.teTenSanPham_KeyPress);
             // 
@@ -120,7 +120,7 @@
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.labelControl4.Location = new System.Drawing.Point(6, 9);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(82, 17);
+            this.labelControl4.Size = new System.Drawing.Size(81, 17);
             this.labelControl4.TabIndex = 36;
             this.labelControl4.Text = "Tên Sản Phẩm";
             // 
@@ -173,12 +173,13 @@
             this.tcKetQua.AppearanceText.Options.UseImage = true;
             this.tcKetQua.AppearanceText.Options.UseTextOptions = true;
             this.tcKetQua.AppearanceText.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.tcKetQua.DragSize = new System.Drawing.Size(0, 0);
             this.tcKetQua.Groups.Add(this.tileGroup1);
-            this.tcKetQua.Location = new System.Drawing.Point(5, 21);
+            this.tcKetQua.Location = new System.Drawing.Point(5, 37);
             this.tcKetQua.MaxId = 8;
             this.tcKetQua.Name = "tcKetQua";
             this.tcKetQua.ScrollMode = DevExpress.XtraEditors.TileControlScrollMode.ScrollBar;
-            this.tcKetQua.Size = new System.Drawing.Size(991, 577);
+            this.tcKetQua.Size = new System.Drawing.Size(991, 561);
             this.tcKetQua.TabIndex = 5;
             this.tcKetQua.Text = "Kết Quả Tìm Kiếm";
             // 

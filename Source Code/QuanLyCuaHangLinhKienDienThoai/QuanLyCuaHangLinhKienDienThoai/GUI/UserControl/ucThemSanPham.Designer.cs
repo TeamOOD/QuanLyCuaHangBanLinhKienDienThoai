@@ -186,14 +186,15 @@
             this.groupBox3.Size = new System.Drawing.Size(286, 58);
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Chức năng";
             // 
             // sbLamMoi
             // 
             this.sbLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLamMoi.Appearance.Options.UseFont = true;
-            this.sbLamMoi.Location = new System.Drawing.Point(155, 27);
+            this.sbLamMoi.Location = new System.Drawing.Point(155, 24);
             this.sbLamMoi.Name = "sbLamMoi";
-            this.sbLamMoi.Size = new System.Drawing.Size(104, 23);
+            this.sbLamMoi.Size = new System.Drawing.Size(121, 26);
             this.sbLamMoi.TabIndex = 0;
             this.sbLamMoi.Text = "Làm mới";
             this.sbLamMoi.Click += new System.EventHandler(this.sbLamMoi_Click);
@@ -202,9 +203,9 @@
             // 
             this.sbThemSP.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThemSP.Appearance.Options.UseFont = true;
-            this.sbThemSP.Location = new System.Drawing.Point(21, 27);
+            this.sbThemSP.Location = new System.Drawing.Point(21, 24);
             this.sbThemSP.Name = "sbThemSP";
-            this.sbThemSP.Size = new System.Drawing.Size(104, 23);
+            this.sbThemSP.Size = new System.Drawing.Size(121, 26);
             this.sbThemSP.TabIndex = 0;
             this.sbThemSP.Text = "Lưu";
             this.sbThemSP.Click += new System.EventHandler(this.sbThemSP_Click);

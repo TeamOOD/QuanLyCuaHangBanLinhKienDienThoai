@@ -45,7 +45,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             gh.TenKhuVuc = this.teTenKhuVuc.Text;
             gh.Dongia = this.teDonGia.Text == null ? 0 : Convert.ToDecimal(this.teDonGia.Text);
 
-            if (gh.TenKhuVuc == null && gh.TenKhuVuc.Equals(""))
+            if (teTenKhuVuc == null || teTenKhuVuc.Text.Equals(""))
             {
                 MessageBox.Show("Tên Khu Vực không được để trống", "Thông báo lỗi", MessageBoxButtons.OK);
                 return;

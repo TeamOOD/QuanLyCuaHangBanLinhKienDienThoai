@@ -102,9 +102,9 @@
             this.sbInHoaDon.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.sbInHoaDon.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbInHoaDon.Appearance.Options.UseFont = true;
-            this.sbInHoaDon.Location = new System.Drawing.Point(415, 41);
+            this.sbInHoaDon.Location = new System.Drawing.Point(458, 16);
             this.sbInHoaDon.Name = "sbInHoaDon";
-            this.sbInHoaDon.Size = new System.Drawing.Size(183, 23);
+            this.sbInHoaDon.Size = new System.Drawing.Size(140, 37);
             this.sbInHoaDon.TabIndex = 8;
             this.sbInHoaDon.Text = "In Hóa Đơn";
             this.sbInHoaDon.Click += new System.EventHandler(this.sbIn_Click);
@@ -115,9 +115,9 @@
             this.sbThemHoaDon.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThemHoaDon.Appearance.Options.UseFont = true;
             this.sbThemHoaDon.Enabled = false;
-            this.sbThemHoaDon.Location = new System.Drawing.Point(415, 16);
+            this.sbThemHoaDon.Location = new System.Drawing.Point(321, 16);
             this.sbThemHoaDon.Name = "sbThemHoaDon";
-            this.sbThemHoaDon.Size = new System.Drawing.Size(183, 23);
+            this.sbThemHoaDon.Size = new System.Drawing.Size(131, 37);
             this.sbThemHoaDon.TabIndex = 7;
             this.sbThemHoaDon.Text = "Thêm Hóa Đơn";
             this.sbThemHoaDon.Click += new System.EventHandler(this.sbLuu_Click);
@@ -136,9 +136,9 @@
             this.groupBox2.Controls.Add(this.teSoLuong);
             this.groupBox2.Controls.Add(this.sbThem);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(0, 61);
+            this.groupBox2.Location = new System.Drawing.Point(0, 59);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(602, 474);
+            this.groupBox2.Size = new System.Drawing.Size(602, 476);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi Tiết Hóa Đơn";
@@ -148,7 +148,7 @@
             this.lcTongTien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lcTongTien.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lcTongTien.Location = new System.Drawing.Point(401, 451);
+            this.lcTongTien.Location = new System.Drawing.Point(401, 453);
             this.lcTongTien.Name = "lcTongTien";
             this.lcTongTien.Size = new System.Drawing.Size(103, 17);
             this.lcTongTien.TabIndex = 22;
@@ -159,9 +159,9 @@
             this.sbLamMoi.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLamMoi.Appearance.Options.UseFont = true;
-            this.sbLamMoi.Location = new System.Drawing.Point(297, 351);
+            this.sbLamMoi.Location = new System.Drawing.Point(297, 338);
             this.sbLamMoi.Name = "sbLamMoi";
-            this.sbLamMoi.Size = new System.Drawing.Size(100, 23);
+            this.sbLamMoi.Size = new System.Drawing.Size(100, 33);
             this.sbLamMoi.TabIndex = 15;
             this.sbLamMoi.Text = "Làm Mới";
             this.sbLamMoi.Click += new System.EventHandler(this.sbLamMoi_Click);
@@ -171,9 +171,9 @@
             this.sbXoa.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(297, 223);
+            this.sbXoa.Location = new System.Drawing.Point(297, 224);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(100, 23);
+            this.sbXoa.Size = new System.Drawing.Size(100, 33);
             this.sbXoa.TabIndex = 14;
             this.sbXoa.Text = "Xóa >>";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
@@ -186,7 +186,7 @@
             this.groupBox4.Controls.Add(this.gcSanPhamTrongHoaDon);
             this.groupBox4.Location = new System.Drawing.Point(400, 21);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(196, 423);
+            this.groupBox4.Size = new System.Drawing.Size(196, 425);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Mặt Hàng Trong Hóa Đơn";
@@ -199,7 +199,7 @@
             this.gcSanPhamTrongHoaDon.Location = new System.Drawing.Point(6, 19);
             this.gcSanPhamTrongHoaDon.MainView = this.gvSanPhamTrongHoaDon;
             this.gcSanPhamTrongHoaDon.Name = "gcSanPhamTrongHoaDon";
-            this.gcSanPhamTrongHoaDon.Size = new System.Drawing.Size(184, 398);
+            this.gcSanPhamTrongHoaDon.Size = new System.Drawing.Size(184, 400);
             this.gcSanPhamTrongHoaDon.TabIndex = 17;
             this.gcSanPhamTrongHoaDon.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvSanPhamTrongHoaDon});
@@ -219,7 +219,7 @@
             this.groupBox3.Controls.Add(this.gcSanPhamDatHang);
             this.groupBox3.Location = new System.Drawing.Point(3, 21);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(289, 450);
+            this.groupBox3.Size = new System.Drawing.Size(289, 452);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Mặt Hàng Đặt Hàng";
@@ -232,7 +232,7 @@
             this.gcSanPhamDatHang.Location = new System.Drawing.Point(6, 19);
             this.gcSanPhamDatHang.MainView = this.gvSanPhamDatHang;
             this.gcSanPhamDatHang.Name = "gcSanPhamDatHang";
-            this.gcSanPhamDatHang.Size = new System.Drawing.Size(277, 425);
+            this.gcSanPhamDatHang.Size = new System.Drawing.Size(277, 427);
             this.gcSanPhamDatHang.TabIndex = 11;
             this.gcSanPhamDatHang.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvSanPhamDatHang});
@@ -249,7 +249,7 @@
             // 
             this.labelControl4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl4.Location = new System.Drawing.Point(298, 167);
+            this.labelControl4.Location = new System.Drawing.Point(298, 145);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(53, 17);
             this.labelControl4.TabIndex = 10;
@@ -259,7 +259,7 @@
             // 
             this.teSoLuong.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.teSoLuong.EditValue = "1";
-            this.teSoLuong.Location = new System.Drawing.Point(357, 164);
+            this.teSoLuong.Location = new System.Drawing.Point(357, 142);
             this.teSoLuong.Name = "teSoLuong";
             this.teSoLuong.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teSoLuong.Properties.Appearance.Options.UseFont = true;
@@ -276,9 +276,9 @@
             this.sbThem.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbThem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThem.Appearance.Options.UseFont = true;
-            this.sbThem.Location = new System.Drawing.Point(297, 194);
+            this.sbThem.Location = new System.Drawing.Point(297, 185);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(100, 23);
+            this.sbThem.Size = new System.Drawing.Size(100, 33);
             this.sbThem.TabIndex = 13;
             this.sbThem.Text = "Thêm >>";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);
@@ -286,7 +286,7 @@
             // deNgayThanhToan
             // 
             this.deNgayThanhToan.EditValue = null;
-            this.deNgayThanhToan.Location = new System.Drawing.Point(137, 18);
+            this.deNgayThanhToan.Location = new System.Drawing.Point(137, 22);
             this.deNgayThanhToan.Name = "deNgayThanhToan";
             this.deNgayThanhToan.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deNgayThanhToan.Properties.Appearance.Options.UseFont = true;
@@ -296,13 +296,13 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.deNgayThanhToan.Properties.ReadOnly = true;
             this.deNgayThanhToan.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.deNgayThanhToan.Size = new System.Drawing.Size(180, 24);
+            this.deNgayThanhToan.Size = new System.Drawing.Size(155, 24);
             this.deNgayThanhToan.TabIndex = 6;
             // 
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl1.Location = new System.Drawing.Point(6, 22);
+            this.labelControl1.Location = new System.Drawing.Point(6, 26);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(97, 17);
             this.labelControl1.TabIndex = 2;
@@ -343,7 +343,7 @@
             // labelControl7
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl7.Location = new System.Drawing.Point(273, 46);
+            this.labelControl7.Location = new System.Drawing.Point(378, 44);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(22, 17);
             this.labelControl7.TabIndex = 26;
@@ -352,7 +352,7 @@
             // labelControl6
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl6.Location = new System.Drawing.Point(160, 19);
+            this.labelControl6.Location = new System.Drawing.Point(177, 19);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(87, 17);
             this.labelControl6.TabIndex = 23;
@@ -383,7 +383,7 @@
             // deNgayDatHangDen
             // 
             this.deNgayDatHangDen.EditValue = null;
-            this.deNgayDatHangDen.Location = new System.Drawing.Point(299, 41);
+            this.deNgayDatHangDen.Location = new System.Drawing.Point(409, 41);
             this.deNgayDatHangDen.Name = "deNgayDatHangDen";
             this.deNgayDatHangDen.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deNgayDatHangDen.Properties.Appearance.Options.UseFont = true;
@@ -392,14 +392,14 @@
             this.deNgayDatHangDen.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.deNgayDatHangDen.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.deNgayDatHangDen.Size = new System.Drawing.Size(106, 24);
+            this.deNgayDatHangDen.Size = new System.Drawing.Size(169, 24);
             this.deNgayDatHangDen.TabIndex = 3;
             this.deNgayDatHangDen.TextChanged += new System.EventHandler(this.deNgayDatHangTo_TextChanged);
             // 
             // deNgayDatHangTu
             // 
             this.deNgayDatHangTu.EditValue = null;
-            this.deNgayDatHangTu.Location = new System.Drawing.Point(160, 41);
+            this.deNgayDatHangTu.Location = new System.Drawing.Point(178, 41);
             this.deNgayDatHangTu.Name = "deNgayDatHangTu";
             this.deNgayDatHangTu.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deNgayDatHangTu.Properties.Appearance.Options.UseFont = true;
@@ -408,7 +408,7 @@
             this.deNgayDatHangTu.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.deNgayDatHangTu.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.deNgayDatHangTu.Size = new System.Drawing.Size(111, 24);
+            this.deNgayDatHangTu.Size = new System.Drawing.Size(187, 24);
             this.deNgayDatHangTu.TabIndex = 2;
             this.deNgayDatHangTu.TextChanged += new System.EventHandler(this.deNgayDatHangFrom_TextChanged);
             // 

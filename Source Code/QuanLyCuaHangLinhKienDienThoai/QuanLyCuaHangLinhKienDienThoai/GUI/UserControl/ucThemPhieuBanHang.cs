@@ -18,7 +18,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 {
     public partial class ucThemPhieuBanHang : DevExpress.XtraEditors.XtraUserControl
     {
-        private HoaDonBanBUS hoaDonBanBUS;
+        private HoaDonBanBUS hoaDonBanBLT;
         private String maHD = "";
 
         //thông tin sản phẩm.
@@ -33,7 +33,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         public ucThemPhieuBanHang()
         {
             InitializeComponent();
-            this.hoaDonBanBUS = new HoaDonBanBUS();
+            this.hoaDonBanBLT = new HoaDonBanBUS();
 
             this.rdbDsSanPham.Checked = true;
             ////Lấy ds khách hàng
@@ -266,7 +266,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
             if (sluong < this.soLuong)
             {
-                MessageBox.Show("Số lượng sản phẩm vượt quá số sản phẩm trong kho!", "Thông báo lỗi", MessageBoxButtons.OK);
+                MessageBox.Show("Số lượng sản phẩm qúa lớn!", "Thông báo lỗi", MessageBoxButtons.OK);
                 return;
             }
 

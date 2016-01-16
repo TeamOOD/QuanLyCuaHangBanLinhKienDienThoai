@@ -102,10 +102,10 @@
             this.GridMatHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.GridMatHang.Location = new System.Drawing.Point(7, 292);
+            this.GridMatHang.Location = new System.Drawing.Point(7, 235);
             this.GridMatHang.MainView = this.gridView1;
             this.GridMatHang.Name = "GridMatHang";
-            this.GridMatHang.Size = new System.Drawing.Size(961, 265);
+            this.GridMatHang.Size = new System.Drawing.Size(961, 322);
             this.GridMatHang.TabIndex = 2;
             this.GridMatHang.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -162,13 +162,13 @@
             this.groupBox2.Controls.Add(this.teMaSanPham);
             this.groupBox2.Location = new System.Drawing.Point(6, 24);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(951, 212);
+            this.groupBox2.Size = new System.Drawing.Size(951, 164);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
             // lueMauSac
             // 
-            this.lueMauSac.Location = new System.Drawing.Point(385, 120);
+            this.lueMauSac.Location = new System.Drawing.Point(385, 94);
             this.lueMauSac.Name = "lueMauSac";
             this.lueMauSac.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.lueMauSac.Properties.Appearance.Options.UseFont = true;
@@ -190,7 +190,7 @@
             // 
             // lueLoaiSanPham
             // 
-            this.lueLoaiSanPham.Location = new System.Drawing.Point(385, 72);
+            this.lueLoaiSanPham.Location = new System.Drawing.Point(385, 61);
             this.lueLoaiSanPham.Name = "lueLoaiSanPham";
             this.lueLoaiSanPham.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.lueLoaiSanPham.Properties.Appearance.Options.UseFont = true;
@@ -212,7 +212,7 @@
             // 
             // teBoNho
             // 
-            this.teBoNho.Location = new System.Drawing.Point(620, 166);
+            this.teBoNho.Location = new System.Drawing.Point(620, 127);
             this.teBoNho.Name = "teBoNho";
             this.teBoNho.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teBoNho.Properties.Appearance.Options.UseFont = true;
@@ -221,7 +221,7 @@
             // 
             // teRAM
             // 
-            this.teRAM.Location = new System.Drawing.Point(620, 120);
+            this.teRAM.Location = new System.Drawing.Point(620, 94);
             this.teRAM.Name = "teRAM";
             this.teRAM.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teRAM.Properties.Appearance.Options.UseFont = true;
@@ -230,7 +230,7 @@
             // 
             // tePIN
             // 
-            this.tePIN.Location = new System.Drawing.Point(385, 166);
+            this.tePIN.Location = new System.Drawing.Point(385, 127);
             this.tePIN.Name = "tePIN";
             this.tePIN.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.tePIN.Properties.Appearance.Options.UseFont = true;
@@ -239,7 +239,7 @@
             // 
             // teHeDieuHanh
             // 
-            this.teHeDieuHanh.Location = new System.Drawing.Point(117, 166);
+            this.teHeDieuHanh.Location = new System.Drawing.Point(117, 127);
             this.teHeDieuHanh.Name = "teHeDieuHanh";
             this.teHeDieuHanh.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teHeDieuHanh.Properties.Appearance.Options.UseFont = true;
@@ -248,7 +248,7 @@
             // 
             // teKichThuoc
             // 
-            this.teKichThuoc.Location = new System.Drawing.Point(117, 120);
+            this.teKichThuoc.Location = new System.Drawing.Point(117, 94);
             this.teKichThuoc.Name = "teKichThuoc";
             this.teKichThuoc.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teKichThuoc.Properties.Appearance.Options.UseFont = true;
@@ -257,7 +257,7 @@
             // 
             // teSoSim
             // 
-            this.teSoSim.Location = new System.Drawing.Point(620, 71);
+            this.teSoSim.Location = new System.Drawing.Point(620, 60);
             this.teSoSim.Name = "teSoSim";
             this.teSoSim.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teSoSim.Properties.Appearance.Options.UseFont = true;
@@ -267,7 +267,7 @@
             // labelControl12
             // 
             this.labelControl12.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl12.Location = new System.Drawing.Point(547, 74);
+            this.labelControl12.Location = new System.Drawing.Point(547, 63);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(39, 17);
             this.labelControl12.TabIndex = 25;
@@ -285,7 +285,7 @@
             // labelControl10
             // 
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl10.Location = new System.Drawing.Point(547, 169);
+            this.labelControl10.Location = new System.Drawing.Point(547, 130);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(41, 17);
             this.labelControl10.TabIndex = 22;
@@ -294,7 +294,7 @@
             // labelControl9
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl9.Location = new System.Drawing.Point(278, 169);
+            this.labelControl9.Location = new System.Drawing.Point(278, 130);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(93, 17);
             this.labelControl9.TabIndex = 21;
@@ -303,7 +303,7 @@
             // labelControl8
             // 
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl8.Location = new System.Drawing.Point(278, 123);
+            this.labelControl8.Location = new System.Drawing.Point(278, 97);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(49, 17);
             this.labelControl8.TabIndex = 20;
@@ -312,7 +312,7 @@
             // labelControl7
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl7.Location = new System.Drawing.Point(547, 123);
+            this.labelControl7.Location = new System.Drawing.Point(547, 97);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(28, 17);
             this.labelControl7.TabIndex = 19;
@@ -321,7 +321,7 @@
             // labelControl6
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl6.Location = new System.Drawing.Point(18, 169);
+            this.labelControl6.Location = new System.Drawing.Point(18, 130);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(77, 17);
             this.labelControl6.TabIndex = 18;
@@ -330,7 +330,7 @@
             // labelControl5
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl5.Location = new System.Drawing.Point(18, 123);
+            this.labelControl5.Location = new System.Drawing.Point(18, 97);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(61, 17);
             this.labelControl5.TabIndex = 17;
@@ -341,19 +341,20 @@
             this.groupBox4.Controls.Add(this.sbChinhSua);
             this.groupBox4.Controls.Add(this.sbThem);
             this.groupBox4.Controls.Add(this.sbTimKiem);
-            this.groupBox4.Location = new System.Drawing.Point(812, 18);
+            this.groupBox4.Location = new System.Drawing.Point(812, 12);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(114, 184);
+            this.groupBox4.Size = new System.Drawing.Size(114, 139);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Chức năng";
             // 
             // sbChinhSua
             // 
             this.sbChinhSua.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbChinhSua.Appearance.Options.UseFont = true;
-            this.sbChinhSua.Location = new System.Drawing.Point(6, 84);
+            this.sbChinhSua.Location = new System.Drawing.Point(6, 66);
             this.sbChinhSua.Name = "sbChinhSua";
-            this.sbChinhSua.Size = new System.Drawing.Size(104, 23);
+            this.sbChinhSua.Size = new System.Drawing.Size(104, 32);
             this.sbChinhSua.TabIndex = 21;
             this.sbChinhSua.Text = "Chỉnh Sửa";
             this.sbChinhSua.Click += new System.EventHandler(this.sbChinhSua_Click);
@@ -362,9 +363,9 @@
             // 
             this.sbThem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThem.Appearance.Options.UseFont = true;
-            this.sbThem.Location = new System.Drawing.Point(6, 144);
+            this.sbThem.Location = new System.Drawing.Point(6, 104);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(104, 23);
+            this.sbThem.Size = new System.Drawing.Size(104, 30);
             this.sbThem.TabIndex = 22;
             this.sbThem.Text = "Thêm";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);
@@ -376,14 +377,14 @@
             this.sbTimKiem.Appearance.Options.UseFont = true;
             this.sbTimKiem.Location = new System.Drawing.Point(6, 24);
             this.sbTimKiem.Name = "sbTimKiem";
-            this.sbTimKiem.Size = new System.Drawing.Size(104, 23);
+            this.sbTimKiem.Size = new System.Drawing.Size(104, 36);
             this.sbTimKiem.TabIndex = 20;
             this.sbTimKiem.Text = "Tìm kiếm";
             this.sbTimKiem.Click += new System.EventHandler(this.sbTimKiem_Click);
             // 
             // teTenSanPham
             // 
-            this.teTenSanPham.Location = new System.Drawing.Point(117, 71);
+            this.teTenSanPham.Location = new System.Drawing.Point(117, 60);
             this.teTenSanPham.Name = "teTenSanPham";
             this.teTenSanPham.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teTenSanPham.Properties.Appearance.Options.UseFont = true;
@@ -393,9 +394,9 @@
             // labelControl4
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl4.Location = new System.Drawing.Point(18, 75);
+            this.labelControl4.Location = new System.Drawing.Point(18, 64);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(82, 17);
+            this.labelControl4.Size = new System.Drawing.Size(81, 17);
             this.labelControl4.TabIndex = 14;
             this.labelControl4.Text = "Tên Sản Phẩm";
             // 
@@ -411,7 +412,7 @@
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl2.Location = new System.Drawing.Point(278, 74);
+            this.labelControl2.Location = new System.Drawing.Point(278, 63);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(85, 17);
             this.labelControl2.TabIndex = 8;

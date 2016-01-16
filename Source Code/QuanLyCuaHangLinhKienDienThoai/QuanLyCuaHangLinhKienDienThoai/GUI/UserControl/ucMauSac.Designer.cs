@@ -55,9 +55,9 @@
             // 
             this.sbXoaMauSac.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoaMauSac.Appearance.Options.UseFont = true;
-            this.sbXoaMauSac.Location = new System.Drawing.Point(251, 33);
+            this.sbXoaMauSac.Location = new System.Drawing.Point(305, 24);
             this.sbXoaMauSac.Name = "sbXoaMauSac";
-            this.sbXoaMauSac.Size = new System.Drawing.Size(75, 23);
+            this.sbXoaMauSac.Size = new System.Drawing.Size(82, 37);
             this.sbXoaMauSac.TabIndex = 7;
             this.sbXoaMauSac.Text = "Xóa";
             this.sbXoaMauSac.Click += new System.EventHandler(this.sbXoaMauSac_Click);
@@ -66,9 +66,9 @@
             // 
             this.sbCapNhatMauSac.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbCapNhatMauSac.Appearance.Options.UseFont = true;
-            this.sbCapNhatMauSac.Location = new System.Drawing.Point(170, 33);
+            this.sbCapNhatMauSac.Location = new System.Drawing.Point(213, 24);
             this.sbCapNhatMauSac.Name = "sbCapNhatMauSac";
-            this.sbCapNhatMauSac.Size = new System.Drawing.Size(75, 23);
+            this.sbCapNhatMauSac.Size = new System.Drawing.Size(86, 37);
             this.sbCapNhatMauSac.TabIndex = 6;
             this.sbCapNhatMauSac.Text = "Cập Nhật";
             this.sbCapNhatMauSac.Click += new System.EventHandler(this.sbCapNhatMauSac_Click);
@@ -77,9 +77,9 @@
             // 
             this.sbThemMauSac.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThemMauSac.Appearance.Options.UseFont = true;
-            this.sbThemMauSac.Location = new System.Drawing.Point(89, 33);
+            this.sbThemMauSac.Location = new System.Drawing.Point(120, 24);
             this.sbThemMauSac.Name = "sbThemMauSac";
-            this.sbThemMauSac.Size = new System.Drawing.Size(75, 23);
+            this.sbThemMauSac.Size = new System.Drawing.Size(87, 37);
             this.sbThemMauSac.TabIndex = 5;
             this.sbThemMauSac.Text = "Thêm";
             this.sbThemMauSac.Click += new System.EventHandler(this.sbThemMauSac_Click);
@@ -88,20 +88,20 @@
             // 
             this.sbTimKiemMau.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbTimKiemMau.Appearance.Options.UseFont = true;
-            this.sbTimKiemMau.Location = new System.Drawing.Point(8, 33);
+            this.sbTimKiemMau.Location = new System.Drawing.Point(8, 24);
             this.sbTimKiemMau.Name = "sbTimKiemMau";
-            this.sbTimKiemMau.Size = new System.Drawing.Size(75, 23);
+            this.sbTimKiemMau.Size = new System.Drawing.Size(106, 37);
             this.sbTimKiemMau.TabIndex = 4;
             this.sbTimKiemMau.Text = "Tìm Kiếm";
             this.sbTimKiemMau.Click += new System.EventHandler(this.sbTimKiemMau_Click);
             // 
             // teTenMau
             // 
-            this.teTenMau.Location = new System.Drawing.Point(128, 82);
+            this.teTenMau.Location = new System.Drawing.Point(128, 74);
             this.teTenMau.Name = "teTenMau";
             this.teTenMau.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTenMau.Properties.Appearance.Options.UseFont = true;
-            this.teTenMau.Size = new System.Drawing.Size(140, 24);
+            this.teTenMau.Size = new System.Drawing.Size(172, 24);
             this.teTenMau.TabIndex = 2;
             // 
             // teMaMauSac
@@ -110,13 +110,13 @@
             this.teMaMauSac.Name = "teMaMauSac";
             this.teMaMauSac.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teMaMauSac.Properties.Appearance.Options.UseFont = true;
-            this.teMaMauSac.Size = new System.Drawing.Size(140, 24);
+            this.teMaMauSac.Size = new System.Drawing.Size(172, 24);
             this.teMaMauSac.TabIndex = 1;
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl3.Location = new System.Drawing.Point(27, 85);
+            this.labelControl3.Location = new System.Drawing.Point(27, 77);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(50, 17);
             this.labelControl3.TabIndex = 4;
@@ -138,11 +138,12 @@
             this.groupBox2.Controls.Add(this.sbCapNhatMauSac);
             this.groupBox2.Controls.Add(this.sbThemMauSac);
             this.groupBox2.Controls.Add(this.sbTimKiemMau);
-            this.groupBox2.Location = new System.Drawing.Point(429, 24);
+            this.groupBox2.Location = new System.Drawing.Point(368, 24);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(332, 82);
+            this.groupBox2.Size = new System.Drawing.Size(393, 78);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // gridView1
             // 
@@ -157,10 +158,10 @@
             this.GridMauSac.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.GridMauSac.Location = new System.Drawing.Point(5, 194);
+            this.GridMauSac.Location = new System.Drawing.Point(5, 162);
             this.GridMauSac.MainView = this.gridView1;
             this.GridMauSac.Name = "GridMauSac";
-            this.GridMauSac.Size = new System.Drawing.Size(779, 343);
+            this.GridMauSac.Size = new System.Drawing.Size(779, 375);
             this.GridMauSac.TabIndex = 1;
             this.GridMauSac.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -177,7 +178,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(5, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(779, 147);
+            this.groupBox1.Size = new System.Drawing.Size(779, 115);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin màu mặt hàng";

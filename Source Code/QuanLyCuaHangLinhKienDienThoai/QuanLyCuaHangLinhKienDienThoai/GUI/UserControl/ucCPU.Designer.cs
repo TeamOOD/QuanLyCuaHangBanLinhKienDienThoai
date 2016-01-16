@@ -74,10 +74,10 @@
             this.GridCPU.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.GridCPU.Location = new System.Drawing.Point(5, 220);
+            this.GridCPU.Location = new System.Drawing.Point(5, 199);
             this.GridCPU.MainView = this.gridView1;
             this.GridCPU.Name = "GridCPU";
-            this.GridCPU.Size = new System.Drawing.Size(765, 292);
+            this.GridCPU.Size = new System.Drawing.Size(765, 313);
             this.GridCPU.TabIndex = 1;
             this.GridCPU.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -111,7 +111,7 @@
             // 
             // teSoNhan
             // 
-            this.teSoNhan.Location = new System.Drawing.Point(113, 115);
+            this.teSoNhan.Location = new System.Drawing.Point(113, 112);
             this.teSoNhan.Name = "teSoNhan";
             this.teSoNhan.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.teSoNhan.Properties.Appearance.Options.UseFont = true;
@@ -121,7 +121,7 @@
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.labelControl2.Location = new System.Drawing.Point(28, 118);
+            this.labelControl2.Location = new System.Drawing.Point(28, 115);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(47, 17);
             this.labelControl2.TabIndex = 10;
@@ -129,7 +129,7 @@
             // 
             // teTenCPU
             // 
-            this.teTenCPU.Location = new System.Drawing.Point(113, 72);
+            this.teTenCPU.Location = new System.Drawing.Point(113, 70);
             this.teTenCPU.Name = "teTenCPU";
             this.teTenCPU.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTenCPU.Properties.Appearance.Options.UseFont = true;
@@ -148,7 +148,7 @@
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl3.Location = new System.Drawing.Point(27, 75);
+            this.labelControl3.Location = new System.Drawing.Point(27, 73);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(49, 17);
             this.labelControl3.TabIndex = 4;
@@ -170,19 +170,20 @@
             this.groupBox2.Controls.Add(this.sbCapNhatCPU);
             this.groupBox2.Controls.Add(this.sbThemCPU);
             this.groupBox2.Controls.Add(this.sbTimKiemCPU);
-            this.groupBox2.Location = new System.Drawing.Point(422, 24);
+            this.groupBox2.Location = new System.Drawing.Point(408, 34);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(332, 82);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // sbXoaCPU
             // 
             this.sbXoaCPU.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoaCPU.Appearance.Options.UseFont = true;
-            this.sbXoaCPU.Location = new System.Drawing.Point(251, 33);
+            this.sbXoaCPU.Location = new System.Drawing.Point(251, 24);
             this.sbXoaCPU.Name = "sbXoaCPU";
-            this.sbXoaCPU.Size = new System.Drawing.Size(75, 23);
+            this.sbXoaCPU.Size = new System.Drawing.Size(75, 44);
             this.sbXoaCPU.TabIndex = 7;
             this.sbXoaCPU.Text = "Xóa";
             this.sbXoaCPU.Click += new System.EventHandler(this.sbXoaCPU_Click);
@@ -191,9 +192,9 @@
             // 
             this.sbCapNhatCPU.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbCapNhatCPU.Appearance.Options.UseFont = true;
-            this.sbCapNhatCPU.Location = new System.Drawing.Point(170, 33);
+            this.sbCapNhatCPU.Location = new System.Drawing.Point(170, 24);
             this.sbCapNhatCPU.Name = "sbCapNhatCPU";
-            this.sbCapNhatCPU.Size = new System.Drawing.Size(75, 23);
+            this.sbCapNhatCPU.Size = new System.Drawing.Size(75, 44);
             this.sbCapNhatCPU.TabIndex = 6;
             this.sbCapNhatCPU.Text = "Cập Nhật";
             this.sbCapNhatCPU.Click += new System.EventHandler(this.sbCapNhatCPU_Click);
@@ -202,9 +203,9 @@
             // 
             this.sbThemCPU.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThemCPU.Appearance.Options.UseFont = true;
-            this.sbThemCPU.Location = new System.Drawing.Point(89, 33);
+            this.sbThemCPU.Location = new System.Drawing.Point(89, 24);
             this.sbThemCPU.Name = "sbThemCPU";
-            this.sbThemCPU.Size = new System.Drawing.Size(75, 23);
+            this.sbThemCPU.Size = new System.Drawing.Size(75, 44);
             this.sbThemCPU.TabIndex = 5;
             this.sbThemCPU.Text = "Thêm";
             this.sbThemCPU.Click += new System.EventHandler(this.sbThemCPU_Click);
@@ -213,9 +214,9 @@
             // 
             this.sbTimKiemCPU.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbTimKiemCPU.Appearance.Options.UseFont = true;
-            this.sbTimKiemCPU.Location = new System.Drawing.Point(8, 33);
+            this.sbTimKiemCPU.Location = new System.Drawing.Point(8, 24);
             this.sbTimKiemCPU.Name = "sbTimKiemCPU";
-            this.sbTimKiemCPU.Size = new System.Drawing.Size(75, 23);
+            this.sbTimKiemCPU.Size = new System.Drawing.Size(75, 44);
             this.sbTimKiemCPU.TabIndex = 4;
             this.sbTimKiemCPU.Text = "Tìm Kiếm";
             this.sbTimKiemCPU.Click += new System.EventHandler(this.sbTimKiemCPU_Click);

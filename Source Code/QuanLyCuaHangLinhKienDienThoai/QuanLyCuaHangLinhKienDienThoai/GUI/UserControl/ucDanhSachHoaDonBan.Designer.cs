@@ -79,6 +79,7 @@
             this.groupControl1.AppearanceCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.groupControl1.Controls.Add(this.gcKetQua);
             this.groupControl1.Controls.Add(this.groupBox1);
+            this.groupControl1.Controls.Add(this.groupBox2);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
             this.groupControl1.Name = "groupControl1";
@@ -179,11 +180,10 @@
             this.groupBox1.Controls.Add(this.teTenNhanVien);
             this.groupBox1.Controls.Add(this.teMaHoaDon);
             this.groupBox1.Controls.Add(this.labelControl1);
-            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(5, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1070, 138);
+            this.groupBox1.Size = new System.Drawing.Size(602, 138);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin phiếu bán hàng";
@@ -199,7 +199,7 @@
             this.lueTrangThai.Properties.DisplayMember = "Tên trạng thái";
             this.lueTrangThai.Properties.NullText = "";
             this.lueTrangThai.Properties.ValueMember = "Mã trạng thái";
-            this.lueTrangThai.Size = new System.Drawing.Size(146, 24);
+            this.lueTrangThai.Size = new System.Drawing.Size(241, 24);
             this.lueTrangThai.TabIndex = 6;
             // 
             // labelControl10
@@ -207,7 +207,7 @@
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl10.Location = new System.Drawing.Point(281, 88);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(62, 17);
+            this.labelControl10.Size = new System.Drawing.Size(61, 17);
             this.labelControl10.TabIndex = 28;
             this.labelControl10.Text = "Trạng Thái";
             // 
@@ -324,19 +324,20 @@
             this.groupBox2.Controls.Add(this.sbCapNhat);
             this.groupBox2.Controls.Add(this.sbLapHangHoa);
             this.groupBox2.Controls.Add(this.sbTimKiemHoaDon);
-            this.groupBox2.Location = new System.Drawing.Point(649, 26);
+            this.groupBox2.Location = new System.Drawing.Point(725, 41);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(403, 102);
+            this.groupBox2.Size = new System.Drawing.Size(364, 138);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // btnLamMoi
             // 
             this.btnLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.Appearance.Options.UseFont = true;
-            this.btnLamMoi.Location = new System.Drawing.Point(280, 26);
+            this.btnLamMoi.Location = new System.Drawing.Point(259, 25);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(105, 23);
+            this.btnLamMoi.Size = new System.Drawing.Size(99, 38);
             this.btnLamMoi.TabIndex = 9;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
@@ -345,9 +346,9 @@
             // 
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(154, 59);
+            this.sbXoa.Location = new System.Drawing.Point(148, 74);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(105, 23);
+            this.sbXoa.Size = new System.Drawing.Size(105, 38);
             this.sbXoa.TabIndex = 11;
             this.sbXoa.Text = "Xóa phiếu";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
@@ -356,9 +357,9 @@
             // 
             this.sbCapNhat.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbCapNhat.Appearance.Options.UseFont = true;
-            this.sbCapNhat.Location = new System.Drawing.Point(24, 59);
+            this.sbCapNhat.Location = new System.Drawing.Point(24, 74);
             this.sbCapNhat.Name = "sbCapNhat";
-            this.sbCapNhat.Size = new System.Drawing.Size(104, 23);
+            this.sbCapNhat.Size = new System.Drawing.Size(104, 38);
             this.sbCapNhat.TabIndex = 10;
             this.sbCapNhat.Text = "Cập nhật phiếu";
             this.sbCapNhat.Click += new System.EventHandler(this.sbCapNhat_Click);
@@ -367,9 +368,9 @@
             // 
             this.sbLapHangHoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLapHangHoa.Appearance.Options.UseFont = true;
-            this.sbLapHangHoa.Location = new System.Drawing.Point(152, 26);
+            this.sbLapHangHoa.Location = new System.Drawing.Point(148, 25);
             this.sbLapHangHoa.Name = "sbLapHangHoa";
-            this.sbLapHangHoa.Size = new System.Drawing.Size(105, 23);
+            this.sbLapHangHoa.Size = new System.Drawing.Size(105, 38);
             this.sbLapHangHoa.TabIndex = 8;
             this.sbLapHangHoa.Text = "Lập phiếu";
             this.sbLapHangHoa.Click += new System.EventHandler(this.sbLapHangHoa_Click);
@@ -380,7 +381,7 @@
             this.sbTimKiemHoaDon.Appearance.Options.UseFont = true;
             this.sbTimKiemHoaDon.Location = new System.Drawing.Point(24, 26);
             this.sbTimKiemHoaDon.Name = "sbTimKiemHoaDon";
-            this.sbTimKiemHoaDon.Size = new System.Drawing.Size(104, 23);
+            this.sbTimKiemHoaDon.Size = new System.Drawing.Size(104, 38);
             this.sbTimKiemHoaDon.TabIndex = 7;
             this.sbTimKiemHoaDon.Text = "Tìm kiếm";
             this.sbTimKiemHoaDon.Click += new System.EventHandler(this.sbTimKiemHoaDon_Click);

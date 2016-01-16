@@ -70,7 +70,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.deNgayGiaoHang.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.deNgayGiaoHang.Size = new System.Drawing.Size(241, 24);
+            this.deNgayGiaoHang.Size = new System.Drawing.Size(360, 24);
             this.deNgayGiaoHang.TabIndex = 44;
             // 
             // teMaPhieuBanHang
@@ -96,7 +96,7 @@
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl7.Location = new System.Drawing.Point(508, 59);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(59, 17);
+            this.labelControl7.Size = new System.Drawing.Size(58, 17);
             this.labelControl7.TabIndex = 41;
             this.labelControl7.Text = "Trạng thái";
             // 
@@ -115,7 +115,7 @@
             this.teTrangThai.Name = "teTrangThai";
             this.teTrangThai.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTrangThai.Properties.Appearance.Options.UseFont = true;
-            this.teTrangThai.Size = new System.Drawing.Size(241, 24);
+            this.teTrangThai.Size = new System.Drawing.Size(360, 24);
             this.teTrangThai.TabIndex = 38;
             // 
             // teKhachHang

@@ -97,9 +97,9 @@
             this.sbLamMoi.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLamMoi.Appearance.Options.UseFont = true;
-            this.sbLamMoi.Location = new System.Drawing.Point(284, 268);
+            this.sbLamMoi.Location = new System.Drawing.Point(284, 307);
             this.sbLamMoi.Name = "sbLamMoi";
-            this.sbLamMoi.Size = new System.Drawing.Size(115, 23);
+            this.sbLamMoi.Size = new System.Drawing.Size(115, 35);
             this.sbLamMoi.TabIndex = 9;
             this.sbLamMoi.Text = "Làm Mới";
             this.sbLamMoi.Click += new System.EventHandler(this.sbLamMoi_Click);
@@ -109,9 +109,9 @@
             this.sbXoa.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(284, 224);
+            this.sbXoa.Location = new System.Drawing.Point(284, 222);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(115, 23);
+            this.sbXoa.Size = new System.Drawing.Size(115, 43);
             this.sbXoa.TabIndex = 8;
             this.sbXoa.Text = "<< Xóa";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
@@ -262,7 +262,7 @@
             this.sbLuuDonGia.Appearance.Options.UseFont = true;
             this.sbLuuDonGia.Location = new System.Drawing.Point(716, 16);
             this.sbLuuDonGia.Name = "sbLuuDonGia";
-            this.sbLuuDonGia.Size = new System.Drawing.Size(122, 23);
+            this.sbLuuDonGia.Size = new System.Drawing.Size(122, 30);
             this.sbLuuDonGia.TabIndex = 11;
             this.sbLuuDonGia.Text = "Lưu Đơn Giá";
             this.sbLuuDonGia.Click += new System.EventHandler(this.sbLuuDonGia_Click);
@@ -355,9 +355,9 @@
             this.sbThem.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.sbThem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThem.Appearance.Options.UseFont = true;
-            this.sbThem.Location = new System.Drawing.Point(284, 197);
+            this.sbThem.Location = new System.Drawing.Point(284, 177);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(115, 23);
+            this.sbThem.Size = new System.Drawing.Size(115, 43);
             this.sbThem.TabIndex = 7;
             this.sbThem.Text = "Thêm >>";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);

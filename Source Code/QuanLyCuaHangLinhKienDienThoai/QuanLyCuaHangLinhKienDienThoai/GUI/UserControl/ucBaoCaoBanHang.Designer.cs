@@ -93,7 +93,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 41);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1107, 106);
+            this.groupBox2.Size = new System.Drawing.Size(1107, 94);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin tìm kiếm nhân viên";
@@ -164,19 +164,20 @@
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox1.Controls.Add(this.btnIn);
             this.groupBox1.Controls.Add(this.btnLap);
-            this.groupBox1.Location = new System.Drawing.Point(825, 12);
+            this.groupBox1.Location = new System.Drawing.Point(687, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(276, 64);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Chức năng";
             // 
             // btnIn
             // 
             this.btnIn.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIn.Appearance.Options.UseFont = true;
-            this.btnIn.Location = new System.Drawing.Point(151, 23);
+            this.btnIn.Location = new System.Drawing.Point(177, 23);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(75, 23);
+            this.btnIn.Size = new System.Drawing.Size(75, 34);
             this.btnIn.TabIndex = 1;
             this.btnIn.Text = "In";
             this.btnIn.Click += new System.EventHandler(this.simpleButton2_Click);
@@ -187,7 +188,7 @@
             this.btnLap.Appearance.Options.UseFont = true;
             this.btnLap.Location = new System.Drawing.Point(34, 23);
             this.btnLap.Name = "btnLap";
-            this.btnLap.Size = new System.Drawing.Size(75, 23);
+            this.btnLap.Size = new System.Drawing.Size(75, 34);
             this.btnLap.TabIndex = 0;
             this.btnLap.Text = "Lập";
             this.btnLap.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -220,11 +221,11 @@
             this.gcKetQua.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcKetQua.Location = new System.Drawing.Point(3, 153);
+            this.gcKetQua.Location = new System.Drawing.Point(3, 141);
             this.gcKetQua.MainView = this.gridView1;
             this.gcKetQua.Name = "gcKetQua";
             this.gcKetQua.Padding = new System.Windows.Forms.Padding(3);
-            this.gcKetQua.Size = new System.Drawing.Size(1103, 313);
+            this.gcKetQua.Size = new System.Drawing.Size(1103, 325);
             this.gcKetQua.TabIndex = 0;
             this.gcKetQua.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});

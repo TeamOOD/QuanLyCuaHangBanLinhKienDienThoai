@@ -68,5 +68,6 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 XML.Add(xml);
             }
         }
+
     }
 }

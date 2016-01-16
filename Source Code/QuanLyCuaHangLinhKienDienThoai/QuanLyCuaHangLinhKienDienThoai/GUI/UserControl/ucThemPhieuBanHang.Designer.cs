@@ -43,6 +43,7 @@
             this.SLuong = new DevExpress.XtraGrid.Columns.GridColumn();
             this.TongT = new DevExpress.XtraGrid.Columns.GridColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.sbTimKiem = new DevExpress.XtraEditors.SimpleButton();
             this.girdSanPham = new DevExpress.XtraGrid.GridControl();
             this.gridViewSp = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.MaSP = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -51,6 +52,8 @@
             this.GiaBan = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.teTenSanPham = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -63,9 +66,6 @@
             this.sbLamMoi = new DevExpress.XtraEditors.SimpleButton();
             this.txtSoLuong = new DevExpress.XtraEditors.TextEdit();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.sbTimKiem = new DevExpress.XtraEditors.SimpleButton();
-            this.teTenSanPham = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.lueKhachHang = new DevExpress.XtraEditors.LookUpEdit();
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
@@ -77,6 +77,8 @@
             this.sbLuu = new DevExpress.XtraEditors.SimpleButton();
             this.teTienConLai = new DevExpress.XtraEditors.TextEdit();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.txtDiaChiGH = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.lueTrangThai = new DevExpress.XtraEditors.LookUpEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.dateGiaoHang = new DevExpress.XtraEditors.DateEdit();
@@ -85,8 +87,6 @@
             this.teTongTien = new DevExpress.XtraEditors.TextEdit();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.txtDiaChiGH = new DevExpress.XtraEditors.MemoEdit();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.teTenKhachHang.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deThoiGianLap.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deThoiGianLap.Properties)).BeginInit();
@@ -99,34 +99,34 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teTenSanPham.Properties)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtSoLuong.Properties)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.teTenSanPham.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lueKhachHang.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lueKhuVu.Properties)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.teTienConLai.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDiaChiGH.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lueTrangThai.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateGiaoHang.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateGiaoHang.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teTienDTT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teTongTien.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDiaChiGH.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // sbXoa
             // 
             this.sbXoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoa.Appearance.Options.UseFont = true;
-            this.sbXoa.Location = new System.Drawing.Point(486, 121);
+            this.sbXoa.Location = new System.Drawing.Point(486, 144);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(114, 23);
+            this.sbXoa.Size = new System.Drawing.Size(114, 40);
             this.sbXoa.TabIndex = 12;
-            this.sbXoa.Text = "<< Xóa";
+            this.sbXoa.Text = "Xóa >>";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
             // 
             // labelControl8
@@ -146,12 +146,12 @@
             this.teTenKhachHang.Properties.Appearance.Options.UseFont = true;
             this.teTenKhachHang.Properties.MaxLength = 50;
             this.teTenKhachHang.Size = new System.Drawing.Size(146, 24);
-            this.teTenKhachHang.TabIndex = 5;
+            this.teTenKhachHang.TabIndex = 52;
             // 
             // labelControl7
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl7.Location = new System.Drawing.Point(296, 47);
+            this.labelControl7.Location = new System.Drawing.Point(322, 47);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(80, 17);
             this.labelControl7.TabIndex = 14;
@@ -170,7 +170,7 @@
             this.deThoiGianLap.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.deThoiGianLap.Size = new System.Drawing.Size(145, 24);
-            this.deThoiGianLap.TabIndex = 1;
+            this.deThoiGianLap.TabIndex = 51;
             // 
             // labelControl6
             // 
@@ -184,31 +184,31 @@
             // teTenNhanVien
             // 
             this.teTenNhanVien.Enabled = false;
-            this.teTenNhanVien.Location = new System.Drawing.Point(382, 43);
+            this.teTenNhanVien.Location = new System.Drawing.Point(408, 43);
             this.teTenNhanVien.Name = "teTenNhanVien";
             this.teTenNhanVien.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTenNhanVien.Properties.Appearance.Options.UseFont = true;
             this.teTenNhanVien.Properties.MaxLength = 50;
-            this.teTenNhanVien.Size = new System.Drawing.Size(145, 24);
-            this.teTenNhanVien.TabIndex = 4;
+            this.teTenNhanVien.Size = new System.Drawing.Size(163, 24);
+            this.teTenNhanVien.TabIndex = 54;
             // 
             // teMaNhanVien
             // 
             this.teMaNhanVien.Enabled = false;
-            this.teMaNhanVien.Location = new System.Drawing.Point(381, 14);
+            this.teMaNhanVien.Location = new System.Drawing.Point(407, 14);
             this.teMaNhanVien.Name = "teMaNhanVien";
             this.teMaNhanVien.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teMaNhanVien.Properties.Appearance.Options.UseFont = true;
             this.teMaNhanVien.Properties.MaxLength = 15;
-            this.teMaNhanVien.Size = new System.Drawing.Size(146, 24);
-            this.teMaNhanVien.TabIndex = 2;
+            this.teMaNhanVien.Size = new System.Drawing.Size(164, 24);
+            this.teMaNhanVien.TabIndex = 53;
             // 
             // gridSanPhamMua
             // 
-            this.gridSanPhamMua.Location = new System.Drawing.Point(6, 21);
+            this.gridSanPhamMua.Location = new System.Drawing.Point(6, 19);
             this.gridSanPhamMua.MainView = this.gridSpMua;
             this.gridSanPhamMua.Name = "gridSanPhamMua";
-            this.gridSanPhamMua.Size = new System.Drawing.Size(500, 286);
+            this.gridSanPhamMua.Size = new System.Drawing.Size(436, 334);
             this.gridSanPhamMua.TabIndex = 2;
             this.gridSanPhamMua.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridSpMua});
@@ -260,26 +260,40 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.sbTimKiem);
             this.groupBox5.Controls.Add(this.girdSanPham);
-            this.groupBox5.Location = new System.Drawing.Point(3, 65);
+            this.groupBox5.Controls.Add(this.teTenSanPham);
+            this.groupBox5.Controls.Add(this.labelControl18);
+            this.groupBox5.Location = new System.Drawing.Point(3, 46);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(477, 294);
+            this.groupBox5.Size = new System.Drawing.Size(477, 361);
             this.groupBox5.TabIndex = 18;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Danh Sách Sản Phẩm ";
             // 
+            // sbTimKiem
+            // 
+            this.sbTimKiem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sbTimKiem.Appearance.Options.UseFont = true;
+            this.sbTimKiem.Location = new System.Drawing.Point(379, 20);
+            this.sbTimKiem.Name = "sbTimKiem";
+            this.sbTimKiem.Size = new System.Drawing.Size(90, 23);
+            this.sbTimKiem.TabIndex = 17;
+            this.sbTimKiem.Text = "Tìm kiếm";
+            this.sbTimKiem.Click += new System.EventHandler(this.sbTimKiem_Click);
+            // 
             // girdSanPham
             // 
-            this.girdSanPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.girdSanPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.girdSanPham.Location = new System.Drawing.Point(6, 22);
+            this.girdSanPham.Location = new System.Drawing.Point(6, 49);
             this.girdSanPham.MainView = this.gridViewSp;
             this.girdSanPham.Name = "girdSanPham";
             this.girdSanPham.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1,
             this.repositoryItemCheckEdit2});
-            this.girdSanPham.Size = new System.Drawing.Size(465, 251);
+            this.girdSanPham.Size = new System.Drawing.Size(465, 306);
             this.girdSanPham.TabIndex = 3;
             this.girdSanPham.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewSp});
@@ -343,6 +357,25 @@
             this.repositoryItemCheckEdit2.Caption = "Check";
             this.repositoryItemCheckEdit2.Name = "repositoryItemCheckEdit2";
             // 
+            // teTenSanPham
+            // 
+            this.teTenSanPham.Location = new System.Drawing.Point(193, 20);
+            this.teTenSanPham.Name = "teTenSanPham";
+            this.teTenSanPham.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teTenSanPham.Properties.Appearance.Options.UseFont = true;
+            this.teTenSanPham.Properties.MaxLength = 50;
+            this.teTenSanPham.Size = new System.Drawing.Size(172, 24);
+            this.teTenSanPham.TabIndex = 38;
+            // 
+            // labelControl18
+            // 
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl18.Location = new System.Drawing.Point(93, 23);
+            this.labelControl18.Name = "labelControl18";
+            this.labelControl18.Size = new System.Drawing.Size(81, 17);
+            this.labelControl18.TabIndex = 37;
+            this.labelControl18.Text = "Tên sản phẩm";
+            // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -355,7 +388,7 @@
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl2.Location = new System.Drawing.Point(297, 17);
+            this.labelControl2.Location = new System.Drawing.Point(323, 17);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(78, 17);
             this.labelControl2.TabIndex = 3;
@@ -364,9 +397,9 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.gridSanPhamMua);
-            this.groupBox4.Location = new System.Drawing.Point(606, 65);
+            this.groupBox4.Location = new System.Drawing.Point(606, 46);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(492, 294);
+            this.groupBox4.Size = new System.Drawing.Size(492, 361);
             this.groupBox4.TabIndex = 19;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Sản Phẩm Trong Hóa Đơn";
@@ -384,10 +417,10 @@
             // 
             this.sbThem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThem.Appearance.Options.UseFont = true;
-            this.sbThem.Location = new System.Drawing.Point(486, 92);
+            this.sbThem.Location = new System.Drawing.Point(486, 102);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(114, 23);
-            this.sbThem.TabIndex = 11;
+            this.sbThem.Size = new System.Drawing.Size(114, 40);
+            this.sbThem.TabIndex = 7;
             this.sbThem.Text = "Thêm >>";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);
             // 
@@ -406,7 +439,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox3.Controls.Add(this.rdbDSKhuyenMai);
             this.groupBox3.Controls.Add(this.rdbDsSanPham);
@@ -418,9 +451,9 @@
             this.groupBox3.Controls.Add(this.txtSoLuong);
             this.groupBox3.Controls.Add(this.sbThem);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(5, 246);
+            this.groupBox3.Location = new System.Drawing.Point(5, 154);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1101, 321);
+            this.groupBox3.Size = new System.Drawing.Size(1101, 413);
             this.groupBox3.TabIndex = 16;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chi Tiết Hóa Đơn";
@@ -428,7 +461,7 @@
             // rdbDSKhuyenMai
             // 
             this.rdbDSKhuyenMai.AutoSize = true;
-            this.rdbDSKhuyenMai.Location = new System.Drawing.Point(183, 31);
+            this.rdbDSKhuyenMai.Location = new System.Drawing.Point(183, 20);
             this.rdbDSKhuyenMai.Name = "rdbDSKhuyenMai";
             this.rdbDSKhuyenMai.Size = new System.Drawing.Size(153, 21);
             this.rdbDSKhuyenMai.TabIndex = 23;
@@ -439,7 +472,7 @@
             // rdbDsSanPham
             // 
             this.rdbDsSanPham.AutoSize = true;
-            this.rdbDsSanPham.Location = new System.Drawing.Point(32, 30);
+            this.rdbDsSanPham.Location = new System.Drawing.Point(32, 19);
             this.rdbDsSanPham.Name = "rdbDsSanPham";
             this.rdbDsSanPham.Size = new System.Drawing.Size(130, 21);
             this.rdbDsSanPham.TabIndex = 22;
@@ -452,9 +485,9 @@
             // 
             this.sbLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLamMoi.Appearance.Options.UseFont = true;
-            this.sbLamMoi.Location = new System.Drawing.Point(486, 198);
+            this.sbLamMoi.Location = new System.Drawing.Point(486, 208);
             this.sbLamMoi.Name = "sbLamMoi";
-            this.sbLamMoi.Size = new System.Drawing.Size(114, 23);
+            this.sbLamMoi.Size = new System.Drawing.Size(114, 40);
             this.sbLamMoi.TabIndex = 13;
             this.sbLamMoi.Text = "Làm Mới";
             this.sbLamMoi.Click += new System.EventHandler(this.sbLamMoi_Click);
@@ -470,15 +503,12 @@
             this.txtSoLuong.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.txtSoLuong.Properties.MaxLength = 4;
             this.txtSoLuong.Size = new System.Drawing.Size(55, 24);
-            this.txtSoLuong.TabIndex = 10;
+            this.txtSoLuong.TabIndex = 6;
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.sbTimKiem);
-            this.groupBox1.Controls.Add(this.teTenSanPham);
-            this.groupBox1.Controls.Add(this.labelControl18);
             this.groupBox1.Controls.Add(this.lueKhachHang);
             this.groupBox1.Controls.Add(this.labelControl16);
             this.groupBox1.Controls.Add(this.labelControl15);
@@ -488,6 +518,8 @@
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.teTienConLai);
             this.groupBox1.Controls.Add(this.labelControl12);
+            this.groupBox1.Controls.Add(this.txtDiaChiGH);
+            this.groupBox1.Controls.Add(this.labelControl1);
             this.groupBox1.Controls.Add(this.lueTrangThai);
             this.groupBox1.Controls.Add(this.labelControl10);
             this.groupBox1.Controls.Add(this.dateGiaoHang);
@@ -496,8 +528,6 @@
             this.groupBox1.Controls.Add(this.teTongTien);
             this.groupBox1.Controls.Add(this.labelControl9);
             this.groupBox1.Controls.Add(this.labelControl4);
-            this.groupBox1.Controls.Add(this.txtDiaChiGH);
-            this.groupBox1.Controls.Add(this.labelControl1);
             this.groupBox1.Controls.Add(this.labelControl8);
             this.groupBox1.Controls.Add(this.teTenKhachHang);
             this.groupBox1.Controls.Add(this.labelControl7);
@@ -511,39 +541,9 @@
             this.groupBox1.Location = new System.Drawing.Point(5, 24);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1132, 225);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 50;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin phiếu bán hàng";
-            // 
-            // sbTimKiem
-            // 
-            this.sbTimKiem.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sbTimKiem.Appearance.Options.UseFont = true;
-            this.sbTimKiem.Location = new System.Drawing.Point(313, 192);
-            this.sbTimKiem.Name = "sbTimKiem";
-            this.sbTimKiem.Size = new System.Drawing.Size(75, 23);
-            this.sbTimKiem.TabIndex = 17;
-            this.sbTimKiem.Text = "Tìm kiếm";
-            this.sbTimKiem.Click += new System.EventHandler(this.sbTimKiem_Click);
-            // 
-            // teTenSanPham
-            // 
-            this.teTenSanPham.Location = new System.Drawing.Point(112, 192);
-            this.teTenSanPham.Name = "teTenSanPham";
-            this.teTenSanPham.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teTenSanPham.Properties.Appearance.Options.UseFont = true;
-            this.teTenSanPham.Properties.MaxLength = 50;
-            this.teTenSanPham.Size = new System.Drawing.Size(172, 24);
-            this.teTenSanPham.TabIndex = 38;
-            // 
-            // labelControl18
-            // 
-            this.labelControl18.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl18.Location = new System.Drawing.Point(12, 195);
-            this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(81, 17);
-            this.labelControl18.TabIndex = 37;
-            this.labelControl18.Text = "Tên sản phẩm";
             // 
             // lueKhachHang
             // 
@@ -560,13 +560,13 @@
             this.lueKhachHang.Properties.NullText = "";
             this.lueKhachHang.Properties.ValueMember = "Mã khách hàng";
             this.lueKhachHang.Size = new System.Drawing.Size(146, 24);
-            this.lueKhachHang.TabIndex = 3;
+            this.lueKhachHang.TabIndex = 1;
             this.lueKhachHang.EditValueChanged += new System.EventHandler(this.lueKhachHang_EditValueChanged);
             // 
             // labelControl16
             // 
             this.labelControl16.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl16.Location = new System.Drawing.Point(816, 76);
+            this.labelControl16.Location = new System.Drawing.Point(863, 105);
             this.labelControl16.Name = "labelControl16";
             this.labelControl16.Size = new System.Drawing.Size(27, 17);
             this.labelControl16.TabIndex = 34;
@@ -575,7 +575,7 @@
             // labelControl15
             // 
             this.labelControl15.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl15.Location = new System.Drawing.Point(816, 49);
+            this.labelControl15.Location = new System.Drawing.Point(863, 79);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(27, 17);
             this.labelControl15.TabIndex = 33;
@@ -584,7 +584,7 @@
             // labelControl14
             // 
             this.labelControl14.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl14.Location = new System.Drawing.Point(815, 18);
+            this.labelControl14.Location = new System.Drawing.Point(863, 48);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(27, 17);
             this.labelControl14.TabIndex = 32;
@@ -592,7 +592,7 @@
             // 
             // lueKhuVu
             // 
-            this.lueKhuVu.Location = new System.Drawing.Point(463, 144);
+            this.lueKhuVu.Location = new System.Drawing.Point(407, 100);
             this.lueKhuVu.Name = "lueKhuVu";
             this.lueKhuVu.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.lueKhuVu.Properties.Appearance.Options.UseFont = true;
@@ -601,14 +601,14 @@
             this.lueKhuVu.Properties.DisplayMember = "Tên khu vực";
             this.lueKhuVu.Properties.NullText = "";
             this.lueKhuVu.Properties.ValueMember = "Mã khu vực";
-            this.lueKhuVu.Size = new System.Drawing.Size(146, 24);
-            this.lueKhuVu.TabIndex = 9;
+            this.lueKhuVu.Size = new System.Drawing.Size(164, 24);
+            this.lueKhuVu.TabIndex = 4;
             this.lueKhuVu.EditValueChanged += new System.EventHandler(this.lueKhuVu_EditValueChanged);
             // 
             // labelControl13
             // 
             this.labelControl13.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl13.Location = new System.Drawing.Point(396, 147);
+            this.labelControl13.Location = new System.Drawing.Point(323, 103);
             this.labelControl13.Name = "labelControl13";
             this.labelControl13.Size = new System.Drawing.Size(48, 17);
             this.labelControl13.TabIndex = 31;
@@ -618,19 +618,20 @@
             // 
             this.groupBox2.Controls.Add(this.btnLamMoi);
             this.groupBox2.Controls.Add(this.sbLuu);
-            this.groupBox2.Location = new System.Drawing.Point(850, 119);
+            this.groupBox2.Location = new System.Drawing.Point(907, 16);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(249, 47);
+            this.groupBox2.Size = new System.Drawing.Size(141, 117);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // btnLamMoi
             // 
             this.btnLamMoi.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.Appearance.Options.UseFont = true;
-            this.btnLamMoi.Location = new System.Drawing.Point(132, 16);
+            this.btnLamMoi.Location = new System.Drawing.Point(6, 67);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(75, 23);
+            this.btnLamMoi.Size = new System.Drawing.Size(129, 38);
             this.btnLamMoi.TabIndex = 16;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
@@ -639,9 +640,9 @@
             // 
             this.sbLuu.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLuu.Appearance.Options.UseFont = true;
-            this.sbLuu.Location = new System.Drawing.Point(42, 16);
+            this.sbLuu.Location = new System.Drawing.Point(6, 24);
             this.sbLuu.Name = "sbLuu";
-            this.sbLuu.Size = new System.Drawing.Size(75, 23);
+            this.sbLuu.Size = new System.Drawing.Size(129, 38);
             this.sbLuu.TabIndex = 15;
             this.sbLuu.Text = "Lưu";
             this.sbLuu.Click += new System.EventHandler(this.sbLuu_Click_1);
@@ -649,7 +650,7 @@
             // teTienConLai
             // 
             this.teTienConLai.Enabled = false;
-            this.teTienConLai.Location = new System.Drawing.Point(665, 71);
+            this.teTienConLai.Location = new System.Drawing.Point(713, 100);
             this.teTienConLai.Name = "teTienConLai";
             this.teTienConLai.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTienConLai.Properties.Appearance.Options.UseFont = true;
@@ -661,15 +662,32 @@
             // labelControl12
             // 
             this.labelControl12.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl12.Location = new System.Drawing.Point(552, 76);
+            this.labelControl12.Location = new System.Drawing.Point(600, 105);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(40, 17);
             this.labelControl12.TabIndex = 28;
             this.labelControl12.Text = "Còn lại";
             // 
+            // txtDiaChiGH
+            // 
+            this.txtDiaChiGH.Location = new System.Drawing.Point(712, 15);
+            this.txtDiaChiGH.Name = "txtDiaChiGH";
+            this.txtDiaChiGH.Properties.MaxLength = 200;
+            this.txtDiaChiGH.Size = new System.Drawing.Size(177, 26);
+            this.txtDiaChiGH.TabIndex = 5;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Location = new System.Drawing.Point(599, 16);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(102, 17);
+            this.labelControl1.TabIndex = 19;
+            this.labelControl1.Text = "Địa chỉ giao hàng";
+            // 
             // lueTrangThai
             // 
-            this.lueTrangThai.Location = new System.Drawing.Point(382, 71);
+            this.lueTrangThai.Location = new System.Drawing.Point(408, 71);
             this.lueTrangThai.Name = "lueTrangThai";
             this.lueTrangThai.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.lueTrangThai.Properties.Appearance.Options.UseFont = true;
@@ -678,13 +696,13 @@
             this.lueTrangThai.Properties.DisplayMember = "Tên trạng thái";
             this.lueTrangThai.Properties.NullText = "";
             this.lueTrangThai.Properties.ValueMember = "Mã trạng thái";
-            this.lueTrangThai.Size = new System.Drawing.Size(146, 24);
-            this.lueTrangThai.TabIndex = 6;
+            this.lueTrangThai.Size = new System.Drawing.Size(164, 24);
+            this.lueTrangThai.TabIndex = 3;
             // 
             // labelControl10
             // 
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl10.Location = new System.Drawing.Point(298, 74);
+            this.labelControl10.Location = new System.Drawing.Point(323, 74);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(61, 17);
             this.labelControl10.TabIndex = 26;
@@ -693,7 +711,7 @@
             // dateGiaoHang
             // 
             this.dateGiaoHang.EditValue = null;
-            this.dateGiaoHang.Location = new System.Drawing.Point(139, 109);
+            this.dateGiaoHang.Location = new System.Drawing.Point(139, 100);
             this.dateGiaoHang.Name = "dateGiaoHang";
             this.dateGiaoHang.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateGiaoHang.Properties.Appearance.Options.UseFont = true;
@@ -701,13 +719,13 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dateGiaoHang.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateGiaoHang.Size = new System.Drawing.Size(161, 24);
-            this.dateGiaoHang.TabIndex = 7;
+            this.dateGiaoHang.Size = new System.Drawing.Size(145, 24);
+            this.dateGiaoHang.TabIndex = 2;
             // 
             // labelControl11
             // 
             this.labelControl11.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl11.Location = new System.Drawing.Point(15, 112);
+            this.labelControl11.Location = new System.Drawing.Point(15, 103);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(118, 17);
             this.labelControl11.TabIndex = 23;
@@ -715,7 +733,7 @@
             // 
             // teTienDTT
             // 
-            this.teTienDTT.Location = new System.Drawing.Point(665, 42);
+            this.teTienDTT.Location = new System.Drawing.Point(713, 72);
             this.teTienDTT.Name = "teTienDTT";
             this.teTienDTT.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTienDTT.Properties.Appearance.Options.UseFont = true;
@@ -729,7 +747,7 @@
             // teTongTien
             // 
             this.teTongTien.Enabled = false;
-            this.teTongTien.Location = new System.Drawing.Point(664, 14);
+            this.teTongTien.Location = new System.Drawing.Point(712, 44);
             this.teTongTien.Name = "teTongTien";
             this.teTongTien.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teTongTien.Properties.Appearance.Options.UseFont = true;
@@ -742,7 +760,7 @@
             // labelControl9
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl9.Location = new System.Drawing.Point(551, 46);
+            this.labelControl9.Location = new System.Drawing.Point(599, 76);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(109, 17);
             this.labelControl9.TabIndex = 21;
@@ -751,28 +769,11 @@
             // labelControl4
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl4.Location = new System.Drawing.Point(552, 19);
+            this.labelControl4.Location = new System.Drawing.Point(600, 49);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(55, 17);
             this.labelControl4.TabIndex = 20;
             this.labelControl4.Text = "Tổng tiền";
-            // 
-            // txtDiaChiGH
-            // 
-            this.txtDiaChiGH.Location = new System.Drawing.Point(139, 139);
-            this.txtDiaChiGH.Name = "txtDiaChiGH";
-            this.txtDiaChiGH.Properties.MaxLength = 200;
-            this.txtDiaChiGH.Size = new System.Drawing.Size(240, 29);
-            this.txtDiaChiGH.TabIndex = 8;
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl1.Location = new System.Drawing.Point(15, 143);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(102, 17);
-            this.labelControl1.TabIndex = 19;
-            this.labelControl1.Text = "Địa chỉ giao hàng";
             // 
             // ucThemPhieuBanHang
             // 
@@ -789,10 +790,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridSanPhamMua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridSpMua)).EndInit();
             this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.girdSanPham)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewSp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teTenSanPham.Properties)).EndInit();
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
@@ -801,17 +804,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtSoLuong.Properties)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.teTenSanPham.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lueKhachHang.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lueKhuVu.Properties)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.teTienConLai.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDiaChiGH.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lueTrangThai.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateGiaoHang.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateGiaoHang.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teTienDTT.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teTongTien.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDiaChiGH.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

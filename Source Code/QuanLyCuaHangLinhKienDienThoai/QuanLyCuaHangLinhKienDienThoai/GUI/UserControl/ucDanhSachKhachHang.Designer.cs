@@ -70,7 +70,7 @@
             this.sbXoa.Appearance.Options.UseFont = true;
             this.sbXoa.Location = new System.Drawing.Point(251, 33);
             this.sbXoa.Name = "sbXoa";
-            this.sbXoa.Size = new System.Drawing.Size(75, 23);
+            this.sbXoa.Size = new System.Drawing.Size(75, 49);
             this.sbXoa.TabIndex = 3;
             this.sbXoa.Text = "Xóa";
             this.sbXoa.Click += new System.EventHandler(this.sbXoa_Click);
@@ -81,7 +81,7 @@
             this.sbCapNhat.Appearance.Options.UseFont = true;
             this.sbCapNhat.Location = new System.Drawing.Point(170, 33);
             this.sbCapNhat.Name = "sbCapNhat";
-            this.sbCapNhat.Size = new System.Drawing.Size(75, 23);
+            this.sbCapNhat.Size = new System.Drawing.Size(75, 49);
             this.sbCapNhat.TabIndex = 2;
             this.sbCapNhat.Text = "Cập Nhật";
             this.sbCapNhat.Click += new System.EventHandler(this.sbCapNhat_Click);
@@ -92,7 +92,7 @@
             this.sbThem.Appearance.Options.UseFont = true;
             this.sbThem.Location = new System.Drawing.Point(89, 33);
             this.sbThem.Name = "sbThem";
-            this.sbThem.Size = new System.Drawing.Size(75, 23);
+            this.sbThem.Size = new System.Drawing.Size(75, 49);
             this.sbThem.TabIndex = 1;
             this.sbThem.Text = "Thêm";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);
@@ -103,7 +103,7 @@
             this.sbTimKiem.Appearance.Options.UseFont = true;
             this.sbTimKiem.Location = new System.Drawing.Point(8, 33);
             this.sbTimKiem.Name = "sbTimKiem";
-            this.sbTimKiem.Size = new System.Drawing.Size(75, 23);
+            this.sbTimKiem.Size = new System.Drawing.Size(75, 49);
             this.sbTimKiem.TabIndex = 0;
             this.sbTimKiem.Text = "Tìm Kiếm";
             this.sbTimKiem.Click += new System.EventHandler(this.sbTimKiem_Click);
@@ -204,11 +204,12 @@
             this.groupBox2.Controls.Add(this.sbCapNhat);
             this.groupBox2.Controls.Add(this.sbThem);
             this.groupBox2.Controls.Add(this.sbTimKiem);
-            this.groupBox2.Location = new System.Drawing.Point(553, 24);
+            this.groupBox2.Location = new System.Drawing.Point(554, 18);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(332, 82);
+            this.groupBox2.Size = new System.Drawing.Size(332, 100);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // gridControl1
             // 
@@ -218,10 +219,10 @@
             gridLevelNode1.RelationName = "Level1";
             this.gridControl1.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
             gridLevelNode1});
-            this.gridControl1.Location = new System.Drawing.Point(5, 234);
+            this.gridControl1.Location = new System.Drawing.Point(5, 201);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(909, 287);
+            this.gridControl1.Size = new System.Drawing.Size(909, 320);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -254,7 +255,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(5, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(909, 187);
+            this.groupBox1.Size = new System.Drawing.Size(909, 154);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin khách hàng";
@@ -276,7 +277,6 @@
             this.txtGhiChu.Properties.MaxLength = 150;
             this.txtGhiChu.Size = new System.Drawing.Size(164, 51);
             this.txtGhiChu.TabIndex = 6;
-            this.txtGhiChu.UseOptimizedRendering = true;
             // 
             // labelControl11
             // 

@@ -75,11 +75,11 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 {
                     if (new KhuyenMaiBUS().ThemCTKhuyenMai(km, xlmData))
                     {
-                        MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);                       
+                        MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo", MessageBoxButtons.OK);                       
                     }
                     else
                     {
-                        MessageBox.Show("Thêm hóa đơn thất bại", "Thông báo", MessageBoxButtons.OK);
+                        MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo", MessageBoxButtons.OK);
                     }
                 }
             }

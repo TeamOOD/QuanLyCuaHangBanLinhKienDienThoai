@@ -148,8 +148,8 @@
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rpQuanLyNhanVien,
             this.rpQuanLyBanHang,
-            this.rpQuanLyKho,
             this.rpQuanLyMatHang,
+            this.rpQuanLyKho,
             this.rpBaoCao});
             this.ribbon.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemImageEdit1});
@@ -495,7 +495,7 @@
             this.GroupThongTinMatHang});
             this.rpQuanLyMatHang.Image = global::QuanLyCuaHangLinhKienDienThoai.Properties.Resources.Box;
             this.rpQuanLyMatHang.Name = "rpQuanLyMatHang";
-            this.rpQuanLyMatHang.Text = " Mặt Hàng";
+            this.rpQuanLyMatHang.Text = " Mặt Hàng Và Thông Tin Sản Phẩm";
             // 
             // GroupMatHang
             // 
@@ -690,7 +690,7 @@
             this.Ribbon = this.ribbon;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar;
-            this.Text = "Quản Lý Cửa Hàng Linh Kiện Và Điện Thoại Di Động";
+            this.Text = "Quản Lý Cửa Hàng Linh Kiện và Điện Thoại";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.mainform_FormClosed);
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FormMain_MouseMove);

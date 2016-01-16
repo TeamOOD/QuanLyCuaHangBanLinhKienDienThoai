@@ -65,10 +65,10 @@
             this.gcKetQua.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcKetQua.Location = new System.Drawing.Point(5, 156);
+            this.gcKetQua.Location = new System.Drawing.Point(5, 147);
             this.gcKetQua.MainView = this.gridView1;
             this.gcKetQua.Name = "gcKetQua";
-            this.gcKetQua.Size = new System.Drawing.Size(955, 348);
+            this.gcKetQua.Size = new System.Drawing.Size(955, 368);
             this.gcKetQua.TabIndex = 1;
             this.gcKetQua.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -154,7 +154,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(5, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(955, 109);
+            this.groupBox1.Size = new System.Drawing.Size(955, 100);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin tìm kiếm phiếu giao hàng";
@@ -217,9 +217,9 @@
             this.sbThemHangHoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.sbThemHangHoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbThemHangHoa.Appearance.Options.UseFont = true;
-            this.sbThemHangHoa.Location = new System.Drawing.Point(833, 30);
+            this.sbThemHangHoa.Location = new System.Drawing.Point(831, 24);
             this.sbThemHangHoa.Name = "sbThemHangHoa";
-            this.sbThemHangHoa.Size = new System.Drawing.Size(104, 23);
+            this.sbThemHangHoa.Size = new System.Drawing.Size(104, 29);
             this.sbThemHangHoa.TabIndex = 0;
             this.sbThemHangHoa.Text = "Tìm kiếm";
             // 

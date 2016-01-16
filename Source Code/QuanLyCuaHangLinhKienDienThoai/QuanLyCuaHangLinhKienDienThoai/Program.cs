@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
@@ -18,8 +15,8 @@ namespace QuanLyCuaHangLinhKienDienThoai
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             DevExpress.UserSkins.BonusSkins.Register();
-            
-            DevExpress.LookAndFeel.UserLookAndFeel.Default.SkinName = "The Asphalt World";
+
+            DevExpress.LookAndFeel.UserLookAndFeel.Default.SkinName = "Sharp Plus";
             DevExpress.Utils.AppearanceObject.DefaultFont = new Font("Segoe UI", 8);
             Application.Run(new FormDangNhap());
         }

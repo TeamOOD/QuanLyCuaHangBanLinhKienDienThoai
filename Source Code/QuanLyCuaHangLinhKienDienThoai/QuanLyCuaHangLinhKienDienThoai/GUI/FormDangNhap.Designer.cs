@@ -93,7 +93,7 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(96, 32);
             this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "Thoát";
+            this.simpleButton1.Text = "&Thoát";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
@@ -104,7 +104,7 @@
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(110, 32);
             this.simpleButton2.TabIndex = 3;
-            this.simpleButton2.Text = "Đăng Nhập";
+            this.simpleButton2.Text = "Đăng &Nhập";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // labelControl3
@@ -132,7 +132,7 @@
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(192, 32);
             this.simpleButton3.TabIndex = 4;
-            this.simpleButton3.Text = "Đăng Nhập Với Quyền Khách";
+            this.simpleButton3.Text = "Đăng Nhập Với Quyền &Khách";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // pictureBox1

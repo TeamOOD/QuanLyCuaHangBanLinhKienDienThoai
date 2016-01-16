@@ -44,7 +44,6 @@
             this.sbXoaHangHoa = new DevExpress.XtraEditors.SimpleButton();
             this.sbThemHangHoa = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.sbDong = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.sbLuu = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -195,9 +194,9 @@
             // 
             this.sbXoaHangHoa.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbXoaHangHoa.Appearance.Options.UseFont = true;
-            this.sbXoaHangHoa.Location = new System.Drawing.Point(116, 26);
+            this.sbXoaHangHoa.Location = new System.Drawing.Point(130, 26);
             this.sbXoaHangHoa.Name = "sbXoaHangHoa";
-            this.sbXoaHangHoa.Size = new System.Drawing.Size(105, 23);
+            this.sbXoaHangHoa.Size = new System.Drawing.Size(124, 39);
             this.sbXoaHangHoa.TabIndex = 1;
             this.sbXoaHangHoa.Text = "Xóa hàng hóa";
             this.sbXoaHangHoa.Click += new System.EventHandler(this.sbXoaHangHoa_Click);
@@ -208,7 +207,7 @@
             this.sbThemHangHoa.Appearance.Options.UseFont = true;
             this.sbThemHangHoa.Location = new System.Drawing.Point(6, 26);
             this.sbThemHangHoa.Name = "sbThemHangHoa";
-            this.sbThemHangHoa.Size = new System.Drawing.Size(104, 23);
+            this.sbThemHangHoa.Size = new System.Drawing.Size(118, 39);
             this.sbThemHangHoa.TabIndex = 0;
             this.sbThemHangHoa.Text = "Thêm hàng hóa";
             // 
@@ -221,36 +220,26 @@
             this.labelControl1.TabIndex = 2;
             this.labelControl1.Text = "Mã hóa đơn";
             // 
-            // sbDong
-            // 
-            this.sbDong.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sbDong.Appearance.Options.UseFont = true;
-            this.sbDong.Location = new System.Drawing.Point(308, 26);
-            this.sbDong.Name = "sbDong";
-            this.sbDong.Size = new System.Drawing.Size(75, 23);
-            this.sbDong.TabIndex = 3;
-            this.sbDong.Text = "Đóng";
-            // 
             // groupBox2
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.groupBox2.Controls.Add(this.sbDong);
             this.groupBox2.Controls.Add(this.sbLuu);
             this.groupBox2.Controls.Add(this.sbXoaHangHoa);
             this.groupBox2.Controls.Add(this.sbThemHangHoa);
             this.groupBox2.Location = new System.Drawing.Point(606, 13);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(390, 66);
+            this.groupBox2.Size = new System.Drawing.Size(363, 82);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chức năng";
             // 
             // sbLuu
             // 
             this.sbLuu.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sbLuu.Appearance.Options.UseFont = true;
-            this.sbLuu.Location = new System.Drawing.Point(227, 26);
+            this.sbLuu.Location = new System.Drawing.Point(260, 26);
             this.sbLuu.Name = "sbLuu";
-            this.sbLuu.Size = new System.Drawing.Size(75, 23);
+            this.sbLuu.Size = new System.Drawing.Size(97, 39);
             this.sbLuu.TabIndex = 2;
             this.sbLuu.Text = "Lưu";
             this.sbLuu.Click += new System.EventHandler(this.sbLuu_Click);
@@ -360,7 +349,6 @@
         private DevExpress.XtraEditors.SimpleButton sbXoaHangHoa;
         private DevExpress.XtraEditors.SimpleButton sbThemHangHoa;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.SimpleButton sbDong;
         private System.Windows.Forms.GroupBox groupBox2;
         private DevExpress.XtraEditors.SimpleButton sbLuu;
         private System.Windows.Forms.GroupBox groupBox1;
