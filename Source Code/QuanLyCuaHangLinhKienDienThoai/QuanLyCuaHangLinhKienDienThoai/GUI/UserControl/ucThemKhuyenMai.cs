@@ -21,7 +21,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         //thông tin sản phẩm.
         private String maSP = "";
         private String tenSP = "";
-        private int soLuong = 0;
+        private int soLuong = 1;
         private Decimal tienSP = 0;
         public ucThemKhuyenMai()
         {
