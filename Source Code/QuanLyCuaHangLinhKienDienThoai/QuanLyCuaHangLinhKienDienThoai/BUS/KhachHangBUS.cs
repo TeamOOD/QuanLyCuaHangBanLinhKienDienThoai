@@ -85,5 +85,18 @@ namespace BusinessLogicTier
             }
             return null;
         }
+        
+        public DataTable GetTenKHByMaKH(String Makh)
+        {
+            try
+            {
+                return this.khDAL.GetTenKHByMaKH(Makh);
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine("Message = {1}", ex.Message);
+            }
+            return null;
+        }
     }
 }

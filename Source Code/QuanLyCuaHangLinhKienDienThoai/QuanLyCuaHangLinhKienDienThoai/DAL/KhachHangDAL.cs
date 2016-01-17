@@ -122,5 +122,22 @@ namespace DataAccessTier
             }
             return null;
         }
+
+        public DataTable GetTenKHByMaKH(String Makh)
+        {
+            try
+            {
+                SqlParameter[] para = new SqlParameter[1];
+                para[0] = new SqlParameter("@p_MaKhachHang", Makh == null ? "" : Makh);
+
+                DataTable lstKhachHang = this.LoadDataTable("KHACHHANG_Lst_GetByMaKH", para);
+                return lstKhachHang;
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine("Message = {1}", ex.Message);
+            }
+            return null;
+        }
     }
 }

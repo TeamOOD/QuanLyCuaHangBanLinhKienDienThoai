@@ -118,11 +118,8 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLamMoi_Click(object sender, EventArgs e)
         {
             teMaHoaDon.Text = "";
-            deThoiGianLap.Text = "";
             teTenKhachHang.Text = "";
-            teTenNhanVien.Text = "";
             teMaKhachHang.Text = "";
-            teMaNhanVien.Text = "";
             meGhiChu.Text = "";
             lueTrangThai.Text = "";
         }

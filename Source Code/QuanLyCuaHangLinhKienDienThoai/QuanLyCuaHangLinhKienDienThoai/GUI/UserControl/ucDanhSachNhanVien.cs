@@ -28,7 +28,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
         private void sbThem_Click(object sender, EventArgs e)
         {
-            String Name = "Chỉnh sửa nhân viên";
+            String Name = "Thêm nhân viên";
             StaticVariables.gNhanVien = null;
             if (!StaticVariables.isTabExist(Name))
             {             

@@ -36,10 +36,6 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             InitializeComponent();
 
             this.hoaDonBaoHanhBUS = new HoaDonBaoHanhBUS();
-            // Lấy danh sách khách hàng
-            //this.teMaKhachHang.Properties.DataSource = (new HoaDonBaoHanhBUS().LayDanhSachKhachHang());
-            // this.lueKhachHang.Properties.Columns.Add(new LookUpColumnInfo(this.lueKhachHang.Properties.DisplayMember));
-            ////Lấy ds trạng thái.
             this.leTrangThai.Properties.DataSource = (new HoaDonBaoHanhBUS().LayDanhSachTrangThai());
             this.leTrangThai.Properties.Columns.Add(new LookUpColumnInfo(this.leTrangThai.Properties.DisplayMember));
 
@@ -49,7 +45,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLuu_Click(object sender, EventArgs e)
         {
             HoaDonBaoHanh hd = new HoaDonBaoHanh();
-            hd.HoaDon.MaHoaDon = this.teMaHDBaoHanh.Text;
+            //hd.HoaDon.MaHoaDon = this.teMaHDBaoHanh.Text;
             hd.HoaDonBan.HoaDon.MaHoaDon = this.teMaHoaDon.Text;
 
             hd.KhachHang.MaKhachHang = this.teMaKhachHang.EditValue == null ? "" : this.teMaKhachHang.EditValue.ToString();
@@ -89,9 +85,9 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             {
                 if (xlmData != null)
                 {
-                    MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
-                    this.LoadData();
-                    /*
+                    //MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
+                    //this.LoadData();
+
                     if (new HoaDonBaoHanhBUS().ThemHoaDonBaoHanh(hd, xlmData))
                     {
                         MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
@@ -100,7 +96,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                     else
                     {
                         MessageBox.Show("Thêm hóa đơn thất bại", "Thông báo", MessageBoxButtons.OK);
-                    }*/
+                    }
                 }
             }
             else
@@ -130,8 +126,10 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             dt.Columns.Add(new DataColumn("Số lượng"));
             this.gridSanPhamBH.DataSource = (dt);
 
-           
+
             this.deThoiGianLap.DateTime = DateTime.Now;
+            this.teMaNhanVien.Text = StaticVariables.nhanVien.MaNhanVien;
+            this.teTenNhanVien.Text = StaticVariables.nhanVien.TenNhanVien;
         }
 
         private void ConvertDataToXML(out XElement XML)
@@ -166,7 +164,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             if (StaticVariables.gHoaDonBaoHanh != null)
             {
                 this.maHD = StaticVariables.gHoaDonBaoHanh.HoaDon.MaHoaDon;
-                this.teMaHDBaoHanh.Text = this.maHD;
+                // this.teMaHDBaoHanh.Text = this.maHD;
                 this.teMaHoaDon.Text = StaticVariables.gHoaDonBaoHanh.HoaDonBan.HoaDon.MaHoaDon;
                 this.deThoiGianLap.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NgayLap;
                 this.teMaKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.MaKhachHang;
@@ -218,8 +216,8 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLamMoi_Click(object sender, EventArgs e)
         {
             this.deThoiGianLap.DateTime = DateTime.Now;
-            this.teTenNhanVien.Text = "Phạm Thị Tâm";
-            this.teMaNhanVien.Text = "NV0000000000005";
+            this.teTenNhanVien.Text = StaticVariables.nhanVien.TenNhanVien;
+            this.teMaNhanVien.Text = StaticVariables.nhanVien.MaNhanVien;
             //Xóa dữ liệu bảng hàng hóa đã chọn mua
             //DataTable dt = this.gridSanPhamBH.DataSource as DataTable;
             //dt.Clear();
@@ -231,11 +229,11 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             gridSpBH.DeleteRow(gridSpBH.FocusedRowHandle);
         }
 
-        
+
 
         private void sbThem_Click(object sender, EventArgs e)
         {
-            DataTable dtasd =gridSanPham.DataSource as DataTable;
+            DataTable dtasd = gridSanPham.DataSource as DataTable;
             if (dtasd != null && dtasd.Rows.Count > 0)
             {
                 if (!teSoLuong.Text.Equals(""))
@@ -308,42 +306,35 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             gridSanPhamBH.DataSource = dt;
         }
 
-        private void sbTimKiem_Click(object sender, EventArgs e)
-        {
-            this.maHD = teMaHoaDon.Text;
-            if (this.maHD == "")
-            {
-                MessageBox.Show("Điền thông tin mã hóa đơn!", "Thông báo", MessageBoxButtons.OK);
-            }
-            else
-            {
-                HoaDonBaoHanh hd = new HoaDonBaoHanh();
-                hd.HoaDonBan.HoaDon.MaHoaDon = this.maHD;
-                DataTable data = new DataTable();
-                data = (new HoaDonBanBUS().TimKiemCThoaDonBH(hd.HoaDonBan));
-                // nó ddang fix lai, roi vay skip qua giao diện khác
-                if (data.Rows.Count == 0)
-                {
-                    MessageBox.Show("Sai mã mã hóa đơn bán. Vui lòng nhâp lại!", "Thông báo", MessageBoxButtons.OKCancel);
-                }
-                else
-                {
-                    this.gridSanPham.DataSource = data;
-                    teMaHoaDon.Text = this.gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Mã hóa đơn bán").ToString();
-                    teMaKhachHang.Text = this.gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Mã khách hàng").ToString();
-                    teTenKhachHang.Text = this.gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Tên khách hàng").ToString();
-                }
-                
-            }
-            
-        }
-
         private void teSoLuong_TextChanged(object sender, EventArgs e)
         {
             if (teSoLuong.Text == "")
                 teSoLuong.Text = "0";
             if (Convert.ToDecimal(teSoLuong.Text) < 0)
                 teSoLuong.Text = "0";
+        }
+
+        private void teMaHoaDon_EditValueChanged(object sender, EventArgs e)
+        {
+            if (teMaHoaDon.Text.Length == 15)
+            {
+                HoaDonBan hd = new HoaDonBan();
+                hd.HoaDon.MaHoaDon = teMaHoaDon.Text;
+                this.gridSanPham.DataSource = (new HoaDonBanBUS().TimKiemCThoaDon(hd));
+            }
+            else
+                this.gridSanPham.DataSource = null;
+        }
+
+        private void teMaKhachHang_EditValueChanged(object sender, EventArgs e)
+        {
+            if (teMaKhachHang.Text.Length == 15)
+            {
+                DataTable dt = (new KhachHangBUS().GetTenKHByMaKH(teMaKhachHang.Text));
+                teTenKhachHang.Text = dt.Rows[0][0].ToString();
+            }
+            else
+                teTenKhachHang.Text = "";
         }
     }
 }
