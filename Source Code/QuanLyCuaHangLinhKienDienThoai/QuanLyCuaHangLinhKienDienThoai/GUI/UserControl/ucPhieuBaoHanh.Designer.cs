@@ -61,6 +61,7 @@
             this.teMaKhachHang = new DevExpress.XtraEditors.TextEdit();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.lueTrangThai = new DevExpress.XtraEditors.LookUpEdit();
+            this.MaTrangThai = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.meGhiChu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teTenKhachHang.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deThoiGianLap.Properties.CalendarTimeProperties)).BeginInit();
@@ -283,7 +284,8 @@
             this.TenKhachHang,
             this.TenTrangThai,
             this.NgayLap,
-            this.GhiChu});
+            this.GhiChu,
+            this.MaTrangThai});
             this.gridView1.GridControl = this.gcKetQua;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
@@ -418,7 +420,7 @@
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl9.Location = new System.Drawing.Point(7, 97);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(58, 17);
+            this.labelControl9.Size = new System.Drawing.Size(59, 17);
             this.labelControl9.TabIndex = 37;
             this.labelControl9.Text = "Trạng thái";
             // 
@@ -435,6 +437,12 @@
             this.lueTrangThai.Properties.ValueMember = "Mã trạng thái";
             this.lueTrangThai.Size = new System.Drawing.Size(133, 22);
             this.lueTrangThai.TabIndex = 7;
+            // 
+            // MaTrangThai
+            // 
+            this.MaTrangThai.Caption = "Mã trạng thái";
+            this.MaTrangThai.FieldName = "Mã trạng thái";
+            this.MaTrangThai.Name = "MaTrangThai";
             // 
             // ucPhieuBaoHanh
             // 
@@ -498,6 +506,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn GhiChu;
         private DevExpress.XtraEditors.TextEdit teMaKhachHang;
         private DevExpress.XtraGrid.Columns.GridColumn MaHoaDonBan;
+        private DevExpress.XtraGrid.Columns.GridColumn MaTrangThai;
 
     }
 }

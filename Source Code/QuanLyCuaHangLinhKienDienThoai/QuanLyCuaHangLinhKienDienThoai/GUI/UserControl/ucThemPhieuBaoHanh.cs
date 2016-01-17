@@ -61,13 +61,13 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
             if (hd.KhachHang.TenKhachHang.Equals(""))
             {
-                MessageBox.Show("Tên Khách hàng không được bỏ trống. ", "Thông báo", MessageBoxButtons.OK);
+                XtraMessageBox.Show("Tên Khách hàng không được bỏ trống. ", "Thông báo", MessageBoxButtons.OK);
                 return;
             }
 
             if (this.gridSpBH.RowCount == 0)
             {
-                MessageBox.Show("Danh sách sản phẩm bảo hành không được để trống. ", "Thông báo", MessageBoxButtons.OK);
+                XtraMessageBox.Show("Danh sách sản phẩm bảo hành không được để trống. ", "Thông báo", MessageBoxButtons.OK);
                 return;
             }
 
@@ -75,7 +75,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
             if (hd.KhachHang.TenKhachHang.Equals(""))
             {
-                MessageBox.Show("Yêu cầu nhập tên khách hàng", "Thông báo", MessageBoxButtons.OK);
+                XtraMessageBox.Show("Yêu cầu nhập tên khách hàng", "Thông báo", MessageBoxButtons.OK);
                 return;
             }
 
@@ -87,12 +87,12 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 {
                     if (new HoaDonBaoHanhBUS().ThemHoaDonBaoHanh(hd, xlmData))
                     {
-                        MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
+                        XtraMessageBox.Show("Thêm phiếu bảo hành thành công", "Thông báo", MessageBoxButtons.OK);
                         this.LoadData();
                     }
                     else
                     {
-                        MessageBox.Show("Thêm hóa đơn thất bại", "Thông báo", MessageBoxButtons.OK);
+                        XtraMessageBox.Show("Thêm phiếu bảo hành thất bại", "Thông báo", MessageBoxButtons.OK);
                     }
                 }
             }
@@ -102,12 +102,11 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 {
                     if (new HoaDonBaoHanhBUS().CapNhatHoaDonBaoHanh(hd, xlmData))
                     {
-                        MessageBox.Show("Cập nhật hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
-                        this.LoadData();
+                        XtraMessageBox.Show("Cập nhật phiếu hoá đơn thành công", "Thông báo", MessageBoxButtons.OK);
                     }
                     else
                     {
-                        MessageBox.Show("Cập nhật đơn thất bại", "Thông báo", MessageBoxButtons.OK);
+                        XtraMessageBox.Show("Cập nhật phiếu bảo hành thất bại", "Thông báo", MessageBoxButtons.OK);
                     }
                 }
             }
@@ -132,7 +131,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 this.teMaHoaDon.Text = StaticVariables.gHoaDonBaoHanh.HoaDonBan.HoaDon.MaHoaDon;
                 this.deThoiGianLap.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NgayLap;
                 this.teMaKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.MaKhachHang;
-                this.leTrangThai.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.TrangThai.TenTrangThai;
+                this.leTrangThai.EditValue = StaticVariables.gHoaDonBaoHanh.HoaDon.TrangThai.MaTrangThai;
                 this.teTenKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.TenKhachHang;
                 this.teMaNhanVien.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.MaNhanVien;
                 this.teTenNhanVien.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.TenNhanVien;
@@ -230,7 +229,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
                 if (sluong < this.soLuong)
                 {
-                    MessageBox.Show("Số lượng sản phẩm được bảo hành phải nhỏ hơn số sản phẩm đã mua!", "Thông báo lỗi", MessageBoxButtons.OK);
+                    XtraMessageBox.Show("Số lượng sản phẩm được bảo hành phải nhỏ hơn số sản phẩm đã mua!", "Thông báo lỗi", MessageBoxButtons.OK);
                     return;
                 }
 
@@ -272,7 +271,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             }
             else
             {
-                MessageBox.Show("Danh Sách sản phẩm trống nên không thêm được");
+                XtraMessageBox.Show("Danh Sách sản phẩm trống nên không thêm được");
             }
         }
 

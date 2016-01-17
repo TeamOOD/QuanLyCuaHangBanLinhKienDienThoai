@@ -310,6 +310,7 @@
             this.gridViewSp.Name = "gridViewSp";
             this.gridViewSp.OptionsBehavior.Editable = false;
             this.gridViewSp.OptionsSelection.MultiSelect = true;
+            this.gridViewSp.OptionsView.ShowGroupPanel = false;
             this.gridViewSp.OptionsView.ShowHorizontalLines = DevExpress.Utils.DefaultBoolean.False;
             this.gridViewSp.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridViewSp_FocusedRowChanged);
             // 
@@ -372,7 +373,7 @@
             this.labelControl18.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl18.Location = new System.Drawing.Point(93, 23);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(81, 17);
+            this.labelControl18.Size = new System.Drawing.Size(82, 17);
             this.labelControl18.TabIndex = 37;
             this.labelControl18.Text = "Tên sản phẩm";
             // 
@@ -552,13 +553,15 @@
             this.lueKhachHang.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.lueKhachHang.Properties.Appearance.Options.UseFont = true;
             this.lueKhachHang.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Plus)});
             this.lueKhachHang.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Mã khách hàng", "Mã khách hàng"),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Tên khách hàng", "Tên khách hàng")});
             this.lueKhachHang.Properties.DisplayMember = "Mã khách hàng";
             this.lueKhachHang.Properties.NullText = "";
             this.lueKhachHang.Properties.ValueMember = "Mã khách hàng";
+            this.lueKhachHang.Properties.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.lueKhachHang_Properties_ButtonClick);
             this.lueKhachHang.Size = new System.Drawing.Size(146, 24);
             this.lueKhachHang.TabIndex = 1;
             this.lueKhachHang.EditValueChanged += new System.EventHandler(this.lueKhachHang_EditValueChanged);
@@ -704,7 +707,7 @@
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl10.Location = new System.Drawing.Point(323, 74);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(61, 17);
+            this.labelControl10.Size = new System.Drawing.Size(62, 17);
             this.labelControl10.TabIndex = 26;
             this.labelControl10.Text = "Trạng Thái";
             // 

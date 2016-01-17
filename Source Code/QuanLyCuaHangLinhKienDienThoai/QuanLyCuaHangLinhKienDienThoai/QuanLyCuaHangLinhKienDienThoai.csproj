@@ -76,8 +76,10 @@
       <HintPath>..\..\Library For Form Design\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -181,6 +183,12 @@
     <Compile Include="DTO\QuyDinh.cs" />
     <Compile Include="DTO\ThamSo.cs" />
     <Compile Include="DTO\TrangThai.cs" />
+    <Compile Include="GUI\PopupAddNew\PopupThemKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PopupAddNew\PopupThemKhachHang.Designer.cs">
+      <DependentUpon>PopupThemKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\StaticVariables.cs" />
     <Compile Include="GUI\FormDangNhap.cs">
       <SubType>Form</SubType>
@@ -432,6 +440,9 @@
     <EmbeddedResource Include="GUI\FormThayDoiQuyDinh.resx">
       <DependentUpon>FormThayDoiQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PopupAddNew\PopupThemKhachHang.resx">
+      <DependentUpon>PopupThemKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\UserControl\ucBaoCaoBanHang.resx">
       <DependentUpon>ucBaoCaoBanHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -549,6 +560,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -576,6 +588,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\12-c3-8bits-pixels.png" />
+    <None Include="Resources\add-icon.png" />
+    <None Include="Resources\addfile_32x32.png" />
     <Content Include="Resources\addressbook-edit-icon.png" />
     <Content Include="Resources\blackboard1.png" />
     <Content Include="Resources\books-icon.png" />

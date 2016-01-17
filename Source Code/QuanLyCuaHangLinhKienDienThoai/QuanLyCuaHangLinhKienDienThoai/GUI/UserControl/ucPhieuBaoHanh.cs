@@ -79,6 +79,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             hdbh.KhachHang.MaKhachHang = this.teMaKhachHang.Text;
             
             this.gcKetQua.DataSource = this.hdbhBUS.TimKiemHoaDonBaoHanh(hdbh);
+            int a = 0;
         }
 
         private void sbCapNhat_Click(object sender, EventArgs e)
@@ -101,6 +102,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                // StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.MaNhanVien = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Mã nhân viên").ToString();
                 StaticVariables.gHoaDonBaoHanh.KhachHang.TenKhachHang = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Tên khách hàng").ToString();
                 //StaticVariables.gHoaDonBaoHanh.KhachHang.MaKhachHang = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Mã khách hàng").ToString();
+                StaticVariables.gHoaDonBaoHanh.HoaDon.TrangThai.MaTrangThai = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Mã trạng thái").ToString();
                 StaticVariables.gHoaDonBaoHanh.HoaDon.TrangThai.TenTrangThai = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Trạng thái").ToString();
                 StaticVariables.gHoaDonBaoHanh.HoaDon.NgayLap = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Ngày lập").ToString();
                 StaticVariables.gHoaDonBaoHanh.HoaDon.GhiChu = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Ghi chú").ToString();

@@ -246,13 +246,14 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLamMoi_Click(object sender, EventArgs e)
         {
             
-             DialogResult dresult = MessageBox.Show("Bạn có chắc là xóa các sản phẩm trong danh sách sản phẩm đặt hàng???",
+             DialogResult dresult = XtraMessageBox.Show("Bạn có chắc là xóa các sản phẩm trong danh sách sản phẩm đặt hàng???",
                                                     "Thông Báo",  MessageBoxButtons.YesNo, MessageBoxIcon.Question);
              if (dresult == DialogResult.Yes)
              {
                  teSoLuong.Text = "1";
                  gcSanPhamTrongHoaDon.DataSource = null;
                  gvSanPhamTrongHoaDon.Columns.Clear();
+                 sbCapNhatHoaDon.Enabled = false;
              }
         }
 
@@ -289,12 +290,12 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             DataTable dt3 = gcSanPhamTrongHoaDon.DataSource as DataTable;
             if (dt3 == null || dt3.Rows.Count == 0)
             {
-                MessageBox.Show("Hóa Đơn Này Không Có Sản Phẩm",
+                XtraMessageBox.Show("Hóa Đơn Này Không Có Sản Phẩm",
                                                        "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                DialogResult dresult = MessageBox.Show("Bạn có chắc là thêm hóa đơn đặt hàng này???",
+                DialogResult dresult = XtraMessageBox.Show("Bạn có chắc là thêm hóa đơn đặt hàng này???",
                                                         "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dresult == DialogResult.Yes)
                 {
@@ -310,9 +311,9 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                     string mahoadon = (string)_HoaDonDatHangBUS.ThemHoaDonDatHang(hd);
                     themChiTietHoaDon(mahoadon);
                     if (mahoadon != "")
-                        MessageBox.Show("Thêm hoá đơn thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        XtraMessageBox.Show("Thêm hoá đơn thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     else
-                        MessageBox.Show("Thêm hóa đơn thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        XtraMessageBox.Show("Thêm hóa đơn thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     layDanhSachHoaDonDatHang();
                     sbCapNhatHoaDon.Enabled = false;
@@ -428,12 +429,12 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             DataTable dt3 = gcSanPhamTrongHoaDon.DataSource as DataTable;
             if (dt3 == null || dt3.Rows.Count == 0)
             {
-                MessageBox.Show("Hóa Đơn Này Không Có Sản Phẩm",
+                XtraMessageBox.Show("Hóa Đơn Này Không Có Sản Phẩm",
                                                        "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                DialogResult dresult = MessageBox.Show("Bạn có chắc là sửa hóa đơn đặt hàng này???",
+                DialogResult dresult = XtraMessageBox.Show("Bạn có chắc là sửa hóa đơn đặt hàng này???",
                                                         "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dresult == DialogResult.Yes)
                 {
@@ -479,9 +480,9 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                                 }
                             }
                             if (!result2)
-                                MessageBox.Show("Sửa hoá đơn thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                XtraMessageBox.Show("Sửa hoá đơn thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             else
-                                MessageBox.Show("Sửa hóa đơn thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                XtraMessageBox.Show("Sửa hóa đơn thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             layDanhSachHoaDonDatHang();
 
@@ -555,7 +556,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             DataTable dt3 = gcSanPhamTrongHoaDon.DataSource as DataTable;
             if (dt3 == null || dt3.Rows.Count == 0)
             {
-                MessageBox.Show("Hóa Đơn Này Không Có Sản Phẩm",
+                XtraMessageBox.Show("Hóa Đơn Này Không Có Sản Phẩm",
                                                        "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else

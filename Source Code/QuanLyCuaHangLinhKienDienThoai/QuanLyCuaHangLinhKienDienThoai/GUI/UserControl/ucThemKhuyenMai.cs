@@ -42,14 +42,15 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 MessageBox.Show("Vui lòng nhập tên chương trình khuyến mãi", "Thông báo", MessageBoxButtons.OK);
                 return;
             }
+            int temp = DateTime.Compare(this.dateBatDau.DateTime.Date, DateTime.Now.Date);
             // kiểm tra ngày bắt đầu và ngày kết thúc
-            if (DateTime.Compare(this.dateBatDau.DateTime, DateTime.Now) < 0)
+            if (temp < 0)
             {
                 MessageBox.Show("Vui lòng kiểm tra lại ngày bắt đầu \n Ngày bắt đầu không được nhỏ hơn ngày hiện tại.", "Thông báo", MessageBoxButtons.OK);
                 return;
             }
 
-            if (DateTime.Compare(this.dateBatDau.DateTime, this.dateKetThuc.DateTime) > 0)
+            if (DateTime.Compare(this.dateBatDau.DateTime.Date, this.dateKetThuc.DateTime.Date) > 0)
             {
                 MessageBox.Show("Vui lòng kiểm tra lại ngày bắt đầu và ngày kết thúc \n Ngày bắt đầu không được nhỏ hơn ngày kết thúc.", "Thông báo", MessageBoxButtons.OK);
                 return;

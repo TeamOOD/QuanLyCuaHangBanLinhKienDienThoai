@@ -13,6 +13,7 @@ using DataTransferObject;
 using System.Xml.Linq;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraEditors.Controls;
+using QuanLyCuaHangLinhKienDienThoai.GUI.PopupAddNew;
 
 namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 {
@@ -424,7 +425,14 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                     this.maKhuyenMai = dtx.Rows[indexRowForcus].Field<String>("Mã Khuyến mãi");
                 }
             }
-        }
+            if (this.gridViewSp.RowCount != 0)
+            {
+                this.maSP = gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Mã sản phẩm").ToString();
+                this.tenSP = gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Tên sản phẩm").ToString();
+                this.soLuong = Convert.ToInt32(gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Số lượng"));
+                this.tienSP = Convert.ToDecimal(gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Giá bán"));
+            }
+            }
 
         private void lueKhachHang_EditValueChanged(object sender, EventArgs e)
         {
@@ -485,6 +493,20 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                 gridViewSp.FocusedRowHandle = 0;
                 this.girdSanPham.DataSource = data;
             }
+        }
+
+
+        private void lueKhachHang_Properties_ButtonClick(object sender, ButtonPressedEventArgs e)
+        {
+            if (e.Button.Kind == DevExpress.XtraEditors.Controls.ButtonPredefines.Plus)
+            {
+                PopupThemKhachHang frmAddKhachHang = new PopupThemKhachHang();
+                if (frmAddKhachHang.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    lueKhachHang.Properties.DataSource = (new HoaDonBanBUS().LayDanhSachKhachHang());
+                }
+            }
+            
         }
     }
 }
