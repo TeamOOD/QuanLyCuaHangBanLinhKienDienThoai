@@ -45,7 +45,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
         private void sbLuu_Click(object sender, EventArgs e)
         {
             HoaDonBaoHanh hd = new HoaDonBaoHanh();
-            //hd.HoaDon.MaHoaDon = this.teMaHDBaoHanh.Text;
+            hd.HoaDon.MaHoaDon = this.maHD;
             hd.HoaDonBan.HoaDon.MaHoaDon = this.teMaHoaDon.Text;
 
             hd.KhachHang.MaKhachHang = this.teMaKhachHang.EditValue == null ? "" : this.teMaKhachHang.EditValue.ToString();
@@ -85,9 +85,6 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             {
                 if (xlmData != null)
                 {
-                    //MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
-                    //this.LoadData();
-
                     if (new HoaDonBaoHanhBUS().ThemHoaDonBaoHanh(hd, xlmData))
                     {
                         MessageBox.Show("Thêm hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
@@ -103,9 +100,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             {
                 if (xlmData != null)
                 {
-                    MessageBox.Show("Cập nhật hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
-                    this.LoadData();
-                    /*  if (new HoaDonBaoHanhBUS().CapNhatHoaDonBaoHanh(hd, xlmData))
+                    if (new HoaDonBaoHanhBUS().CapNhatHoaDonBaoHanh(hd, xlmData))
                     {
                         MessageBox.Show("Cập nhật hóa đơn thành công", "Thông báo", MessageBoxButtons.OK);
                         this.LoadData();
@@ -113,7 +108,7 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
                     else
                     {
                         MessageBox.Show("Cập nhật đơn thất bại", "Thông báo", MessageBoxButtons.OK);
-                    }*/
+                    }
                 }
             }
         }
@@ -159,40 +154,10 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
             }
         }
 
-        private void groupControl1_Enter(object sender, EventArgs e)
-        {
-            if (StaticVariables.gHoaDonBaoHanh != null)
-            {
-                this.maHD = StaticVariables.gHoaDonBaoHanh.HoaDon.MaHoaDon;
-                // this.teMaHDBaoHanh.Text = this.maHD;
-                this.teMaHoaDon.Text = StaticVariables.gHoaDonBaoHanh.HoaDonBan.HoaDon.MaHoaDon;
-                this.deThoiGianLap.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NgayLap;
-                this.teMaKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.MaKhachHang;
-                this.leTrangThai.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.TrangThai.TenTrangThai;
-                this.teTenKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.TenKhachHang;
-                this.teMaNhanVien.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.MaNhanVien;
-                this.teTenNhanVien.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.TenNhanVien;
-                this.meGhiChu.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.GhiChu;
-
-                //HoaDonBaoHanh hd = new HoaDonBaoHanh();
-                //hd.HoaDon.MaHoaDon = this.maHD;
-                this.gridSanPham.DataSource = (new HoaDonBanBUS().TimKiemCThoaDon(StaticVariables.gHoaDonBaoHanh.HoaDonBan));
-
-                this.gridSanPhamBH.DataSource = (new HoaDonBaoHanhBUS().TimKiemCTHoaDonBaoHanh(StaticVariables.gHoaDonBaoHanh));
-
-            }
-            else
-            {
-                this.sbLamMoi_Click(null, null);
-            }
-        }
-
         private void sbLm_Click(object sender, EventArgs e)
         {
             teMaHoaDon.Text = "";
             deThoiGianLap.EditValue = DateTime.Now;
-            teMaNhanVien.Text = "";
-            teTenNhanVien.Text = "";
             teMaKhachHang.Text = "";
             teTenKhachHang.Text = "";
             leTrangThai.Text = "";
@@ -202,26 +167,21 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
         private void gridViewSp_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {
-            this.maSP = gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Mã sản phẩm").ToString();
-            this.tenSP = gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Tên sản phẩm").ToString();
-            this.soLuong = Convert.ToInt32(gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Số lượng"));
+            try
+            {
+                this.maSP = gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Mã sản phẩm").ToString();
+                this.tenSP = gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Tên sản phẩm").ToString();
+                this.soLuong = Convert.ToInt32(gridViewSp.GetRowCellValue(gridViewSp.FocusedRowHandle, "Số lượng"));
+            }
+            catch { }
         }
 
-        //private void leMaKhachHang_EditValueChanged(object sender, EventArgs e)
-        //{
-        //    if (this.leMaKhachHang.GetColumnValue("Tên khách hàng") != null)
-        //        this.teTenKhachHang.Text = this.leMaKhachHang.GetColumnValue("Tên khách hàng").ToString();
-        //}
 
         private void sbLamMoi_Click(object sender, EventArgs e)
         {
             this.deThoiGianLap.DateTime = DateTime.Now;
             this.teTenNhanVien.Text = StaticVariables.nhanVien.TenNhanVien;
             this.teMaNhanVien.Text = StaticVariables.nhanVien.MaNhanVien;
-            //Xóa dữ liệu bảng hàng hóa đã chọn mua
-            //DataTable dt = this.gridSanPhamBH.DataSource as DataTable;
-            //dt.Clear();
-            //this.gridSanPhamBH.DataSource = dt;
         }
 
         private void sbXoa_Click(object sender, EventArgs e)
@@ -316,25 +276,66 @@ namespace QuanLyCuaHangLinhKienDienThoai.UserControl
 
         private void teMaHoaDon_EditValueChanged(object sender, EventArgs e)
         {
-            if (teMaHoaDon.Text.Length == 15)
+            try
             {
-                HoaDonBan hd = new HoaDonBan();
-                hd.HoaDon.MaHoaDon = teMaHoaDon.Text;
-                this.gridSanPham.DataSource = (new HoaDonBanBUS().TimKiemCThoaDon(hd));
+                if (teMaHoaDon.Text.Length == 15)
+                {
+                    HoaDonBan hd = new HoaDonBan();
+                    hd.HoaDon.MaHoaDon = teMaHoaDon.Text;
+                    this.gridSanPham.DataSource = (new HoaDonBanBUS().TimKiemCThoaDon(hd));
+                }
+                else
+                    this.gridSanPham.DataSource = null;
             }
-            else
+            catch
+            {
                 this.gridSanPham.DataSource = null;
+            }
         }
 
         private void teMaKhachHang_EditValueChanged(object sender, EventArgs e)
         {
-            if (teMaKhachHang.Text.Length == 15)
+            try
             {
-                DataTable dt = (new KhachHangBUS().GetTenKHByMaKH(teMaKhachHang.Text));
-                teTenKhachHang.Text = dt.Rows[0][0].ToString();
+                if (teMaKhachHang.Text.Length == 15)
+                {
+                    DataTable dt = (new KhachHangBUS().GetTenKHByMaKH(teMaKhachHang.Text));
+                    teTenKhachHang.Text = dt.Rows[0][0].ToString();
+                }
+                else
+                    teTenKhachHang.Text = "";
+            }
+            catch
+            {
+                teTenKhachHang.Text = "";
+            }
+        }
+
+
+        private void groupControl1_Paint(object sender, PaintEventArgs e)
+        {
+            if (StaticVariables.gHoaDonBaoHanh != null)
+            {
+                this.maHD = StaticVariables.gHoaDonBaoHanh.HoaDon.MaHoaDon;
+                this.teMaHoaDon.Text = StaticVariables.gHoaDonBaoHanh.HoaDonBan.HoaDon.MaHoaDon;
+                this.deThoiGianLap.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NgayLap;
+                this.teMaKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.MaKhachHang;
+                this.leTrangThai.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.TrangThai.TenTrangThai;
+                this.teTenKhachHang.Text = StaticVariables.gHoaDonBaoHanh.KhachHang.TenKhachHang;
+                this.teMaNhanVien.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.MaNhanVien;
+                this.teTenNhanVien.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.NhanVien.TenNhanVien;
+                this.meGhiChu.Text = StaticVariables.gHoaDonBaoHanh.HoaDon.GhiChu;
+                
+
+                this.gridSanPham.DataSource = (new HoaDonBanBUS().TimKiemCThoaDon(StaticVariables.gHoaDonBaoHanh.HoaDonBan));
+
+                this.gridSanPhamBH.DataSource = (new HoaDonBaoHanhBUS().TimKiemCTHoaDonBaoHanh(StaticVariables.gHoaDonBaoHanh));
+
             }
             else
-                teTenKhachHang.Text = "";
+            {
+                this.sbLamMoi_Click(null, null);
+            }
         }
     }
 }

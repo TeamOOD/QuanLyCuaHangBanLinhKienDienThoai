@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.meGhiChu = new DevExpress.XtraEditors.MemoEdit();
             this.deThoiGianLap = new DevExpress.XtraEditors.DateEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
@@ -100,7 +100,7 @@
             this.meGhiChu.Name = "meGhiChu";
             this.meGhiChu.Properties.MaxLength = 200;
             this.meGhiChu.Size = new System.Drawing.Size(340, 51);
-            this.meGhiChu.TabIndex = 9;
+            this.meGhiChu.TabIndex = 3;
             // 
             // deThoiGianLap
             // 
@@ -115,7 +115,7 @@
             this.deThoiGianLap.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.deThoiGianLap.Size = new System.Drawing.Size(171, 24);
-            this.deThoiGianLap.TabIndex = 6;
+            this.deThoiGianLap.TabIndex = 42;
             // 
             // groupControl1
             // 
@@ -137,6 +137,7 @@
             this.groupControl1.Size = new System.Drawing.Size(996, 553);
             this.groupControl1.TabIndex = 6;
             this.groupControl1.Text = "Thêm Phiếu Bảo Hành";
+            this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
             // 
             // labelControl7
             // 
@@ -159,9 +160,9 @@
             // 
             // gridSanPhamBH
             // 
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode3.RelationName = "Level1";
             this.gridSanPhamBH.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode3});
             this.gridSanPhamBH.Location = new System.Drawing.Point(6, 18);
             this.gridSanPhamBH.MainView = this.gridSpBH;
             this.gridSanPhamBH.Name = "gridSanPhamBH";
@@ -220,9 +221,9 @@
             this.gridSanPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            gridLevelNode2.RelationName = "Level1";
+            gridLevelNode1.RelationName = "Level1";
             this.gridSanPham.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode2});
+            gridLevelNode1});
             this.gridSanPham.Location = new System.Drawing.Point(6, 20);
             this.gridSanPham.MainView = this.gridViewSp;
             this.gridSanPham.Name = "gridSanPham";
@@ -230,7 +231,7 @@
             this.repositoryItemCheckEdit1,
             this.repositoryItemCheckEdit2});
             this.gridSanPham.Size = new System.Drawing.Size(418, 332);
-            this.gridSanPham.TabIndex = 4;
+            this.gridSanPham.TabIndex = 44;
             this.gridSanPham.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewSp});
             // 
@@ -319,7 +320,7 @@
             this.teSoLuong.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.teSoLuong.Properties.MaxLength = 5;
             this.teSoLuong.Size = new System.Drawing.Size(55, 24);
-            this.teSoLuong.TabIndex = 10;
+            this.teSoLuong.TabIndex = 5;
             this.teSoLuong.TextChanged += new System.EventHandler(this.teSoLuong_TextChanged);
             // 
             // sbThem
@@ -329,7 +330,7 @@
             this.sbThem.Location = new System.Drawing.Point(450, 294);
             this.sbThem.Name = "sbThem";
             this.sbThem.Size = new System.Drawing.Size(85, 34);
-            this.sbThem.TabIndex = 13;
+            this.sbThem.TabIndex = 6;
             this.sbThem.Text = "Thêm >>";
             this.sbThem.Click += new System.EventHandler(this.sbThem_Click);
             // 
@@ -389,7 +390,7 @@
             this.teMaKhachHang.Properties.Appearance.Options.UseFont = true;
             this.teMaKhachHang.Properties.MaxLength = 15;
             this.teMaKhachHang.Size = new System.Drawing.Size(133, 24);
-            this.teMaKhachHang.TabIndex = 3;
+            this.teMaKhachHang.TabIndex = 0;
             this.teMaKhachHang.EditValueChanged += new System.EventHandler(this.teMaKhachHang_EditValueChanged);
             // 
             // leTrangThai
@@ -405,7 +406,7 @@
             this.leTrangThai.Properties.NullText = "";
             this.leTrangThai.Properties.ValueMember = "Mã trạng thái";
             this.leTrangThai.Size = new System.Drawing.Size(133, 22);
-            this.leTrangThai.TabIndex = 4;
+            this.leTrangThai.TabIndex = 2;
             // 
             // labelControl5
             // 
@@ -434,7 +435,7 @@
             this.teTenKhachHang.Properties.Appearance.Options.UseFont = true;
             this.teTenKhachHang.Properties.MaxLength = 99;
             this.teTenKhachHang.Size = new System.Drawing.Size(171, 24);
-            this.teTenKhachHang.TabIndex = 8;
+            this.teTenKhachHang.TabIndex = 41;
             // 
             // labelControl6
             // 
@@ -463,7 +464,7 @@
             this.teMaHoaDon.Properties.Appearance.Options.UseFont = true;
             this.teMaHoaDon.Properties.MaxLength = 15;
             this.teMaHoaDon.Size = new System.Drawing.Size(133, 24);
-            this.teMaHoaDon.TabIndex = 5;
+            this.teMaHoaDon.TabIndex = 1;
             this.teMaHoaDon.EditValueChanged += new System.EventHandler(this.teMaHoaDon_EditValueChanged);
             // 
             // labelControl4
