@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.meGhiChu = new DevExpress.XtraEditors.MemoEdit();
             this.deThoiGianLap = new DevExpress.XtraEditors.DateEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
@@ -137,7 +137,6 @@
             this.groupControl1.Size = new System.Drawing.Size(996, 553);
             this.groupControl1.TabIndex = 6;
             this.groupControl1.Text = "Thêm Phiếu Bảo Hành";
-            this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
             // 
             // labelControl7
             // 
@@ -160,9 +159,9 @@
             // 
             // gridSanPhamBH
             // 
-            gridLevelNode3.RelationName = "Level1";
+            gridLevelNode1.RelationName = "Level1";
             this.gridSanPhamBH.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode3});
+            gridLevelNode1});
             this.gridSanPhamBH.Location = new System.Drawing.Point(6, 18);
             this.gridSanPhamBH.MainView = this.gridSpBH;
             this.gridSanPhamBH.Name = "gridSanPhamBH";
@@ -221,9 +220,9 @@
             this.gridSanPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.gridSanPham.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.gridSanPham.Location = new System.Drawing.Point(6, 20);
             this.gridSanPham.MainView = this.gridViewSp;
             this.gridSanPham.Name = "gridSanPham";
